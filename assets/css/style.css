@@ -1,0 +1,361 @@
+/*html {*/
+/*  background: url("../images/concert.jpg") repeat;*/
+/*  background-size: 100% 100%;*/
+/*  transition: all .5s ease-in-out;*/
+/*  -webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+/*  -o-background-size: cover;*/
+
+/*}*/
+
+body {
+
+  background-color: #e6e6fa;
+}
+
+
+h2,
+p {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+.text-uppercase {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.navbar-dark .bg-primary .navbar-brand {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding: 5px;
+  color: #ffffff;
+
+}
+
+.navbar-brand img {
+  height: 100%;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.navbar-brand {
+  height: 100%;
+  display: inline-block;
+  margin: auto;
+}
+
+.navbar-fixed-top {
+  padding-top: 20px;
+  background-color: #00008b;
+  min-height: 150px;
+
+}
+
+.logo {
+  max-width: 100%;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+.coverImg {
+  margin-top: 250px;
+}
+
+
+/*.top-img {*/
+
+/*  height: 300px;*/
+
+/*  width: 100%;*/
+
+/*  background-image: url("../images/lasttrain.jpg");*/
+
+/*  background-size: 100% 100%;*/
+
+/*  transition: all .5s ease-in-out;*/
+
+/*}*/
+
+.img-responsive {
+  margin: 0 auto;
+  size: 100%;
+}
+
+.genImage {
+  width: 50%;
+  height: 50%;
+  border-radius: 25%;
+
+}
+
+#footerPage {
+  clear: both;
+
+  text-align: left;
+}
+
+
+
+ul li a {
+  color: #ffffff;
+}
+
+.collapse .navbar-collapse {
+  color: #ffffff;
+
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+footer {
+  color: #ffffff;
+  min-height: 150px;
+  display: block;
+  margin-top: 30px;
+  padding: 5px;
+  background-color: #00008b;
+}
+
+#footerPage {
+  clear: both;
+
+}
+
+#horLine {
+  border-color: #ffffff;
+  border-width: 1px;
+}
+
+.anniversary {
+  background-color: #006400;
+}
+
+
+
+header {
+  margin: 0;
+}
+
+.xmascontainer {
+  background-color: #c71585;
+  margin: 0 auto;
+}
+
+
+
+.xmas-text,
+.xmas-par {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 300;
+}
+
+.anniver {
+  font-family: 'Lato', sans-serif;
+  color: #191970;
+  font-weight: 300;
+
+
+}
+
+.footer-text {
+  font-family: 'Lato', sans-serif;
+  color: #191970;
+  font-weight: 300;
+  padding-top: 50px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.xmas-wed {
+
+  text-align: center;
+}
+
+/* Container holding the image and the text */
+
+.top-img {
+  position: relative;
+}
+
+/* Bottom right text */
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #a9a9a9;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.anniversary {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.text-block,
+.card-text {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 300;
+
+
+}
+
+h5 .card-title {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+
+
+}
+
+
+.btn,
+.jumbotron,
+.display-4 {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 300;
+
+}
+
+.btn {
+  color: white;
+  background-color: #808080;
+}
+
+.lead {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 300;
+
+}
+
+.album {
+  display: inline;
+}
+
+
+
+.card,
+.album {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+
+.card-group::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.media-links {
+  float: right;
+}
+
+.media-links li a i {
+  width: 40px;
+  height: 40px;
+  padding: 16px 0;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #0000cd;
+  background: #e0ffff;
+  transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -webkit-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+}
+
+.signIndent {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+
+
+
+.media-links {
+  padding-top: 50px;
+  margin-right: 25px;
+
+
+}
+
+.media-links li a i:hover {
+  background: #e84610;
+}
+
+.leftIndent {
+  margin-right: 25px;
+}
+
+.menuIndent {
+  margin-right: 25px;
+}
+
+/* mobile first approach */
+
+@media (min-width: 768px) {
+  .column {
+    float: left;
+  }
+
+  .column-60 {
+    width: 60%;
+  }
+  .column-40 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  iframe .video {
+    width: 500px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-block {
+   display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet {
+    background-color: #bada55;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+  .desktop {
+    background-color: #000;
+  }
+}
