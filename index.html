@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
-   </script>
+
+    </script>
 </head>
 
 <body>
@@ -25,8 +25,6 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     
                 </button>
                 <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.jpg" alt="logo image">
@@ -36,13 +34,14 @@
                 <ul class="nav navbar-nav text-uppercase menuIndent">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="music.html">Music</a></li>
-                    <li><a href="latest.html">Latest</a></li>
-                    <li><a href="store.html">Store</a></li>
-                    <li><a href="fanblog.html">Fan Blog</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="fan.html">Fan</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <!--<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+                    <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
+                    <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
+                    <!--    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
                 </ul>
                 <form class="navbar-form navbar-left" action="/action_page.php">
                     <div class="form-group">
@@ -56,12 +55,12 @@
     <section class="container-fluid coverImg">
         <div class="container">
             <div class="row top-image">
-                <div class="col-md-12 top-img">
-                    <iframe width="1150" height="300" src="https://www.youtube.com/embed/ZcXpKiY2MXE?autoplay=1" align="left" class="video" ></iframe>
+                <div class="col-sm-12 top-img">
+                    <iframe width="1140" height="500" src="https://www.youtube.com/embed/ZcXpKiY2MXE?autoplay=1" align="left" class="video"></iframe>
                     <div class="text-block">
                         <h4>Click to watch</h4>
                         <p>Fans who wish to see and hear clips from back catalog</p>
-                        <button type="button" class="btn btn-secondary btn-sm">Read More</button>
+                        <p><a class="fan-text" href="fan.html">[Read More]</a></p>
                     </div>
                 </div>
             </div>
@@ -71,10 +70,10 @@
                     <h1 class="display-4">The Monkees Band</h1>
                     <p class="lead">The Monkees were 1960's talented rock band, singers, musicians, songwriters and have around 50 years experience of performing live at numerous events around the world.</p>
                     <hr class="my-4">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <p><a class="music-text" href="music.html">[Learn More]</a></p>
+
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="featured-text">Band Members</h2>
@@ -85,26 +84,26 @@
             <div class="row text-center">
                 <div class="col-md-3">
                     <img class="img-responsive genImage" src="assets/images/pt.jpg" alt="pt image" data-toggle="modal" data-target="#myModal1">
-                    <h3 class="text-uppercase">Peter Tork</h3>
-                    <p><a class="pt" href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank"> ...Read More</a>
+                    <h4 class="text-uppercase">Peter Tork</h4>
+                    <p><a class="pt" href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">[Read More]</a>
                     </p>
                 </div>
                 <div class="col-md-3">
                     <img class="img-responsive genImage" src="assets/images/mn.jpg" alt="mn image" data-toggle="modal" data-target="#myModal2">
-                    <h3 class="text-uppercase">Michael Nesmith</h3>
-                    <p><a class="mn" href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">...Read More</a>
+                    <h4 class="text-uppercase">Michael Nesmith</h4>
+                    <p><a class="mn" href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">[Read More]</a>
                     </p>
                 </div>
                 <div class="col-md-3">
                     <img class="img-responsive genImage" src="assets/images/md.jpg" alt="md image" data-toggle="modal" data-target="#myModal3">
-                    <h3 class="text-uppercase">Micky Dolenz</h3>
-                    <p><a class="md" href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">...Read More</a>
+                    <h4 class="text-uppercase">Micky Dolenz</h4>
+                    <p><a class="md" href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">[Read More]</a>
                     </p>
                 </div>
                 <div class="col-md-3">
                     <img class="img-responsive genImage" src="assets/images/dj.jpg" alt="dj image" data-toggle="modal" data-target="#myModal4">
-                    <h3 class="text-uppercase">Davy Jones</h3>
-                    <p><a class="dj" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">...Read More</a>
+                    <h4 class="text-uppercase">Davy Jones</h4>
+                    <p><a class="dj" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">[Read More]</a>
                     </p>
                 </div>
             </div>
@@ -182,28 +181,21 @@
     <br>
     <section class="container-fluid xmasandwed">
         <div class="container xmascontainer">
-            <h2 class="xmas-text">The Monkees Christmas and Wedding Party Songs.</h2>
-            <h3 class="xmas-text"> The Merry Monkees, released four videos.</h3>
-
-            <div class="row xmas-wed">
-                <div class="col-md-6 xmas">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/05rUSARpr4g?autoplay=1"></iframe>
-                </div>
-                <div class="col-md-6 wed">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/n_PnwN3fAHU?autoplay="></iframe>
+            <div class="card mb-3 xmas-img">
+                <iframe lass="card-img-top" width="420" height="345" src="https://www.youtube.com/embed/05rUSARpr4g?autoplay=1"></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">The Monkees Christmas Songs</h5>
+                    <p class="card-text">The Merry Monkees, released four videos.</p>
+                    <p class="card-text"><small class="text-muted"><a class="news-text" href="news.html">[Learn More]</a></small></p>
                 </div>
             </div>
-
-
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="xmas-text">For the Latest Christmas and Wedding song please click <a class="btn btn-primary text-uppercase" href="#" role="button">Latest</a></h3>
+            <div class="card wed-img">
+                <div class="card-body">
+                    <h5 class="card-title">The Monkees Wedding Party Songs</h5>
+                    <p class="card-text">Steve & Aimee perform The Monkees' song I'm a Believer at their Wedding for for their Marryoke at the Falmouth Hotel.</p>
+                    <p class="card-text"><small class="text-muted"><a class="news-text" href="news.html">[Learn More]</a></small></p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="xmas-text">Want to join Fan Club! <a class="btn btn-success text-uppercase" href="#" role="button">Join Fan Blog</a></h3>
-                </div>
+                <iframe class="card-img-bottom" width="420" height="345" src="https://www.youtube.com/embed/n_PnwN3fAHU?autoplay="></iframe>
             </div>
         </div>
     </section>
@@ -217,7 +209,7 @@
                 <div class="card-body">
                     <h5 class="card-title">The Monkees 50th anniversary</h5>
                     <p class="card-text">The Monkees are going to release their new album, titled Good Times!, as a celebration of their 50th anniversary.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p><a class="news-text" href="music.html">[Learn More]</a></p>
                 </div>
             </div>
             <div class="card-group">
@@ -226,14 +218,14 @@
                     <div class="card-body">
                         <h5 class="card-title">Latest Album</h5>
                         <p class="card-text">“In 1967 the Monkees sold more records than the Beatles and Rolling Stones combined.”</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <p><a class="news-text" href="music.html">[Learn More]</a></p>
                     </div>
                 </div>
                 <div class="card article">
                     <img src="assets/images/monkees-article.jpg" class="card-img-top" alt="monkees-article">
                     <div class="card-body">
                         <h5 class="card-title">Monkees Articles</h5>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <p><a class="news-text" href="news.html">[Learn More]</a></p>
                     </div>
                 </div>
             </div>
@@ -241,17 +233,10 @@
     </section>
     <footer class="container-fluid" id="footerPage">
         <div class="row">
-            <div class="col-sm-6">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.</p>
+            <div class="col-sm-8">
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="contact.html" target="_blank">Contact Us</a></p>
             </div>
-            <div class="col-sm-3">
-                <ul class="nav navbar-nav navbar-right text-uppercase signIndent">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-            </div>
-            
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <ul class="list-inline media-links">
                     <li id="media-item1"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
                     <li id="media-item2"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -259,26 +244,84 @@
                 </ul>
             </div>
         </div>
+        </div>
     </footer>
     <br>
     <script type="text/javascript">
         $('#myModal1').on('shown.bs.modal', function() {
-            $('#myInput').trigger('focus');
+            $('#myInput').focus();
         });
         $('#myModal2').on('shown.bs.modal', function() {
-            $('#myInput').trigger('focus');
+            $('#myInput').focus();
         });
         $('#myModal3').on('shown.bs.modal', function() {
-            $('#myInput').trigger('focus');
+            $('#myInput').focus();
         });
         $('#myModal4').on('shown.bs.modal', function() {
-            $('#myInput').trigger('focus');
+            $('#myInput').focus();
         });
     </script>
-
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Please Sign Up first!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We will not share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up!</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleDropdownFormPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                                Remember me
+                              </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

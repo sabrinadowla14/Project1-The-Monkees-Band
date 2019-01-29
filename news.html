@@ -25,8 +25,6 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     
                 </button>
                 <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.jpg" alt="logo image">
@@ -36,13 +34,14 @@
                 <ul class="nav navbar-nav text-uppercase menuIndent">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="music.html">Music</a></li>
-                    <li><a href="latest.html">Latest</a></li>
-                    <li><a href="store.html">Store</a></li>
-                    <li><a href="fanblog.html">Fan Blog</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="fan.html">Fan</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <!--<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+                    <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
+                    <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
+                    <!--    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
                 </ul>
                 <form class="navbar-form navbar-left" action="/action_page.php">
                     <div class="form-group">
@@ -241,23 +240,17 @@
     </section>
     <footer class="container-fluid" id="footerPage">
         <div class="row">
-            <div class="col-sm-6">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.</p>
+            <div class="col-sm-8">
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="contact.html" target="_blank">Contact Us</a></p>
             </div>
-            <div class="col-sm-3">
-                <ul class="nav navbar-nav navbar-right text-uppercase signIndent">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-            </div>
-            
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <ul class="list-inline media-links">
                     <li id="media-item1"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
                     <li id="media-item2"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
+        </div>
         </div>
     </footer>
     <br>
@@ -275,6 +268,65 @@
             $('#myInput').trigger('focus');
         });
     </script>
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Please Sign Up first!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We will not share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up!</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleDropdownFormPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                                Remember me
+                              </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
