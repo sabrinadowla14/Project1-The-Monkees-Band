@@ -17,6 +17,7 @@
 body {
 
   background-color: #e6e6fa;
+  margin:0;
 }
 
 
@@ -142,7 +143,7 @@ ul li a:hover {
   -moz-transition: all 0.50s ease-in-out;
   -webkit-transition: all 0.50s ease-in-out;
   -o-transition: all 0.50s ease-in-out;
-  
+
 }
 
 .collapse .navbar-collapse {
@@ -179,7 +180,22 @@ ul li a:hover {
   border-width: 1px;
 }
 
-.greatestHits {}
+.hit-music {
+  margin-top: 50px;
+  margin-left: 130px;
+  background-color: red;
+}
+
+.music-hit {
+  
+  margin-left: -72px;
+ 
+}
+
+.hits {
+  background-color: grey;
+}
+
 
 .anniversary {
   background-color: #B0BEC5;
@@ -188,7 +204,7 @@ ul li a:hover {
 .xmascontainer {
 
   background-color: #B0BEC5;
-  
+
 
 }
 
@@ -479,7 +495,9 @@ footer {
 .menuIndent {
   margin-right: 25px;
 }
+
 /* -----------------------------------------------------------tooltip---*/
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -509,9 +527,60 @@ footer {
 .hits {
   margin-left: 150px;
 }
+* {
+  box-sizing: border-box;
+}
+.video-stack {
+  margin-left: 150px;
+}
 
 
 
+.video-header {
+  text-align: center;
+  padding: 32px;
+}
+
+.video-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.video-col {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.video-col img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .video-col {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .video-col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*    -------------------------------------------------------------------------------------end music -*/
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 800px) {
@@ -524,28 +593,28 @@ footer {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+/*@media screen and (max-width: 600px) {*/
+/*  .column {*/
+/*    -ms-flex: 100%;*/
+/*    flex: 100%;*/
+/*    max-width: 100%;*/
+/*  }*/
+/*}*/
 
 /* mobile first approach */
 
-@media (min-width: 768px) {
-  .column {
-    float: left;
-  }
+/*@media (min-width: 768px) {*/
+/*  .column {*/
+/*    float: left;*/
+/*  }*/
 
-  .column-60 {
-    width: 60%;
-  }
-  .column-40 {
-    width: 40%;
-  }
-}
+/*  .column-60 {*/
+/*    width: 60%;*/
+/*  }*/
+/*  .column-40 {*/
+/*    width: 40%;*/
+/*  }*/
+/*}*/
 
 
 

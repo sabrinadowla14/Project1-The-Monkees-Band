@@ -57,45 +57,60 @@
             <div class="header">
                 <h2>The Monkees Fan Blog</h2>
             </div>
-            <div class="row">
+            
+                        <form>
+                             <h1>Please fill out the form to order a video</h1>
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="validationDefault01">First name</label>
+                                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Sabrina" required>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="validationDefault02">Last name</label>
+                                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Dowla" required>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="exampleFormControlSelect2">Select Multiple Videos</label>
+                                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                                          <option>I get arround</option>
+                                          <option>dont worry baby</option>
+                                          <option>I am so young</option>
+                                          <option>Christmas Medley</option>
+                                          <option>That Was Then , This Is Now</option>
+                                        </select>
+                                </div>
+                                </div>
+                                <div class="form-row">
+                                      <div class="col-md-6 mb-3">
+                                        <label for="exampleFormControlTextarea1">Please add messages</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                      </div>
+                                      <div class="col-md-3 mb-3">
+                                        <label for="validationDefault04">State</label>
+                                       <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                                      </div>
+                                     <div class="col-md-3 mb-3">
+                                        <label for="validationDefault05">Zip</label>
+                                         <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                                      </div>
+                                </div>
+                                 <div class="form-group">
+                                     <div class="form-check">
+                                       <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                       <label class="form-check-label" for="invalidCheck2">Agree to terms and condition</label>
+                                     </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                         </form>
+               <div class="row">
                 <div class="leftcolumn">
                     <div class="card">
                         <h2>TITLE HEADING</h2>
                         <h5>Title description, Dec 7, 2017</h5>
                         <div class="fakeimg" style="height:200px;">Image</div>
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">Example select</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect2">Example multiple select</label>
-                                <select multiple class="form-control" id="exampleFormControlSelect2">
-                                      <option>1</option>
-                                      <option>2</option>
-                                      <option>3</option>
-                                      <option>4</option>
-                                      <option>5</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                        </form>
                     </div>
-
                 </div>
+            </div>  
                 <div class="rightcolumn">
                     <div class="card">
                         <h2>About Me</h2>
@@ -114,78 +129,13 @@
                     </div>
                 </div>
             </div>
-            <form>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <label for="validationServer01">First name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationServer02">Last name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationServerUsername">Username</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                            </div>
-                            <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
-                            <div class="invalid-feedback">
-                                Please choose a username.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationServer03">City</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
-                        <div class="invalid-feedback">
-                            Please provide a valid city.
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationServer04">State</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
-                        <div class="invalid-feedback">
-                            Please provide a valid state.
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationServer05">Zip</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-                        <div class="invalid-feedback">
-                            Please provide a valid zip.
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">
-        Agree to terms and conditions
-      </label>
-                        <div class="invalid-feedback">
-                            You must agree before submitting.
-                        </div>
-                    </div>
-                </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </form>
-
+            
         </div>
     </section>
     <br>
     <hr id="horLine">
     <br>
-   <footer class="container-fluid" id="footerPage">
+    <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
                 <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="contact.html" target="_blank">Contact Us</a></p>
@@ -200,65 +150,7 @@
         </div>
         </div>
     </footer>
-    <!-- Modal -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Please Sign Up first!</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block">We will not share your email address with anyone</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="passwordRepeat">Repeat Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up!</h4>
-                </div>
-                <div class="modal-body">
-                    <form class="px-4 py-3">
-                        <div class="form-group">
-                            <label for="exampleDropdownFormEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleDropdownFormPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                            <label class="form-check-label" for="dropdownCheck">
-                                Remember me
-                              </label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Sign in</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
