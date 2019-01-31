@@ -234,7 +234,7 @@
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="contact.html" target="_blank">Contact Us</a></p>
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="#" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
             </div>
             <div class="col-sm-4">
                 <ul class="list-inline media-links">
@@ -259,6 +259,11 @@
         });
         $('#myModal4').on('shown.bs.modal', function() {
             $('#myInput').focus();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
     <!-- Modal -->

@@ -534,6 +534,55 @@ footer {
   margin-left: 150px;
 }
 
+/* --------------------------------------------------------------------Fan-----*/
+/* Style the content */
+.post {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #c0c0c0;
+}
+.order-text,
+.post-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #c0c0c0;
+}
+.ord-frm {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #808080;
+}
+.fan-sec {
+  margin-top: 250px;
+  display: -webkit-flex;
+  display: flex;
+  background-color: green;
+}
+
+.tour-text,
+ {
+  color: #191970; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: red;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+ .fan-sec {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background-color: blue;
+  }
+}
+/* --------------------------------------------------------------------End Fan-----*/
+
+
 
 
 .video-header {
