@@ -17,7 +17,7 @@
 body {
 
   background-color: #e6e6fa;
-  margin:0;
+  margin: 0;
 }
 
 
@@ -80,7 +80,14 @@ img {
 
 .coverImg {
   margin-top: 250px;
+  background-color: #C5CAE9;
 }
+
+.newsImg {
+  margin-top: 250px;
+  background-color: #C5CAE9;
+}
+
 
 ul li button {
   color: white;
@@ -187,9 +194,9 @@ ul li a:hover {
 }
 
 .music-hit {
-  
+
   margin-left: -72px;
- 
+
 }
 
 .hits {
@@ -336,16 +343,16 @@ ul li a:hover {
 .text-block p {
   color: #000;
 }
-
+.tour-text,
 .fan-text,
 .news-text,
 .music-text {
   text-decoration: none;
-  color: #BF360C;
+  color: #0e0bbf;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
-
+.tour-text:hover,
 .fan-text:hover,
 .news-text:hover,
 .music-text:hover {
@@ -527,31 +534,49 @@ footer {
 .hits {
   margin-left: 150px;
 }
+
 * {
   box-sizing: border-box;
 }
+
 .video-stack {
   margin-left: 150px;
 }
 
 /* --------------------------------------------------------------------Fan-----*/
+
 /* Style the content */
+
 .post {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   background-color: #c0c0c0;
 }
-.order-text,
+
+
+
 .post-text {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  background-color: #c0c0c0;
+  font-weight: 500;
+  
 }
+
+.header-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.order-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
 .ord-frm {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   background-color: #808080;
 }
+
 .fan-sec {
   margin-top: 250px;
   display: -webkit-flex;
@@ -559,12 +584,7 @@ footer {
   background-color: green;
 }
 
-.tour-text,
- {
-  color: #191970; 
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-}
+
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
@@ -574,16 +594,14 @@ article {
 }
 
 @media (max-width: 600px) {
- .fan-sec {
+  .fan-sec {
     -webkit-flex-direction: column;
     flex-direction: column;
     background-color: blue;
   }
 }
+
 /* --------------------------------------------------------------------End Fan-----*/
-
-
-
 
 .video-header {
   text-align: center;
@@ -591,16 +609,20 @@ article {
 }
 
 .video-row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
+  /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
+  /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
+
 .video-col {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
+  /* IE10 */
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
@@ -612,6 +634,7 @@ article {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .video-col {
     -ms-flex: 50%;
@@ -621,6 +644,7 @@ article {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .video-col {
     -ms-flex: 100%;
@@ -630,6 +654,7 @@ article {
 }
 
 /*    -------------------------------------------------------------------------------------end music -*/
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 800px) {
@@ -643,29 +668,42 @@ article {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 /*@media screen and (max-width: 600px) {*/
+
 /*  .column {*/
+
 /*    -ms-flex: 100%;*/
+
 /*    flex: 100%;*/
+
 /*    max-width: 100%;*/
+
 /*  }*/
+
 /*}*/
 
 /* mobile first approach */
 
 /*@media (min-width: 768px) {*/
+
 /*  .column {*/
+
 /*    float: left;*/
+
 /*  }*/
 
 /*  .column-60 {*/
+
 /*    width: 60%;*/
+
 /*  }*/
+
 /*  .column-40 {*/
+
 /*    width: 40%;*/
+
 /*  }*/
+
 /*}*/
-
-
 
 /*@media only screen and (max-width: 768px) {*/
 
