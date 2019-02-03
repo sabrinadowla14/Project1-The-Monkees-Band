@@ -2,11 +2,11 @@
 _Full Stack Software Developer - Century College_
 
 
-##This is a static (front-end only) website for the Monkees Band. 
-##For wireframes, I have used pen and paper. Assets are taken from the GitHub repo
+### This is a static (front-end only) website for the Monkees Band. 
+### For wireframes, I have used pen and paper. Assets are taken from the GitHub repo
 and also from the free images websites.
-##The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
-##I have been given the following requirements after interviews with the client’s representatives:
+### The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
+### I have been given the following requirements after interviews with the client’s representatives:
 ..1.Their primary target audiences are their fans 
 ..1.potential fans who wish to use the site to see and hear clips from their back catalog, 
 ..1. any new material as it becomes available.
