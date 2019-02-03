@@ -12,48 +12,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-    </script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-dark navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="index.html">
+                    <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.jpg" alt="logo image">
                 </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav text-uppercase menuIndent">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="fan.html">Fan</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
+                        <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
+                        <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search.." name="search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav text-uppercase menuIndent">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="fan.html">Fan</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
-                    <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
-                    <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
-                </ul>
-                <form class="navbar-form navbar-left" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search.." name="search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </nav>
     </header>>
     <section class="container-fluid newsImg">
-        <div class="container">
+        <div class="container monkees-news">
             <div class="row top-image">
                 <div class="card-columns">
                     <div class="row">
@@ -61,10 +59,10 @@
                             <h1 class="display-4">The Monkees News</h1>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card card-text">
                         <img src="assets/images/recent-concert1.jpg" class="card-img-top" alt="2019 concert">
                         <div class="card-body">
-                            <h5 class="card-title">Upcoming Tour for Concert</h5>
+                            <p class="card-title">Upcoming Tour for Concert:</p>
                             <p class="card-text">Next concert near you: about 1 month (Prior Lake).</p>
                             <p class="card-text">Tickets on sale near you Twin Cities, MN, US.</p>
                             <p class="card-text">Saturday 02 March 2019</p>
@@ -73,73 +71,73 @@
                         </div>
                     </div>
 
-                    <div class="card p-3">
-                        <blockquote class="blockquote mb-0 card-body">
+                    <div class="card p-3 card-text">
+                        <blockquote class="blockquote mb-0 card-body card-text">
                             <img src="assets/images/mikeandmickyshow.jpg" class="card-img-top" alt="mike and micky show">
-                            <p class="card-text">Just announced - "The Mike & Micky Show" will also visit Australia and New Zealand in June 2019.</p>
-                            <footer class="blockquote-footer">
-                                <small class="text-muted">
+                            <p class="card-text">"The Mike & Micky Show" will also visit Australia and New Zealand in June 2019.</p>
+                            <footer class="blockquote-footer card-text">
+                                <small class="text-muted card-text">
                                      The Monkees <cite title="https://www.monkeeslivealmanac.com/blog/the-mike-micky-show-2019-tour-dates-venues-and-ticket-links">"The Mike & Micky Show" 2019 Tour</cite>
                                 </small>
                             </footer>
                         </blockquote>
                     </div>
-                    <div class="card">
+                    <div class="card card-text">
                         <a class="tour-text" href="https://www.youtube.com/embed/n_PnwN3fAHU?autoplay=" target="_blank"><img src="assets/images/wedding.jpg" class="card-img-top" alt="wedding event"></a>
                         <div class="card-body">
-                            <h5 class="card-title">If you want to schedule an event for a wedding please contact us.</h5>
+                            <p class="card-title">If you want to schedule an event for a wedding please contact us.</p>
                             <p class="card-text">We have collections of good wedding songs.</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <h5 class="card-title">Recent Videos</h5>
+                    <div class="card card-text">
+                        <p class="card-title">Recent Videos</p>
                         <a class="tour-text" href="https://www.youtube.com/watch?v=Xpr9H6_3x_I" target="_blank"><img src="assets/images/mickydolenz.jpg" class="card-img-top" alt="mickyanddolenz"></a>
                         <div class="card-body">
-                            <h5 class="card-title">Monkees (Mike Nesmith, Micky Dolenz) ~ "Pleasant Valley Sunday"</h5>
+                            <p class="card-title">Monkees (Mike Nesmith, Micky Dolenz) ~ "Pleasant Valley Sunday"</p>
                             <p class="card-text">Peter Tork played piano and Mike Nesmith played the famous opening guitar riff.</p>
                         </div>
                     </div>
 
-                    <div class="card bg-primary text-white text-center p-3">
-                        <blockquote class="blockquote mb-0">
+                    <div class="card bg-primary text-white text-center p-3 card-text">
+                        <blockquote class="blockquote mb-0 card-text">
                             <p class="card-text">Happy to announce new dates for Michael Nesmith and the First National Band Redux, on sale now! More dates to be announced soon.</p>
-                            <footer class="blockquote-footer text-white">
+                            <footer class="blockquote-footer text-white card-text">
                                 <small>
                                     The Monkees <cite title="https://www.monkees.com/news">The Monkees Website</cite>
                                 </small>
                             </footer>
                         </blockquote>
                     </div>
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Monkeys Album</h5>
+                    <div class="card text-center card-text">
+                        <div class="card-body card-text">
+                            <p class="card-title">Monkeys Album</p>
                             <p class="card-text">Good Times!</p>
                             <small>Best Of The Monkees</small>
                             <img src="assets/images/goodtime.jpg" class="card-img-top" alt="monkees-album">
-                            <p class="card-text"><small class="text-muted">GOOD TIMES album is base on "THE 50th ANNIVERSARY TOUR".</small></p>
+                            <p class="card-text"><small class="text-muted card-text">GOOD TIMES album is base on "THE 50th ANNIVERSARY TOUR".</small></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card card-text">
                         <p class="card-text">Now Playing three new Christmas Videos</p>
                         <a class="tour-text" href="https://www.youtube.com/watch?v=Xpr9H6_3x_I" target="_blank"><img src="assets/images/xmas3.jpg" class="card-img-top" alt="chrismassong"></a>
                     </div>
-                    <div class="card p-3 text-right">
-                        <blockquote class="blockquote mb-0">
+                    <div class="card p-3 text-right card-text">
+                        <blockquote class="blockquote mb-0 card-text">
                             <p class="card-text">The Monkees announces performance at Ocean Resort Casino in 2019</p>
-                            <footer class="blockquote-footer">
-                                <small class="text-muted">
+                            <footer class="blockquote-footer card-text3">
+                                <small class="text-muted card-text">
                                      <cite title="https://www.axs.com/the-monkees-announces-performance-at-ocean-resort-casino-in-2019-135632">The Monkees Performance in Casino.</cite>
                                     <p class="card-text">The Monkees have revealed that they will be bringing their musical vibes to Atlantic City, New Jersey's Ocean Resort Casino this upcoming spring.</p> 
                                 </small>
                             </footer>
                         </blockquote>
                     </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Songs for Upcoming Christmas Party.</h5>
+                    <div class="card card-text">
+                        <div class="card-body card-text">
+                            <p class="card-title">Songs for Upcoming Christmas Party.</p>
                             <small>Track Listing</small>
                             <p class="card-text">
-                                <ul class="xmas">
+                                <ul class="card-text">
                                     <li>"Unwrap You At Christmas"</li>
                                     <li>"What Would Santa Do"</li>
                                     <li>"Christmas Party"</li>
@@ -162,7 +160,7 @@
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="assets/security/privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a href="assets/security/termsofuse.pdf" target="_blank">Terms of Use</a> | <a href="#" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="assets/security/privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a href="assets/security/termsofuse.pdf" target="_blank">Terms of Use</a>                    | <a href="contact.html" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
             </div>
             <div class="col-sm-4">
                 <ul class="list-inline media-links">
@@ -176,7 +174,7 @@
     </footer>
     <br>
 
-   <!-- Modal -->
+    <!-- Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

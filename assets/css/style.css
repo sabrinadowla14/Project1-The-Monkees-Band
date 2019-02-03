@@ -9,6 +9,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
 }
+
 h2,
 p {
   font-family: 'Lato', sans-serif;
@@ -121,10 +122,9 @@ ul li button {
 }
 
 .card-title {
-  color: white;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  font-size: 18px;
 }
 
 ul li a {
@@ -365,10 +365,9 @@ ul li a:hover {
 .fan-text,
 .news-text,
 .music-text {
-  text-decoration: none;
-  color: #0e0bbf;
+  color: #000;
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .tour-text:hover,
@@ -449,6 +448,8 @@ h5 .card-title {
   display: table;
 }
 
+
+
 /** Footer --------------------------------------------------------------------------*/
 
 footer {
@@ -501,7 +502,7 @@ footer {
 }
 
 .media-links li a i:hover {
-  background: #e84610;
+  background: #4DB6AC;
   text-decoration: none;
   transition: all 0.50s ease-in-out;
   -moz-transition: all 0.50s ease-in-out;
@@ -516,6 +517,7 @@ footer {
 
 .leftIndent {
   margin-right: 25px;
+  margin-top: -10px;
 }
 
 .menuIndent {
@@ -562,7 +564,8 @@ footer {
 .video-stack2 {
   margin-right: 50px;
 }
-.music-title{
+
+.music-title {
   font-family: 'Lato', sans-serif;
   color: #ffffff;
   font-weight: 300;
@@ -588,6 +591,7 @@ footer {
 
 
 }
+
 .post-text2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -629,13 +633,7 @@ article {
   padding: 10px;
 }
 
-@media (max-width: 600px) {
-  .fan-sec {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    background-color: blue;
-  }
-}
+
 
 /* --------------------------------------------------------------------End Fan-----*/
 
@@ -657,6 +655,7 @@ article {
   /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-left: 150px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -690,6 +689,7 @@ article {
   text-decoration: none;
   color: #880E4F;
 }
+
 .contact-text-body p a {
   color: #1A237E;
   font-family: 'Lato', sans-serif;
@@ -705,6 +705,14 @@ article {
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 600px) {
+  .fan-sec {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background-color: blue;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .video-col {
@@ -736,76 +744,12 @@ article {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-/*@media screen and (max-width: 600px) {*/
-
-/*  .column {*/
-
-/*    -ms-flex: 100%;*/
-
-/*    flex: 100%;*/
-
-/*    max-width: 100%;*/
-
-/*  }*/
-
-/*}*/
-
-/* mobile first approach */
-
-/*@media (min-width: 768px) {*/
-
-/*  .column {*/
-
-/*    float: left;*/
-
-/*  }*/
-
-/*  .column-60 {*/
-
-/*    width: 60%;*/
-
-/*  }*/
-
-/*  .column-40 {*/
-
-/*    width: 40%;*/
-
-/*  }*/
-
-/*}*/
-
-/*@media only screen and (max-width: 768px) {*/
-
-/*  iframe .video {*/
-
-/*    width: 500px;*/
-
-/*    height: 100px;*/
-
-/*  }*/
-
-/*}*/
-
-/*@media (max-width: 768px) {*/
-
-/*  iframe .video {*/
-
-/*    width: 500px;*/
-
-/*    height: 100px;*/
-
-/*  }*/
-
-/*}*/
-
 @media (max-width: 768px) {
   .text-block {
     width: 40%;
     height: 70%;
     margin-top: 155px;
-    }
+  }
   .heading-text {
     font-size: 14px;
   }
@@ -813,16 +757,30 @@ article {
     font-size: 12px;
   }
 
+
 }
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .tablet {
-    background-color: #bada55;
+ 
+  .text-block {
+    width: 35%;
+    height: 35%;
+    margin-top: 155px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1800px) {
-  .desktop {
-    background-color: #000;
+
+
+@media screen and ( min-height: 600px ){
+  body {
+    background: #26C6DA;
+   
+  }
+  .video-stack,
+  .video-stack2 {
+   margin-left: -10px;
   }
 }
+

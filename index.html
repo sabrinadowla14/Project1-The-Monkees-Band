@@ -12,45 +12,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-    </script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-dark navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="index.html">
+                    <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.jpg" alt="logo image">
                 </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav text-uppercase menuIndent">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="fan.html">Fan</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
+                        <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
+                        <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search.." name="search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav text-uppercase menuIndent">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="fan.html">Fan</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
-                    <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
-                    <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
-                </ul>
-                <form class="navbar-form navbar-left" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search.." name="search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <section class="container-fluid coverImg">
         <div class="container">
@@ -59,8 +57,8 @@
                     <iframe width="1140" height="500" src="https://www.youtube.com/embed/ZcXpKiY2MXE?autoplay=1" align="left" class="video"></iframe>
                     <div class="text-block">
                         <p class="heading-text">Click to watch</h4>
-                        <p class="fan-text">Fans who wish to see and hear clips from back catalog</p>
-                        <p class="fan-text"><a class="fan-text" href="fan.html">[Read More]</a></p>
+                            <p class="fan-text">Fans who wish to see and hear clips from back catalog</p>
+                            <p class="fan-text"><a class="fan-text" href="fan.html">[Read More]</a></p>
                     </div>
                 </div>
             </div>
@@ -232,7 +230,7 @@
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="assets/security/privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a href="assets/security/termsofuse.pdf" target="_blank">Terms of Use</a> | <a href="contact.html" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="assets/security/privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a href="assets/security/termsofuse.pdf" target="_blank">Terms of Use</a>                    | <a href="contact.html" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
             </div>
             <div class="col-sm-4">
                 <ul class="list-inline media-links">
