@@ -7,10 +7,10 @@ _Full Stack Software Developer - Century College_
 and also from the free images websites.
 ### The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
 ### I have been given the following requirements after interviews with the client’s representatives:
-..1.Their primary target audiences are their fans 
-..1.potential fans who wish to use the site to see and hear clips from their back catalog, 
-..1. any new material as it becomes available.
-..1. the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
+⋅⋅* Their primary target audiences are their fans 
+⋅⋅* potential fans who wish to use the site to see and hear clips from their back catalog, 
+⋅⋅* any new material as it becomes available.
+⋅⋅* the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
  ````
 The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for 
 developing responsive and mobile-first websites.
@@ -28,8 +28,8 @@ In footer I have links for privacy, terms of use and a contact page. They are in
  In fan.html I have a form where fans can order any videos from the back catalog. I also have albums, articles from the back catalog.
  
  ````
- ##While working on this project I have taken some help for coding, images, and text from the following links.
-**References:
+## While working on this project I have taken some help for coding, images, and text from the following links.
+### References:
 https://courses.codeinstitute.net/program/FullstackWebDeveloper  -- hit <Enter> once 
 www.w3schools.com  -- hit <Enter> once 
 https://material.io/design/color/the-color-system.html#tools-for-picking-colors  -- hit <Enter> once 
