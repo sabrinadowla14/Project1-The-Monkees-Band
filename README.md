@@ -20,3 +20,7 @@ https://courses.codeinstitute.net/program/FullstackWebDeveloper
 www.w3schools.com
 https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 https://getbootstrap.com/docs/4.2/getting-started/introduction/
+https://www.songkick.com/artists/485568-monkees
+https://www.rhino.com/privacy-policy
+https://www.monkees.com/
+www.youtube.com
