@@ -16,48 +16,48 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <header>
+        <nav class="navbar navbar-dark navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="index.html">
+                    <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.jpg" alt="logo image">
                 </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav text-uppercase menuIndent">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="fan.html">Fan</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
+                        <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
+                        <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search.." name="search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav text-uppercase menuIndent">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="fan.html">Fan</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
-                    <!--<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
-                    <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
-                    <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
-                    <!--    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
-                </ul>
-                <form class="navbar-form navbar-left" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search" name="search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <section class="container-fluid coverImg">
         <div class="container">
             <div class="row music-image">
                 <div class="card bg-dark text-white">
                     <div class="card-img-overlay img-responsive">
-                        <h5 class="card-title">The Monkees Greatest Hits:</h5>
-                        <p class="card-text">Please watch the collection of videos and audios of the Monkees greatest hits.</p>
+                        <h5 class="card-title music-title">The Monkees Greatest Hits:</h5>
+                        <p class="card-text">Please watch the collections of videos and audios of the Monkees greatest hits.</p>
                     </div>
                 </div>
             </div>
@@ -69,23 +69,23 @@
     <section class="container-fluid greatestHits">
         <div class="video-header">
             <h1>Collections of Monkees Videos</h1>
-            <p class="header-text">In these collection we have current music, back catalog vedios and also musics for Christmas and Wedding events. </p>
+            <p class="header-text">In this collection, we have current music, back catalog videos and also music for Christmas and Wedding events.</p>
         </div>
         <!-- Photo Grid -->
         <div class="container video-stack">
             <div class="row video-row">
                 <div class="column video-col">
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=VNcqV_dC_gE&list=PLf4M5Pnq68YGZc62iKGF09wdPz1CQSvG0" target="_blank"><img src="assets/images/greatest-hit.jpg" alt="gtratest-hit" style="width:100%"></a></p>
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=VNcqV_dC_gE&list=PLf4M5Pnq68YGZc62iKGF09wdPz1CQSvG0" target="_blank">The Monkees greatest hits</a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=VNcqV_dC_gE&list=PLf4M5Pnq68YGZc62iKGF09wdPz1CQSvG0" target="_blank"><img src="assets/images/greatest-hit.jpg" alt="gtratest-hit" style="width:100%"></a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=VNcqV_dC_gE&list=PLf4M5Pnq68YGZc62iKGF09wdPz1CQSvG0" target="_blank">The Monkees greatest hits</a></p>
                 </div>
                 <div class="column video-col">
-                   <p><a class="music-text" href="https://www.amazon.com/gp/video/detail/B075Y96QTD" target="_blank"><img src="assets/images/day-dream-beleiver.jpg" alt="day-dream-beleiver" style="width:100%"></a></p>
-                   <p><a class="music-text" href="https://www.amazon.com/gp/video/detail/B075Y96QTD" target="_blank">Titles: Daydream Believers: The Monkees' Story</a></p>
-                   <p class="music-text">The true story of four hopeful young singers who are brought together by NBC as a singing group.</p>
+                    <p><a class="music-text" href="https://www.amazon.com/gp/video/detail/B075Y96QTD" target="_blank"><img src="assets/images/day-dream-beleiver.jpg" alt="day-dream-beleiver" style="width:100%"></a></p>
+                    <p><a class="music-text" href="https://www.amazon.com/gp/video/detail/B075Y96QTD" target="_blank">Titles: Daydream Believers: The Monkees' Story</a></p>
+                    <p class="music-text">The true story of four hopeful young singers who are brought together by NBC as a singing group.</p>
                 </div>
                 <div class="column video-col">
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=ZkL-w7Q1gvw" target="_blank"><img src="assets/images/papajenes-blues.jpg" alt="Papa Genes Blues" style="width:100%"></a></p>
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=ZkL-w7Q1gvw" target="_blank">Papa Genes Blues</a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=ZkL-w7Q1gvw" target="_blank"><img src="assets/images/papajenes-blues.jpg" alt="Papa Genes Blues" style="width:100%"></a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=ZkL-w7Q1gvw" target="_blank">Papa Genes Blues</a></p>
                 </div>
                 <div class="column video-col">
                     <a class="music-text" href="https://www.youtube.com/watch?v=xnzrGr78Mws" target="_blank"><img src="assets/images/going-down.jpg" style="width:100%"></a>
@@ -94,12 +94,12 @@
             </div>
             <div class="row video-row">
                 <div class="column video-col">
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=ZcXpKiY2MXE" target="_blank"><img src="assets/images/lasttrain.jpg" alt="The Last Train" style="width:100%"></a></p>
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=ZcXpKiY2MXE" target="_blank">The Last Train</a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=ZcXpKiY2MXE" target="_blank"><img src="assets/images/lasttrain.jpg" alt="The Last Train" style="width:100%"></a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=ZcXpKiY2MXE" target="_blank">The Last Train</a></p>
                 </div>
                 <div class="column video-col">
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=Sz-2jckjeHo" target="_blank"><img src="assets/images/album2.jpg" alt="A Little Bit Me A Little Bit You" style="width:100%"></a></p>
-                   <p><a class="music-text" href="https://www.youtube.com/watch?v=Sz-2jckjeHo" target="_blank">A Little Bit Me A Little Bit You</a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=Sz-2jckjeHo" target="_blank"><img src="assets/images/album2.jpg" alt="A Little Bit Me A Little Bit You" style="width:100%"></a></p>
+                    <p><a class="music-text" href="https://www.youtube.com/watch?v=Sz-2jckjeHo" target="_blank">A Little Bit Me A Little Bit You</a></p>
                 </div>
                 <div class="column video-col">
                     <p><a class="music-text" href="https://www.youtube.com/watch?v=yjtAnumSUCQ" target="_blank"><img src="assets/images/iwannabe-free.jpg" alt="I Wanna Be Free" style="width:100%"></a></p>
@@ -113,7 +113,7 @@
         </div>
         <div class="video-header">
             <h1>Christmas and Wedding Videos</h1>
-            <p>In these collection we have current music, back catalog vedios and also musics for Christmas and Wedding events. </p>
+            <p class="header-text">In these collection we have current music, back catalog vedios and also musics for Christmas and Wedding events. </p>
         </div>
         <div class="container video-stack">
             <div class="row video-row">
@@ -135,31 +135,35 @@
                 </div>
             </div>
         </div>
-        <div class="video-header">
-            <h1>The Monkees Audios</h1>
-            <p>we have some audios.</p>
-        </div>
-        <div class="container video-stack">
+        <div class="container video-stack2">
+            <div class="row video-header2">
+                <div class="coi-md-12 align-left">
+                    <h1>The Monkees Audios</h1>
+                    <p class="header-text">we have some audios.</p>
+                </div>
+            </div>
             <div class="row video-row">
-                <div>
+                <div class="col-md-6">
                     <audio controls>
-                    <source src="assets/audio/Clarksville.mp3" type="audio/mp3">
-                </audio>
+                      <source src="assets/audio/Clarksville.mp3" type="audio/mp3">
+                    </audio>
                     <p class="music-text">Last Train To Clarksville 1966</p>
                 </div>
-                <div>
+                <div class="col-md-6">
                     <audio controls>
                     <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mp3">
-                </audio>
+                  </audio>
                     <p class="music-text">Day Dream Believer</p>
                 </div>
-                <div>
+            </div>
+            <div class="row video-row">
+                <div class="col-md-6">
                     <audio controls>
                     <source src="assets/audio/ImABeliever.mp3" type="audio/mp3">
                 </audio>
                     <p class="music-text">I am a believer</p>
                 </div>
-                <div>
+                <div class="col-md-6">
                     <audio controls>
                     <source src="assets/audio/SteppingStone.mp3" type="audio/mp3">
                 </audio>
@@ -171,18 +175,19 @@
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="contact.html" target="_blank">Contact Us</a></p>
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="assets/security/privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a href="assets/security/termsofuse.pdf" target="_blank">Terms of Use</a>                    | <a href="#" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
             </div>
             <div class="col-sm-4">
                 <ul class="list-inline media-links">
-                    <li id="media-item1"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li id="media-item2"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li id="media-item1"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                    <li id="media-item2"><a target="_blank" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
         </div>
     </footer>
+    <!-- Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -195,7 +200,6 @@
                         <div class="form-group">
                             <label for="email">Email address</label>
                             <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block">We will not share your email address with anyone</p>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
@@ -217,7 +221,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up!</h4>
+                    <h3>Login</h3>
+                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up! First</h4>
                 </div>
                 <div class="modal-body">
                     <form class="px-4 py-3">

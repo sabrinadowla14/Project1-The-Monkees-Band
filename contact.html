@@ -17,161 +17,51 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <header>
+        <nav class="navbar navbar-dark navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="index.html">
+                    <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.jpg" alt="logo image">
                 </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav text-uppercase menuIndent">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="fan.html">Fan</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
+                        <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
+                        <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search.." name="search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav text-uppercase menuIndent">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="fan.html">Fan</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
-                    <!--<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
-                    <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
-                    <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
-                    <!--    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
-                </ul>
-                <form class="navbar-form navbar-left" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search" name="search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <section class="container-fluid coverImg">
         <div class="container">
-            <div class="row top-image">
-                <div class="col-sm-12 top-img">
-                    <iframe width="1140" height="500" src="https://www.youtube.com/embed/ZcXpKiY2MXE?autoplay=1" align="left" class="video"></iframe>
-                    <div class="text-block">
-                        <h4>Click to watch</h4>
-                        <p>Fans who wish to see and hear clips from back catalog</p>
-                        <p><a class="fan-text" href="fan.html">[Read More]</a></p>
-                    </div>
+            <div class="card">
+                <div class="card-header contact-text">
+                    Contact Us:
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="jumbotron">
-                    <h1 class="display-4">The Monkees Band</h1>
-                    <p class="lead">The Monkees were 1960's talented rock band, singers, musicians, songwriters and have around 50 years experience of performing live at numerous events around the world.</p>
-                    <hr class="my-4">
-                    <p><a class="music-text" href="music.html">[Learn More]</a></p>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="featured-text">Band Members</h2>
-                    <p>Please click on images for short description</p>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-3">
-                    <img class="img-responsive genImage" src="assets/images/pt.jpg" alt="pt image" data-toggle="modal" data-target="#myModal1">
-                    <h4 class="text-uppercase">Peter Tork</h4>
-                    <p><a class="pt" href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">[Read More]</a>
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-responsive genImage" src="assets/images/mn.jpg" alt="mn image" data-toggle="modal" data-target="#myModal2">
-                    <h4 class="text-uppercase">Michael Nesmith</h4>
-                    <p><a class="mn" href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">[Read More]</a>
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-responsive genImage" src="assets/images/md.jpg" alt="md image" data-toggle="modal" data-target="#myModal3">
-                    <h4 class="text-uppercase">Micky Dolenz</h4>
-                    <p><a class="md" href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">[Read More]</a>
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-responsive genImage" src="assets/images/dj.jpg" alt="dj image" data-toggle="modal" data-target="#myModal4">
-                    <h4 class="text-uppercase">Davy Jones</h4>
-                    <p><a class="dj" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">[Read More]</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid memberModal">
-        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Peter Tork</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive ptImage" src="assets/images/pt.jpg" alt="pt image">
-                        <p>Peter Halsten Thorkelson (born February 13, 1942), better known as Peter Tork, is an American musician and actor, best known as the keyboardist and bass guitarist of the Monkees.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="imageBtn" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel2">Michael Nesmith</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive mnImage" src="assets/images/mn.jpg" alt="mn image">
-                        <p>Robert Michael Nesmith (born December 30, 1942) is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, best known as a member of the pop rock band the Monkees and co-star of the TV series
-                            The Monkees (1966–1968). Nesmith's songwriting credits include "Different Drum" (sung by Linda Ronstadt with the Stone Poneys).</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="imageBtn" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel3">Micky Dolenz</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive mdImage" src="assets/images/md.jpg" alt="kitten image">
-                        <p>George Michael Dolenz Jr. (born March 8, 1945) is an American actor, musician, television director, radio personality and theater director, best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="imageBtn" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel4">Davy Jones</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive natureImage2" src="assets/images/dj.jpg" alt="dj image">
-                        <p>David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman, best known as a member of the band the Monkees, and for starring in the TV series of the same name. </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="imageBtn" data-dismiss="modal">Close</button>
-                    </div>
+                <div class="card-body contact-text-body">
+                    <h5 class="card-title">Chat online in &nbsp;<a target="_blank" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></h5>
+                    <p class="card-text">Call Us: 1-800-XXX-XXXX</p>
+                    <p><a target="_blank" href="https://www.monkees.com/">More Information</a></p>
                 </div>
             </div>
         </div>
@@ -179,89 +69,24 @@
     <br>
     <hr id="horLine">
     <br>
-    <section class="container-fluid xmasandwed">
-        <div class="container xmascontainer">
-            <div class="card mb-3 xmas-img">
-                <iframe lass="card-img-top" width="420" height="345" src="https://www.youtube.com/embed/05rUSARpr4g?autoplay=1"></iframe>
-                <div class="card-body">
-                    <h5 class="card-title">The Monkees Christmas Songs</h5>
-                    <p class="card-text">The Merry Monkees, released four videos.</p>
-                    <p class="card-text"><small class="text-muted"><a class="news-text" href="news.html">[Learn More]</a></small></p>
-                </div>
-            </div>
-            <div class="card wed-img">
-                <div class="card-body">
-                    <h5 class="card-title">The Monkees Wedding Party Songs</h5>
-                    <p class="card-text">Steve & Aimee perform The Monkees' song I'm a Believer at their Wedding for for their Marryoke at the Falmouth Hotel.</p>
-                    <p class="card-text"><small class="text-muted"><a class="news-text" href="news.html">[Learn More]</a></small></p>
-                </div>
-                <iframe class="card-img-bottom" width="420" height="345" src="https://www.youtube.com/embed/n_PnwN3fAHU?autoplay="></iframe>
-            </div>
-        </div>
-    </section>
-    <br>
-    <hr id="horLine">
-    <br>
-    <section class="container-fluid">
-        <div class="container anniversary">
-            <div class="card anniversary">
-                <img src="assets/images/anniversary.jpg" class="card-img-top" alt="50th anniversary">
-                <div class="card-body">
-                    <h5 class="card-title">The Monkees 50th anniversary</h5>
-                    <p class="card-text">The Monkees are going to release their new album, titled Good Times!, as a celebration of their 50th anniversary.</p>
-                    <p><a class="news-text" href="music.html">[Learn More]</a></p>
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card album">
-                    <img src="assets/images/albumreview.jpg" class="card-img-top" alt="albumreview">
-                    <div class="card-body">
-                        <h5 class="card-title">Latest Album</h5>
-                        <p class="card-text">“In 1967 the Monkees sold more records than the Beatles and Rolling Stones combined.”</p>
-                        <p><a class="news-text" href="music.html">[Learn More]</a></p>
-                    </div>
-                </div>
-                <div class="card article">
-                    <img src="assets/images/monkees-article.jpg" class="card-img-top" alt="monkees-article">
-                    <div class="card-body">
-                        <h5 class="card-title">Monkees Articles</h5>
-                        <p><a class="news-text" href="news.html">[Learn More]</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
-                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="contact.html" target="_blank">Shipping Policy</a> | <a href="contact.html" target="_blank">Privacy Policy</a> | <a href="contact.html" target="_blank">Contact Us</a></p>
+                <p class="footer-text"> &copy; Sabrina Dowla - Monkees Band Project-century college, 2019.&nbsp;&nbsp;&nbsp;<a href="assets/security/privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a href="assets/security/termsofuse.pdf" target="_blank">Terms of Use</a>                    | <a href="#" data-toggle="tooltip" title="Please go to: https://www.monkees.com/">Contact Us</a></p>
             </div>
             <div class="col-sm-4">
                 <ul class="list-inline media-links">
-                    <li id="media-item1"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li id="media-item2"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li id="media-item1"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                    <li id="media-item2"><a target="_blank" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
         </div>
     </footer>
     <br>
-    <script type="text/javascript">
-        $('#myModal1').on('shown.bs.modal', function() {
-            $('#myInput').focus();
-        });
-        $('#myModal2').on('shown.bs.modal', function() {
-            $('#myInput').focus();
-        });
-        $('#myModal3').on('shown.bs.modal', function() {
-            $('#myInput').focus();
-        });
-        $('#myModal4').on('shown.bs.modal', function() {
-            $('#myInput').focus();
-        });
     </script>
-    <!-- Modal -->
+   <!-- Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -274,7 +99,6 @@
                         <div class="form-group">
                             <label for="email">Email address</label>
                             <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block">We will not share your email address with anyone</p>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
@@ -296,7 +120,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up!</h4>
+                    <h3>Login</h3>
+                    <h4 class="modal-title" id="myModalLabel">New around here? Sign up! First</h4>
                 </div>
                 <div class="modal-body">
                     <form class="px-4 py-3">

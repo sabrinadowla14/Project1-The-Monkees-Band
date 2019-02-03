@@ -1,26 +1,14 @@
-/*html {*/
-
-/*  background: url("../images/concert.jpg") repeat;*/
-
-/*  background-size: 100% 100%;*/
-
-/*  transition: all .5s ease-in-out;*/
-
-/*  -webkit-background-size: cover;*/
-
-/*  -moz-background-size: cover;*/
-
-/*  -o-background-size: cover;*/
-
-/*}*/
-
 body {
-
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
   background-color: #e6e6fa;
   margin: 0;
 }
 
-
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
 h2,
 p {
   font-family: 'Lato', sans-serif;
@@ -80,7 +68,7 @@ img {
 
 .coverImg {
   margin-top: 250px;
-  background-color: #C5CAE9;
+
 }
 
 .newsImg {
@@ -172,6 +160,27 @@ ul li a:hover {
   font-weight: 700;
 }
 
+.member-modal {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+
+}
+
+.heading-text {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.fan-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
 .pt:hover,
 .mn:hover,
 .md:hover,
@@ -211,8 +220,11 @@ ul li a:hover {
 .xmascontainer {
 
   background-color: #B0BEC5;
+}
 
-
+.card album {
+  max-height: 150px;
+  max-width: 150px;
 }
 
 .xmas-img {
@@ -253,6 +265,10 @@ ul li a:hover {
 
 /*}*/
 
+.card-group {
+  max-height: 400px;
+}
+
 /* Bottom right text */
 
 .text-block {
@@ -263,6 +279,7 @@ ul li a:hover {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
 .top-img {
@@ -343,6 +360,7 @@ ul li a:hover {
 .text-block p {
   color: #000;
 }
+
 .tour-text,
 .fan-text,
 .news-text,
@@ -352,6 +370,7 @@ ul li a:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
+
 .tour-text:hover,
 .fan-text:hover,
 .news-text:hover,
@@ -535,13 +554,21 @@ footer {
   margin-left: 150px;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .video-stack {
   margin-left: 150px;
 }
+
+.video-stack2 {
+  margin-right: 50px;
+}
+.music-title{
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+
 
 /* --------------------------------------------------------------------Fan-----*/
 
@@ -557,13 +584,22 @@ footer {
 
 .post-text {
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  
+  font-weight: 300;
+
+
+}
+.post-text2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+
 }
 
 .header-text {
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .order-text {
@@ -574,7 +610,7 @@ footer {
 .ord-frm {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  background-color: #808080;
+  background-color: #9FA8DA;
 }
 
 .fan-sec {
@@ -605,7 +641,12 @@ article {
 
 .video-header {
   text-align: center;
-  padding: 32px;
+  padding: 15px;
+}
+
+.video-header2 {
+  text-align: center;
+  padding-right: 300px;
 }
 
 .video-row {
@@ -632,6 +673,36 @@ article {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+/*-----------------------------------------------------------------contact-----*/
+
+.contact-text-body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4A148C;
+}
+
+.contact-text-body a:hover {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #880E4F;
+}
+.contact-text-body p a {
+  color: #1A237E;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contact-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
@@ -731,8 +802,17 @@ article {
 
 @media (max-width: 768px) {
   .text-block {
-    display: none;
+    width: 40%;
+    height: 70%;
+    margin-top: 155px;
+    }
+  .heading-text {
+    font-size: 14px;
   }
+  .fan-text {
+    font-size: 12px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
