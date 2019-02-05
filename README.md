@@ -9,7 +9,6 @@ _Full Stack Software Developer - Century College_
 ### I have been given the following requirements after interviews with the client’s representatives:
 
 ## UX
-___
 * Their primary target audiences are their fans 
 * potential fans who wish to use the site to see and hear clips from their back catalog, 
 * any new material as it becomes available.
