@@ -38,7 +38,7 @@ In contact.html I have the contact information of the Monkees Band.
 
 ## Technologies Used
 - [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
-    - The project uses **Bootstrap - CSS framework** framework to make it responsive.
+    - The project uses **Bootstrap - CSS framework** to make it responsive.
 - [HTML5](https://www.w3schools.com/html/html5_intro.asp)
     - The project uses **HTML5** makes creating accessible sites semantics.
 - [CSS3](https://www.w3schools.com/css/default.asp)
@@ -49,19 +49,50 @@ In contact.html I have the contact information of the Monkees Band.
 I have done many testing to believe that the site works well. Open my project in the browser, right clicked and went to inspect. In devtools I saw a device symbol clicked that one. I have tested through all the device. trying to see if it is responsive website.
 All my pages are going to it's appropriate pages. User can easily filled out the form. If user wants to listen to any of the youtube
 videos they just need to click on that one. User can sign up and also sign in. If the user click on the logo it will redirect you to
-the home page which is the index.html file.
+the home page which is the index.html file. If user wants to go to facebook, twitter or youtube link it will take him to the appropriate
+website.
 User can download privacy and terms of condition pages.
-
-### I have used CSS Beautifier to test the CSS Code.
-### I have used HTML Validator / Linter - to test all my HTML files.
-### Deploy - Go to you repository and open the The Monkees Band project go to setting, under Git Hub pages in source have chosen
-### master branch and saved it.
+I have used CSS Beautifier to test the CSS Code. https://www.freeformatter.com/css-beautifier.html#ad-output
+I have used HTML Validator / Linter - to test all my HTML files. https://www.freeformatter.com/html-validator.html
+In fan.html page submit button for the form I have done following tests.
+    1. Try to submit the empty form and verify that an error message about the required fields appears
+    2. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    3. Try to submit the form with all inputs valid and verify that a success message appears.
+  *  I have used following browsers and devices to test my project.
+  - Chrome - Everything looks good on the desktop screen, but sometimes the font will become too small, in smaller devices.
+  - Firefox - Everything looks good. 
+  - Internet Explorer - Looks good. 
+  - Edge - Looks good.
+  I have used following devices to test the project:
+  - Galaxy S5 - 360 X 640
+  - Pixel 2 - 411 X 731
+  - Pixel 2XL - 411 X 823
+  - iPhone 5/SE - 320 X 568
+  - iPhone 6/7/8 - 375 X 667
+  - iPhone 6/7/8 Plus - 414 X 736
+  - iPhone X - 375 X 812 
+  - iPad -   768 X 1024
+  - iPad Pro - 1024 X 1366
+## Deployment 
+- went to https://github.com/sabrinadowla14/Project1-The-Monkees-Band/settings 
+  in my repository and open the The Monkees Band project go to setting, under Git Hub pages in source have chosen
+  master branch and saved it.
 * here is the Link:
-https://sabrinadowla14.github.io/Project1-The-Monkees-Band/fan.html
+  https://sabrinadowla14.github.io/Project1-The-Monkees-Band/fan.html
+  local Run - You can use any editor to run this project. I have used Cloud9. Open your index.html and click run. You will see a link
+  at the botton. click and open it.
+## Credits
 
-### Run - You can use any editor to run this project. I have used Cloud9. Open your index.html and click run. You will see a link
-### at the botton. click and open it.
- 
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
+
  ````
 #### While working on this project I have taken some help for coding, images, and text from the following links.
 #### References:
