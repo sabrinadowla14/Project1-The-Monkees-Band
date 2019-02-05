@@ -14,22 +14,44 @@ _Full Stack Software Developer - Century College_
 * any new material as it becomes available.
 * the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
 ## Features
-
  ````
- The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for 
+The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for 
 developing responsive and mobile-first websites.
 I have Four Pages - index.html, music.html, news.html and fan.html.
 In header I have monkees logo if you click that logo it will redirect you to the home page. I have a search button which is not functional at this time.
 User needs to signup before signin. 
-In footer I have links for privacy, terms of use and a contact page. They are in the process of creating a social media presence and   have links to their Facebook, Twitter and YouTube pages
- index.html is my home page, where I have clickable youtube images for the monkees videos.
- in music.html I have all the videos and audios of the Monkees Band.
- In news.html I have all the current information about the Monkees Band.
- In fan.html I have a form where fans can order any videos from the back catalog. I also have albums, articles from the back catalog.
- In contact.html I have the contact information of the Monkees Band.
- 
- ````
-### Project Test- Open your project in the browser, right click and go to inspect. In devtools you will see a device symbol click that ### one. I have tested through all the device. trying to see if it is responsive website.
+In footer I have links for privacy, terms of use and a contact page. They are in the process of creating a social media presence and     have links to their Facebook, Twitter and YouTube pages
+index.html is my home page, where I have clickable youtube images for the monkees videos.
+in music.html I have all the videos and audios of the Monkees Band.
+In news.html I have all the current information about the Monkees Band.
+In fan.html I have a form where fans can order any videos from the back catalog. I also have albums, articles from the back catalog.
+In contact.html I have the contact information of the Monkees Band.
+````
+ ### Existing Features
+- Feature 1 - allows users to order videos by filling out a form and he can select single or multiple videos. This is in fan.html file
+- Feature 2 - Search button will help user to find for particular thing. In index.html, music.html, news.html and fan.html files.
+- It is added in the header section.
+- Feature 3 - Downloan privacy form and terms of condition form. It is added in the footer section, in all pages.
+
+### Features Left to Implement
+- In future I would like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
+
+## Technologies Used
+- [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
+    - The project uses **Bootstrap - CSS framework** framework to make it responsive.
+- [HTML5](https://www.w3schools.com/html/html5_intro.asp)
+    - The project uses **HTML5** makes creating accessible sites semantics.
+- [CSS3](https://www.w3schools.com/css/default.asp)
+    - The project uses **CSS3** to style the project. 
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+## Testing
+I have done many testing to believe that the site works well. Open my project in the browser, right clicked and went to inspect. In devtools I saw a device symbol clicked that one. I have tested through all the device. trying to see if it is responsive website.
+All my pages are going to it's appropriate pages. User can easily filled out the form. If user wants to listen to any of the youtube
+videos they just need to click on that one. User can sign up and also sign in. If the user click on the logo it will redirect you to
+the home page which is the index.html file.
+User can download privacy and terms of condition pages.
+
 ### I have used CSS Beautifier to test the CSS Code.
 ### I have used HTML Validator / Linter - to test all my HTML files.
 ### Deploy - Go to you repository and open the The Monkees Band project go to setting, under Git Hub pages in source have chosen
