@@ -7,6 +7,9 @@ _Full Stack Software Developer - Century College_
 ### and also from the free images websites.
 ### The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
 ### I have been given the following requirements after interviews with the client’s representatives:
+
+## UX
+---
 * Their primary target audiences are their fans 
 * potential fans who wish to use the site to see and hear clips from their back catalog, 
 * any new material as it becomes available.
