@@ -27,6 +27,8 @@ In footer I have links for privacy, terms of use and a contact page. They are in
  
  In fan.html I have a form where fans can order any videos from the back catalog. I also have albums, articles from the back catalog.
 ### Project Test- Open your project in the browser, right click and go to inspect. In devtools you will see a device symbol click that ### one. I have tested through all the device. trying to see if it is responsive website.
+### I have used CSS Beautifier to test the CSS Code.
+### I have used HTML Validator / Linter - to test all my HTML files.
 ### Deploy - Go to you repository and open the The Monkees Band project go to setting, under Git Hub pages in source have chosen
 ### master branch and saved it.
 * here is the Link:
