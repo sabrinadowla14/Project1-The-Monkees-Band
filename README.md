@@ -26,6 +26,14 @@ In footer I have links for privacy, terms of use and a contact page. They are in
  In news.html I have all the current information about the Monkees Band.
  
  In fan.html I have a form where fans can order any videos from the back catalog. I also have albums, articles from the back catalog.
+### Project Test- Open your project in the browser, right click and go to inspect. In devtools you will see a device symbol click that ### one. I have tested through all the device. trying to see if it is responsive website.
+### Deploy - Go to you repository and open the The Monkees Band project go to setting, under Git Hub pages in source have chosen
+### master branch and saved it.
+* here is the Link:
+https://sabrinadowla14.github.io/Project1-The-Monkees-Band/fan.html
+
+### Run - You can use any editor to run this project. I have used Cloud9. Open your index.html and click run. You will see a link
+### at the botton. click and open it.
  
  ````
 #### While working on this project I have taken some help for coding, images, and text from the following links.
