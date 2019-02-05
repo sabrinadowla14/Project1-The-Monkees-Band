@@ -749,6 +749,10 @@ article {
     width: 40%;
     height: 70%;
     margin-top: 155px;
+  
+  }
+  body {
+    background-color: #E1BEE7;
   }
   .heading-text {
     font-size: 14px;
@@ -769,6 +773,9 @@ article {
     height: 35%;
     margin-top: 155px;
   }
+  body {
+  background-color: #E57373;
+ }
 }
 
 
@@ -781,6 +788,17 @@ article {
   .video-stack,
   .video-stack2 {
    margin-left: -10px;
+  }
+  
+  .video-row2 {
+    margin-right: 10px;
+  }
+  .audio-text2 {
+    /*font-size: 5vw;*/
+    text-align: center;
+  }
+  .music-text {
+    font-size: 16px;
   }
 }
 
