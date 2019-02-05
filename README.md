@@ -14,6 +14,7 @@ _Full Stack Software Developer - Century College_
 * any new material as it becomes available.
 * the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
  ````
+## Features
 The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for 
 developing responsive and mobile-first websites.
 I have Four Pages - index.html, music.html, news.html and fan.html.
