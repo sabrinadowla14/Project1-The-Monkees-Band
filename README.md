@@ -13,9 +13,10 @@ _Full Stack Software Developer - Century College_
 * potential fans who wish to use the site to see and hear clips from their back catalog, 
 * any new material as it becomes available.
 * the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
- ````
 ## Features
-The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for 
+
+ ````
+ The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for 
 developing responsive and mobile-first websites.
 I have Four Pages - index.html, music.html, news.html and fan.html.
 In header I have monkees logo if you click that logo it will redirect you to the home page. I have a search button which is not functional at this time.
