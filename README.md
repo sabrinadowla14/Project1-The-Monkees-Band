@@ -22,14 +22,13 @@ I have Four Pages - index.html, music.html, news.html and fan.html.
 In header I have monkees logo if you click that logo it will redirect you to the home page. I have a search button which is not functional at this time.
 User needs to signup before signin. 
 In footer I have links for privacy, terms of use and a contact page. They are in the process of creating a social media presence and   have links to their Facebook, Twitter and YouTube pages
- 
  index.html is my home page, where I have clickable youtube images for the monkees videos.
- 
  in music.html I have all the videos and audios of the Monkees Band.
- 
  In news.html I have all the current information about the Monkees Band.
- 
  In fan.html I have a form where fans can order any videos from the back catalog. I also have albums, articles from the back catalog.
+ In contact.html I have the contact information of the Monkees Band.
+ 
+ ````
 ### Project Test- Open your project in the browser, right click and go to inspect. In devtools you will see a device symbol click that ### one. I have tested through all the device. trying to see if it is responsive website.
 ### I have used CSS Beautifier to test the CSS Code.
 ### I have used HTML Validator / Linter - to test all my HTML files.
