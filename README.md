@@ -2,11 +2,11 @@
 _Full Stack Software Developer - Century College_
 
 
-### This is a static (front-end only) website for the Monkees Band. 
-### For wireframes, I have used pen and paper. Assets are taken from the GitHub repo
-### and also from the free images websites.
-### The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
-### I have been given the following requirements after interviews with the client’s representatives:
+This is a static (front-end only) website for the Monkees Band. 
+For wireframes, I have used pen and paper. Assets are taken from the GitHub repo
+and also from the free images websites.
+The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
+I have been given the following requirements after interviews with the client’s representatives:
 
 ## UX
 * Their primary target audiences are their fans 
@@ -84,25 +84,22 @@ In fan.html page submit button for the form I have done following tests.
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- The text for section tour in news.html was copied from (https://www.songkick.com/artists/485568-monkees)
+  The text for section tour in news.html was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text I have taken for the Privacy (https://www.bbb.org/greater-san-francisco/for-businesses/toolkits1/sample-privacy-policy/)
+- The text I have taken for the Terms and Condition (http://templatelab.com/terms-and-conditions-    templates/#Terms_and_Conditions_Templates) 
+- The text I have taken for news.html from (https://www.monkees.com/)
 ### Media
-- The photos used in this site were obtained from ...
-
+- The photos used in this site were obtained from (https://www.google.com/search?q=the+monkees+free+images&tbm=isch&source=hp&sa=X&ved=2ahUKEwjdqrbS46XgAhUG04MKHRvzCYUQsAR6BAgDEAE&biw=1536&bih=706)
+youtube videos are taken from - (www.youtube.com)
+### Color
+   https://material.io/design/color/the-color-system.html#tools-for-picking-colors 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
  ````
-#### While working on this project I have taken some help for coding, images, and text from the following links.
-#### References:
-https://courses.codeinstitute.net/program/FullstackWebDeveloper  -- hit <Enter> once 
-www.w3schools.com  -- hit <Enter> once 
-https://material.io/design/color/the-color-system.html#tools-for-picking-colors  -- hit <Enter> once 
-https://getbootstrap.com/docs/4.2/getting-started/introduction/  -- hit <Enter> once 
-https://www.songkick.com/artists/485568-monkees  -- hit <Enter> once 
-https://www.rhino.com/privacy-policy  -- hit <Enter> once 
-https://www.monkees.com/  -- hit <Enter> once 
-www.youtube.com  -- hit <Enter> once 
-https://www.bbb.org/greater-san-francisco/for-businesses/toolkits1/sample-privacy-policy/  -- hit <Enter> once 
-http://templatelab.com/terms-and-conditions-templates/#Terms_and_Conditions_Templates  -- hit <Enter> once 
+ - I received inspiration for this project from the e2go lecture notes for Full Stack Web Developer Course.
+  While working on this project I have taken some help for coding, images, and text from the following links.
+  https://courses.codeinstitute.net/program/FullstackWebDeveloper  -- hit <Enter> once 
+  www.w3schools.com  -- hit <Enter> once 
+  https://getbootstrap.com/docs/4.2/getting-started/introduction/  -- hit <Enter> once 
+```
