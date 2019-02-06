@@ -21,11 +21,17 @@ body {
 	font-weight: 500;
 	background-color: #e6e6fa;
 	margin: 0;
+	padding: 0;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
+}
+
+a {
+	color: #DD2C00;
+	font-weight: 700;
 }
 
 h2,
@@ -83,6 +89,11 @@ img {
 	margin-top: 250px;
 }
 
+.featured-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
 .newsImg {
 	margin-top: 250px;
 	background-color: #C5CAE9;
@@ -127,7 +138,15 @@ ul li button {
 .card-title {
 	color: #000000;
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.news-concert {
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
 }
 
 ul li a {
@@ -165,21 +184,16 @@ ul li a:hover {
 	text-decoration: none;
 	color: #000000;
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .heading-text {
 	color: #000000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 1.5em;
 }
 
-.fan-text {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-}
 
 .pt:hover,
 .mn:hover,
@@ -195,6 +209,7 @@ ul li a:hover {
 	border-color: #BDBDBD;
 	border-width: 1px;
 }
+
 #horLine1 {
 	border-color: #BDBDBD;
 	border-width: 1px;
@@ -216,6 +231,10 @@ ul li a:hover {
 
 .anniversary {
 	background-color: #B0BEC5;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0 auto;
+	padding: 25px;
 }
 
 .xmascontainer {
@@ -257,16 +276,6 @@ ul li a:hover {
 }
 
 
-/* Container holding the image and the text */
-
-
-/*.top-img {*/
-
-
-/*  position: relative;*/
-
-
-/*}*/
 
 .card-group {
 	max-height: 400px;
@@ -345,13 +354,14 @@ ul li a:hover {
 	padding-top: 0%;
 }
 
-.card {
-	width: 18rem;
+.xmas-song,
+.wed-song {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 
-.anniversary {
-	margin: 0 auto;
-	padding: 25px;
+.card {
+	width: 18rem;
 }
 
 .text-block,
@@ -370,6 +380,14 @@ blockquote .card-text {
 .card-text3,
 .card-text4 {
 	margin-left: -20px;
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 300;
+}
+
+.news-text1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 }
 
 blockquote .card-text6 {
@@ -410,7 +428,7 @@ footer .website,
 .music-text {
 	color: #000;
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-weight: 300;
 }
 
 .tour-text:hover,
@@ -420,7 +438,7 @@ footer .website,
 	text-decoration: none;
 	color: #BF360C;
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 .text-muted {
@@ -443,7 +461,7 @@ h5 .card-title {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.43em;
 }
 
 .btn,
@@ -550,7 +568,7 @@ footer {
 
 .signIndent {
 	margin-top: 30px;
-	font-size: 16px;
+	font-size: 1.14em;
 }
 
 .leftIndent {
@@ -587,6 +605,15 @@ footer {
 	visibility: visible;
 }
 
+/*------------------------------------------------------------News---*/
+
+.news-title {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.43em;
+}
+
 
 /*-------------------------------------------------------------Music--*/
 
@@ -594,14 +621,13 @@ footer {
 	margin-left: 150px;
 }
 
+.card-text-music {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 
-/*.video-stack {*/
 
-
-/*  margin-left: 150px;*/
-
-
-/*}*/
+}
 
 .video-stack2 {
 	margin-right: 50px;
@@ -615,7 +641,6 @@ footer {
 
 
 /* --------------------------------------------------------------------Fan-----*/
-
 
 /* Style the content */
 
@@ -685,9 +710,6 @@ article {
 	background-color: green;
 }
 
-.tour-text {
-	font-size: 24px;
-}
 
 
 /* --------------------------------------------------------------------End Fan-----*/
@@ -777,6 +799,26 @@ article {
 		flex: 50%;
 		max-width: 50%;
 	}
+	.ptImage {
+		width: 40%;
+
+	}
+	.mnImage {
+		width: 40%;
+
+	}
+	.mdImage {
+		width: 40%;
+
+	}
+	.djImage {
+		width: 40%;
+
+	}
+	.genImage {
+		width: 40%;
+	}
+
 }
 
 
@@ -788,11 +830,30 @@ article {
 		flex: 100%;
 		max-width: 100%;
 	}
+	.ptImage {
+		width: 40%;
+
+	}
+	.mnImage {
+		width: 40%;
+
+	}
+	.mdImage {
+		width: 40%;
+
+	}
+	.djImage {
+		width: 40%;
+
+	}
+	.genImage {
+		width: 40%;
+	}
+
 }
 
 
 /*    -------------------------------------------------------------------------------------end music -*/
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
@@ -802,69 +863,151 @@ article {
 		flex: 50%;
 		max-width: 50%;
 	}
+	.ptImage {
+		width: 40%;
+
+	}
+	.mnImage {
+		width: 40%;
+
+	}
+	.mdImage {
+		width: 40%;
+
+	}
+	.djImage {
+		width: 40%;
+
+	}
+	.genImage {
+		width: 40%;
+	}
+
 }
 
 @media (max-width: 768px) {
 	.text-block {
 		width: 40%;
-		height: 70%;
-		margin-top: 155px;
+		height: 40%;
+		margin-top: 150px;
 	}
 	body {
-		background-color: #E1BEE7;
+		background-color: #EEEEEE;
 	}
 	.heading-text {
-		font-size: 14px;
+		font-size: 0.9em;
 	}
-	.fan-text {
-		font-size: 12px;
-	}
-	.pt {
+
+	.ptImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.mn {
+	.mnImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.md {
+	.mdImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.dj {
+	.djImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.tour-text {
-		font-size: 14px;
+	.genImage {
+		width: 40%;
 	}
+
 	.contact-text,
 	.card-title8,
 	.card-text8 {
-		font-size: 24px;
+		font-size: 1.7em;
 	}
+	.tour-text,
+	.fan-text,
+	.news-text,
+	.music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 0.8em;
+	}
+	.music-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+	}
+	.post-text {
+		font-size: 1.5em;
+	}
+	.display-4 {
+		font-size: 2em;
+	}
+	.my-4 {
+		font-size: 1em;
+	}
+	.post-text2 {
+		font-size: 1em;
+	}
+
+	.img-responsive {
+		width: 100%;
+	}
+	.xmas-song,
+	.wed-song {
+		font-size: 1em;
+	}
+	.wed-body {
+		font-size: 0.7em;
+	}
+
+	.anniversary .card-title {
+		font-size: 1em;
+	}
+	.news-concert {
+
+		font-size: 1.2em;
+	}
+	.read-text {
+		background-color: #B0BEC5;
+
+	}
+	a {
+		color: #DD2C00;
+		font-weight: 700;
+	}
+	.wed-img {
+		margin-right: 25px;
+	}
+	.xmas-img {
+		font-size: 1.5em;
+		margin-left: -5px;
+	}
+
+	.xmas-song {
+		font-size: 0.7em;
+	}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.text-block {
 		width: 35%;
-		height: 35%;
-		margin-top: 155px;
+		height: 45%;
+		margin-top: 157px;
 	}
 	body {
-		background-color: #E57373;
-		font-size: 6vw;
-	}
-}
+		background-color: #E0F7FA;
 
-@media screen and ( min-height: 600px) {
-	body {
-		background: #26C6DA;
+	}
+	header {
+		font-size: 1.4em;
 	}
 	.video-stack2 {
 		margin-left: -10px;
 	}
-	.video-stack {}
+
 	.video-row2 {
 		margin-right: 10px;
 	}
@@ -873,25 +1016,335 @@ article {
 		text-align: center;
 	}
 	.music-text {
-		font-size: 16px;
+		font-size: 1em;
 	}
-	.pt {
+	.ptImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.mn {
+	.mnImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.md {
+	.mdImage {
 		width: 40%;
-		height: 40%;
+
 	}
-	.dj {
+	.djImage {
 		width: 40%;
-		height: 40%;
+
+	}
+	.genImage {
+		width: 40%;
 	}
 	.coverImg {
 		margin-top: 285px;
 	}
+	.contact-text,
+	.card-title8,
+	.card-text8 {
+		font-size: 2.5em;
+	}
+	.tour-text,
+	.fan-text,
+	.music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1.5em;
+	}
+	.news-text {
+		font-size: 1em;
+	}
+
+	.music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+	}
+	.card-text-music {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1.5em;
+
+	}
+	.post-text {
+		font-size: 2.5em;
+	}
+	.display-4 {
+		font-size: 2em;
+	}
+	.my-4 {
+		font-size: 2em;
+	}
+	.form-text {
+		font-size: 1.5em;
+	}
+	.post-text2 {
+		font-size: 1.5em;
+	}
+	.name-text {
+		font-size: 0.9em;
+	}
+	.card-title {
+		font-size: 1.5em;
+	}
+	.card-text {
+		font-size: 1.4em;
+	}
+	.card-img-bottom {
+		width: 100%;
+	}
+	.heading-text {
+		font-size: 1.5em;
+	}
+	.member-name,
+	.member-model {
+		font-size: 1.5em;
+	}
+	.modal-body {
+		font-size: 1.5em;
+	}
+	.card-body .card-text3 {
+		font-size: 1.5em;
+	}
+	.card-text4 {
+		font-size: 0.8em;
+		margin-left: 5px;
+	}
+	small {
+		font-size: 1.3em;
+	}
+
+	img {
+		width: 100%;
+	}
+	#footerPage {
+		font-size: 1.5em;
+	}
+	.member-modal {
+		font-size: 1.5em;
+	}
+	.album .news-text1 {
+		font-size: 1.6em;
+		color: #B71C1C;
+	}
+	.card-body .news-text1 {
+		font-size: 1.6em;
+		color: #B71C1C;
+	}
+	a {
+		color: #DD2C00;
+		font-weight: 700;
+	}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	.text-block {
+		width: 35%;
+		height: 45%;
+		margin-top: 157px;
+	}
+	body {
+		background-color: #FFF8E1;
+
+	}
+	header {
+		font-size: 1.5em;
+	}
+	.video-stack2 {
+		margin-left: -10px;
+	}
+
+	.video-row2 {
+		margin-right: 10px;
+	}
+	.audio-text2 {
+		/*font-size: 5vw;*/
+		text-align: center;
+	}
+	.music-text {
+		font-size: 1em;
+	}
+	.ptImage {
+		width: 40%;
+
+	}
+	.mnImage {
+		width: 40%;
+
+	}
+	.mdImage {
+		width: 40%;
+
+	}
+	.djImage {
+		width: 40%;
+
+	}
+	.genImage {
+		width: 70%;
+	}
+	.coverImg {
+		margin-top: 285px;
+	}
+	.contact-text,
+	.card-title8,
+	.card-text8 {
+		font-size: 2.5em;
+	}
+	.tour-text,
+	.fan-text,
+	.music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1.5em;
+	}
+
+	.music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+	}
+	.card-text-music {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1.5em;
+
+	}
+	.post-text {
+		font-size: 2.5em;
+	}
+	.display-4 {
+		font-size: 2em;
+	}
+	.my-4 {
+		font-size: 2em;
+	}
+	.form-text {
+		font-size: 1.5em;
+	}
+	.post-text2 {
+		font-size: 1.5em;
+	}
+	.name-text {
+		font-size: 0.9em;
+	}
+	.card-title {
+		font-size: 1.5em;
+	}
+	.card-text {
+		font-size: 1.4em;
+	}
+	.card-img-bottom {
+		width: 100%;
+	}
+	.heading-text {
+		font-size: 1.5em;
+	}
+
+	.member-model {
+		font-size: 1.5em;
+	}
+	.modal-body {
+		font-size: 1.5em;
+	}
+	.card-body .card-text3 {
+		font-size: 1.5em;
+	}
+	.card-text4 {
+		font-size: 0.8em;
+		margin-left: 5px;
+	}
+	small {
+		font-size: 1.3em;
+	}
+
+	img {
+		width: 100%;
+	}
+	#footerPage {
+		font-size: 1.5em;
+	}
+
+	.news-text {
+		font-size: 0.9em;
+	}
+	.wed-img {
+		font-size: 1.5em;
+	}
+	.member-name {
+		font-size: 1.6em;
+	}
+	.featured-text {
+		font-size: 2.4em
+	}
+	.member-modal {
+		font-size: 1.8em;
+	}
+	.anniversary {
+		font-size: 1em;
+	}
+	.anniversary .news-text {
+		font-size: 1.2em;
+	}
+	.album .card-title {
+		font-size: 1.4em;
+	}
+	.card-body .news-text1 {
+		font-size: 1.6em;
+	}
+	a {
+		color: #DD2C00;
+		font-weight: 700;
+	}
+	.read-text {
+		font-size: 2em;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+	body {
+		background-color: #E3F2FD;
+	}
+	.text-block {
+		width: 40%;
+		height: 75%;
+		margin-top: 155px;
+	}
+
+	.ptImage {
+		width: 40%;
+
+	}
+	.mnImage {
+		width: 40%;
+
+	}
+	.mdImage {
+		width: 40%;
+
+	}
+	.djImage {
+		width: 40%;
+
+	}
+	.genImage {
+		width: 40%;
+	}
+	.img-responsive {
+		max-width: 100%;
+	}
+	.coverImg {
+		margin-top: 285px;
+	}
+
 }
