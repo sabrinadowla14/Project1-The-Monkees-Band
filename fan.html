@@ -65,34 +65,38 @@
             <div class="row">
                 <div class="col-sm-8 ord-frm">
                     <h2 class="post-text">Please fill out the form to order videos from the back catalog.</h1>
-                    <p class="post-text2">Enter your email below to be the first to hear about new releases, upcoming events and more.</p>
-                    <form class="order-form">
-                        <div class="form-group form-text">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control name-text" placeholder="name@example.com" required>
+                        <p class="post-text2">Enter your email below to be the first to hear about new releases, upcoming events and more.</p>
+                        <div id="msg" class="hide" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div id="msg_body"></div>
                         </div>
-                        <div class="form-group form-text">
-                            <label for="name">Name:</label>
-                            <input type="text" class="form-control name-text" id="name" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group form-text">
-                            <label for="videos">Choose single or multiple videos</label>
-                            <select class="form-control name-text" id="videos">
+                        <form id="form" method="post">
+                            <div class="form-group form-text">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control name-text" placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group form-text">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control name-text" id="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group form-text">
+                                <label for="videos">Choose single or multiple videos</label>
+                                <select class="form-control name-text" id="videos">
                                   <option>That Was Then , This Is Now</option>
                                   <option>Goin' Down</option>
                                   <option>Unwrap You At Christmas (Official Lyric Video)</option>
                                   <option>I'm A Believer</option>
                                   <option>The Monkees - Last Train To Clarksville 1966</option>
                             </select>
-                        </div>
-                        <div class="form-group form-text">
-                            <label for="textarea">Add Messages:</label>
-                            <textarea class="form-control name-text" id="textarea" rows="3"></textarea>
-                        </div>
-                        <button class="btn btn-primary" type="submit">Submit form</button>
-                    </form>
-                    <h2 class="post-text2">The Monkees 1960s Famous Albums.</h2>
-                    <p class="post-text2">The Monkees Greatest Hits</p>
+                            </div>
+                            <div class="form-group form-text">
+                                <label for="textarea">Add Messages:</label>
+                                <textarea class="form-control name-text" id="textarea" rows="3" placeholder="Description" required></textarea>
+                            </div>
+                            <button class="btn btn-success" type="submit">Submit form</button>
+                        </form>
+                        <h2 class="post-text2">The Monkees 1960s Famous Albums.</h2>
+                        <p class="post-text2">The Monkees Greatest Hits</p>
                 </div>
                 <div class="col-sm-4 post">
                     <h2 class="post-text">The Monkees Tour</h2>
@@ -148,7 +152,7 @@
             </div>
         </div>
     </footer>
-<!-- Modal -->
+    <!-- Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -208,10 +212,18 @@
         </div>
     </div>
 
-
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script>
+        $('#form').submit(function(e) {
+            $('#msg').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+            $('#msg_body').html('<h4>Success!!</h4>');
+            $('#modal').modal('show');
+            $('.name-text').val('');
+           
+            e.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
