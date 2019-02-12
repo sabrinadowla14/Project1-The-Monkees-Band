@@ -3,22 +3,20 @@ _Full Stack Software Developer - Century College_
 This is a static (front-end only) website for the Monkees Band. 
 
 
-The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. 
+The band is a 1960’s [1960s] rock band and has been around for 50 years with experience of performing live at numerous events around the world. 
 I have been given the following requirements after interviews with the client’s representatives:
 - The Monkees primary target audiences are their fans 
-- Fans who wish to use the site to see and hear clips from their back catalog, any new material as it becomes available.
+- Fans who wish to use the site to see and hear clips from their back catalog, or any new material as it becomes available can do so.
 - the band would like to use the site to showcase their music and publicize their availability to perform at events such as weddings and Christmas parties.
-In my website, I have YouTube videos, articles, and posters for the Monkees band. In Fan page, I have a form where the user can order videos. In news page 
-I have all the current news for the Monkees. I have videos for Christmas and weddings. The latest news for their next events for the wedding or Christmas.
-From my website, the user will be inspired to buy more videos and at the same time, they will get all the latest news.
+In my website, I have YouTube videos, articles, and posters for the Monkees band. On Fan page, I have a form where the user can order videos. On news page, I have all the current news for the Monkees. I have videos for Christmas and weddings, and the latest news for their next events for the wedding or Christmas.
+From my website, the user will be inspired to buy more videos and, at the same time, they will get all the latest news.
 
 ## UX
-* The Monkees primary target audiences are their fans 
-* potential fans who wish to use the site to see and hear clips from their back catalog, any new material as it becomes available.
-* the band would like to use the site to showcase their music and publicize their availability to perform at events such as weddings and Christmas parties.
-In my website, I have YouTube videos, articles, and posters for the Monkees band. In Fan page, I have a form where the user can order videos. In news page 
-I have all the current news for the Monkees. I have videos for Christmas and weddings. The latest news for their next events for the wedding or Christmas.
-From my website, the user will be inspired to buy more videos and at the same time, they will get all the latest news.
+* The Monkees primary target audiences are their fans. 
+* Potential fans who wish to use the site to see and hear clips from their back catalog, or any new material as it becomes available can do so.
+* The band would like to use the site to showcase their music and publicize their availability to perform at events such as weddings and Christmas parties.
+In my website, I have YouTube videos, articles, and posters for the Monkees band. On Fan page, I have a form where the user can order videos. On news page, I have all the current news for the Monkees. I have videos for Christmas and weddings, and the latest news for their next events for the wedding or Christmas.
+From my website, the user will be inspired to buy more videos, they can listen to music and, at the same time, they will get all the latest news.
 
 - List of User Stories
 - As an Acquisition Gateway User, I need to select an Auction product in the Acquisition ordering platform so that I can bid on it.
@@ -32,7 +30,8 @@ From my website, the user will be inspired to buy more videos and at the same ti
  ````
 The Monkees Band Website is created using HTML5, CSS3 and Bootstrap 3.3.7 - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
 I have Four Pages - index.html, music.html, news.html, and fan.html.
-In the header I have Monkees logo if you click that logo it will redirect you to the home page. I have a search button which is not functional at this time.
+In the header, I have Monkees logo. If you click that logo it will redirect you to the home page. I have a search button, which is not functional at this time.
+
 The user needs to sign up before signing. 
 In the footer I have links for privacy, terms of use and a contact page. They are in the process of creating a social media presence and have links to their Facebook, Twitter and YouTube pages
 index.html is my home page, where I have clickable YouTube images for the Monkees videos.
@@ -72,8 +71,8 @@ In contact.html I have the contact information of the Monkees Band.
 - [jQuery](https://jquery.com)
     - The project uses **jQuery** to simplify DOM manipulation.
 ## Testing
-I have done many testings to believe that the site works well. Open my project in the browser, right clicked and went to inspect. 
-In devtools, I saw a device symbol clicked that one. I have tested through all the devices. trying to see if it is a responsive website.
+I have done many testings to believe that the site works well. Opened my project in the browser, right clicked and went to inspect. 
+In devtools, I saw a device symbol and clicked that one. I have tested through all the devices, trying to see if it is a responsive website.
 All my pages are going to its appropriate pages. The user can easily fill out the form. If the user wants to listen to any of the YouTube
 videos they just need to click on that one. The user can sign up and also sign in. If the user clicks on the logo it will redirect you to
 the home page which is the index.html file. If the user wants to go to Facebook, twitter or YouTube link it will take him to the appropriate
