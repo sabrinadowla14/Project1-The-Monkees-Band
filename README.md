@@ -2,7 +2,6 @@
 _Full Stack Software Developer - Century College_
 This is a static (front-end only) website for the Monkees Band. 
 
-
 The band is a [1960s] rock band and has been around for 50 years with experience of performing live at numerous events around the world. 
 I have been given the following requirements after interviews with the client’s representatives:
 - The Monkees primary target audiences are their fans 
@@ -99,6 +98,7 @@ In fan.html page submit button for the form I have done following tests.
   - iPhone X - 375 X 812 
   - iPad -   768 X 1024
   - iPad Pro - 1024 X 1366
+  
 ## Deployment 
 - went to https://github.com/sabrinadowla14/Project1-The-Monkees-Band/settings 
   in my repository and open The Monkees Band project go to setting, under Git Hub pages in the source have chosen a master branch and saved it.
