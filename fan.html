@@ -54,10 +54,10 @@
         <div class="container">
             <div class="row">
                 <div class="jumbotron text-center">
-                    <h1 class="display-4">The Monkees Videos, Tour, Post and Images from the back catalog.</h1>
+                    <h1 class="display-fan">The Monkees Videos, Tour, Post and Images from the back catalog.</h1>
                     <p class="lead">Here we have collections of videos, from where you can choose videos of your choice. If you want to know more about the news, please go to the following link.</p>
                     <hr class="my-4">
-                    <p><a class="music-text" href="news.html">[Learn More]</a></p>
+                    <p><a class="learn-fan-text" href="news.html">[Learn More]</a></p>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                         <p class="post-text2">Enter your email below to be the first to hear about new releases, upcoming events and more.</p>
                         <div id="msg" class="hide" role="alert">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <div id="msg_body"></div>
+                            <div id="msg_body"></div>
                         </div>
                         <form id="form" method="post">
                             <div class="form-group form-text">
@@ -164,15 +164,15 @@
                     <form>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="email@example.com" required/>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required/>
                         </div>
                         <div class="form-group">
                             <label for="passwordRepeat">Repeat Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password" required/>
                         </div>
                         <button type="submit" class="btn btn-success">Sign Up!</button>
                     </form>
@@ -193,11 +193,11 @@
                     <form class="px-4 py-3">
                         <div class="form-group">
                             <label for="exampleDropdownFormEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required/>
                         </div>
                         <div class="form-group">
                             <label for="exampleDropdownFormPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" required/>
                         </div>
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="dropdownCheck">
@@ -211,16 +211,14 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery-3.3.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script>
         $('#form').submit(function(e) {
             $('#msg').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-            $('#msg_body').html('<h4>Success!!</h4>');
+            $('#msg_body').html('<h4>You have successfully ordered your videos!!</h4>');
             $('#modal').modal('show');
             $('.name-text').val('');
-           
             e.preventDefault();
         });
     </script>

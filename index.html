@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- header - I have music, news and fan pages, new user can signup first and then login -->
     <header>
         <nav class="navbar navbar-dark navbar-fixed-top">
             <div class="container-fluid">
@@ -50,6 +51,7 @@
             </div>
         </nav>
     </header>
+    <!--Decription of the Monkees Band Members, user can click on either on the images or read more to learn about the band members. -->
     <section class="container-fluid coverImg">
         <div class="container">
             <div class="row top-image">
@@ -58,17 +60,18 @@
                     <div class="text-block">
                         <p class="heading-text">Click to watch</p>
                         <p class="fan-text">Fans who wish to see and hear clips from back catalog</p>
-                        <p class="read-text"><a  href="fan.html">[Read More]</a></p>
+                        <p class="read-text"><a href="fan.html">[Read More]</a></p>
                     </div>
                 </div>
             </div>
             <br>
+
             <div class="row">
                 <div class="jumbotron">
                     <h1 class="display-4">The Monkees Band</h1>
                     <p class="lead">The Monkees Band is the 60's talented rock band, singers, musicians, songwriters and have been around for 50 years performing live at numerous events around the world.</p>
                     <hr class="my-4">
-                    <p><a class="music-text" href="music.html">[Learn More]</a></p>
+                    <p><a class="read-text" href="music.html">[Learn More]</a></p>
 
                 </div>
             </div>
@@ -172,22 +175,24 @@
             </div>
         </div>
     </section>
-
+   <!--In this section I have Monkees Christmas and wedding you tube videos and information about Monkees 50th anniversary, articles and albusms -->
     <section class="container-fluid xmasandwed">
         <div class="container xmascontainer">
             <div class="card mb-3 xmas-img">
                 <iframe class="card-img-top" width="420" height="345" src="https://www.youtube.com/embed/05rUSARpr4g?"></iframe>
                 <div class="card-body">
                     <h5 class="card-title xmas-song">The Monkees Christmas Songs</h5>
-                    <p class="card-text wed-body">The Merry Monkees, released four videos.</p>
-                    <p class="card-text"><small class="text-muted"><a class="news-text" href="news.html">[Learn More]</a></small></p>
+                    <p class="card-text merry-body">The Merry Monkees, released four videos.</p>
+                    <p class="news-text1"><a href="news.html">[Learn More]</a></small>
+                    </p>
                 </div>
             </div>
             <div class="card wed-img">
                 <div class="card-body">
-                    <h5 class="card-title wed-song">The Monkees Wedding Party Songs</h5>
+                    <h5 class="card-title wed-song">Wedding Party Songs</h5>
                     <p class="card-text wed-body">Steve & Aimee perform The Monkees' song I'm a Believer at their Wedding for for their Marryoke at the Falmouth Hotel.</p>
-                    <p class="card-text"><small class="text-muted"><a class="news-text" href="news.html">[Learn More]</a></small></p>
+                    <p class="news-text2"><a href="news.html">[Learn More]</a></small>
+                    </p>
                 </div>
                 <iframe class="card-img-bottom" width="420" height="345" src="https://www.youtube.com/embed/n_PnwN3fAHU?"></iframe>
             </div>
@@ -202,8 +207,8 @@
                 <img class="img-responsive" src="assets/images/anniversary.jpg" class="card-img-top" alt="50th anniversary">
                 <div class="card-body">
                     <h5 class="card-title">The Monkees 50th anniversary</h5>
-                    <p class="card-text">The Monkees are going to release their new album, titled Good Times!, as a celebration of their 50th anniversary.</p>
-                    <p class="news-text1"><a href="music.html">[Learn More]</a></p>
+                    <p class="card-text wed-body">The Monkees are going to release their new album, titled Good Times!, as a celebration of their 50th anniversary.</p>
+                    <p class="learn-text1"><a href="music.html">[Learn More]</a></p>
                 </div>
             </div>
             <div class="card-group">
@@ -211,20 +216,21 @@
                     <img class="img-responsive" src="assets/images/albumreview.jpg" class="card-img-top" alt="albumreview">
                     <div class="card-body">
                         <h5 class="card-title">Latest Album</h5>
-                        <p class="card-text">“In 1967 the Monkees sold more records than the Beatles and Rolling Stones combined.”</p>
-                        <p class="news-text1"><a href="music.html">[Learn More]</a></p>
+                        <p class="card-text wed-body">“In 1967 the Monkees sold more records than the Beatles and Rolling Stones combined.”</p>
+                        <p class="learn-text1"><a href="music.html">[Learn More]</a></p>
                     </div>
                 </div>
                 <div class="card album">
                     <img class="img-responsive" src="assets/images/monkees-article.jpg" class="card-img-top" alt="monkees-article">
                     <div class="card-body">
                         <h5 class="card-title">Monkees Articles</h5>
-                        <p class="news-text1"><a  href="news.html">[Learn More]</a></p>
+                        <p class="learn-text1"><a href="news.html">[Learn More]</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+     <!-- footer I have social media and contact information -->
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
@@ -240,6 +246,7 @@
         </div>
     </footer>
     <br>
+    <!--Members Modal -->
     <script type="text/javascript">
         $('#myModal1').on('shown.bs.modal', function() {
             $('#myInput').focus();
@@ -259,7 +266,7 @@
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
-    <!-- Modal -->
+    <!-- Sign Up Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -271,15 +278,15 @@
                     <form>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="email@example.com" required/>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required/>
                         </div>
                         <div class="form-group">
                             <label for="passwordRepeat">Repeat Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password" required/>
                         </div>
                         <button type="submit" class="btn btn-success">Sign Up!</button>
                     </form>
@@ -287,7 +294,7 @@
             </div>
         </div>
     </div>
-    <!-- Modal -->
+    <!-- Login Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -300,11 +307,11 @@
                     <form class="px-4 py-3">
                         <div class="form-group">
                             <label for="exampleDropdownFormEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required/>
                         </div>
                         <div class="form-group">
                             <label for="exampleDropdownFormPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" required/>
                         </div>
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="dropdownCheck">
@@ -318,7 +325,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery-3.3.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 

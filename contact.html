@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- header - I have music, news and fan pages, new user can signup first and then login -->
     <header>
         <nav class="navbar navbar-dark navbar-fixed-top">
             <div class="container-fluid">
@@ -50,6 +51,7 @@
             </div>
         </nav>
     </header>
+    <!-- Contact information -->
     <div class="row coverImg">
         <div class="col-md-4"></div>
         <div class="col-md-4 center-form" align="center">
@@ -60,8 +62,8 @@
             <h4>Please fill out the following form, if you have more questions.</h4>
         </div>
         <div class="col-md-4"></div>
-
     </div>
+     <!-- In this section I have contact Form. -->
     <section class="container-fluid contact-form">
         <div class="row">
             <div class="col-md-3"></div>
@@ -84,6 +86,7 @@
     <br>
     <hr id="horLine">
     <br>
+    <!-- footer I have social media and contact information -->
     <footer class="container-fluid" id="footerPage">
         <div class="row">
             <div class="col-sm-8">
@@ -99,7 +102,7 @@
         </div>
     </footer>
     <br>
-    <!-- Modal -->
+    <!--Signup Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -111,15 +114,15 @@
                     <form>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="email@example.com" required/>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required/>
                         </div>
                         <div class="form-group">
                             <label for="passwordRepeat">Repeat Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password" required/>
                         </div>
                         <button type="submit" class="btn btn-success">Sign Up!</button>
                     </form>
@@ -127,7 +130,7 @@
             </div>
         </div>
     </div>
-    <!-- Modal -->
+    <!--Login Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -140,11 +143,11 @@
                     <form class="px-4 py-3">
                         <div class="form-group">
                             <label for="exampleDropdownFormEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required/>
                         </div>
                         <div class="form-group">
                             <label for="exampleDropdownFormPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" required/>
                         </div>
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="dropdownCheck">
@@ -158,20 +161,18 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Contact form Modal -->
     <script>
         $('#form').submit(function(e) {
             $('#msg').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-            $('#msg_body').html('<h4>Success!!</h4>');
+            $('#msg_body').html('<h4>We will contact you soon!!</h4>');
             $('#modal').modal('show');
             $('.clearInput').val('');
             e.preventDefault();
         });
     </script>
-    
-
+    <script type="text/javascript" src="assets/js/jQuery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

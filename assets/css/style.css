@@ -91,7 +91,7 @@ img {
 
 .featured-text {
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .newsImg {
@@ -182,13 +182,13 @@ ul li a:hover {
 
 .member-modal {
 	text-decoration: none;
-	color: #000000;
+	color: #BF360C;
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .heading-text {
-	color: #000000;
+	color: #BF360C;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	font-size: 1.5em;
@@ -428,7 +428,7 @@ footer .website,
 .music-text {
 	color: #000;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 .tour-text:hover,
@@ -438,7 +438,7 @@ footer .website,
 	text-decoration: none;
 	color: #BF360C;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .text-muted {
@@ -469,7 +469,7 @@ h5 .card-title {
 .display-4 {
 	font-family: 'Lato', sans-serif;
 	color: #000;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 .btn {
@@ -482,7 +482,7 @@ h5 .card-title {
 .lead {
 	font-family: 'Lato', sans-serif;
 	color: #000;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .album {
@@ -625,6 +625,7 @@ footer {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
+	font-size: 1.5em;
 
 
 }
@@ -735,6 +736,21 @@ article {
 	margin-left: 150px;
 }
 
+.learn-fan-text {
+	font-family: 'Lato', sans-serif;
+	color: #B71C1C;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.learn-fan-text:hover {
+	font-family: 'Lato', sans-serif;
+	color: #8a2be2;
+	font-weight: 700;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
 
 /* Create four equal columns that sits next to each other */
 
@@ -782,214 +798,388 @@ article {
 	font-size: 30px;
 }
 
+.member-name {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
-@media (max-width: 600px) {
-	.fan-sec {
-		-webkit-flex-direction: column;
-		flex-direction: column;
-		background-color: blue;
-	}
-}
+/*@media (max-width: 600px) {*/
+/*	.fan-sec {*/
+/*		-webkit-flex-direction: column;*/
+/*		flex-direction: column;*/
+/*		background-color: blue;*/
+/*	}*/
+/*}*/
 
-@media screen and (max-width: 800px) {
-	.video-col {
-		-ms-flex: 50%;
-		flex: 50%;
-		max-width: 50%;
-	}
-	.ptImage {
-		width: 40%;
+/*@media screen and (max-width: 800px) {*/
+/*	.video-col {*/
+/*		-ms-flex: 50%;*/
+/*		flex: 50%;*/
+/*		max-width: 50%;*/
+/*	}*/
+/*	.ptImage {*/
+/*		width: 40%;*/
 
-	}
-	.mnImage {
-		width: 40%;
+/*	}*/
+/*	.mnImage {*/
+/*		width: 40%;*/
 
-	}
-	.mdImage {
-		width: 40%;
+/*	}*/
+/*	.mdImage {*/
+/*		width: 40%;*/
 
-	}
-	.djImage {
-		width: 40%;
+/*	}*/
+/*	.djImage {*/
+/*		width: 40%;*/
 
-	}
-	.genImage {
-		width: 40%;
-	}
+/*	}*/
+/*	.genImage {*/
+/*		width: 40%;*/
+/*	}*/
 
-}
+/*}*/
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 600px) {
-	.video-col {
-		-ms-flex: 100%;
-		flex: 100%;
-		max-width: 100%;
-	}
-	.ptImage {
-		width: 40%;
+/*@media screen and (max-width: 600px) {*/
 
-	}
-	.mnImage {
-		width: 40%;
+/*	.video-col {*/
 
-	}
-	.mdImage {
-		width: 40%;
+/*		-ms-flex: 100%;*/
 
-	}
-	.djImage {
-		width: 40%;
+/*		flex: 100%;*/
 
-	}
-	.genImage {
-		width: 40%;
-	}
+/*		max-width: 100%;*/
 
-}
+/*	}*/
 
+/*	.ptImage {*/
+
+/*		width: 40%;*/
+
+/*	}*/
+
+/*	.mnImage {*/
+
+/*		width: 40%;*/
+
+/*	}*/
+
+/*	.mdImage {*/
+
+/*		width: 40%;*/
+
+/*	}*/
+
+/*	.djImage {*/
+
+/*		width: 40%;*/
+
+/*	}*/
+
+/*	.genImage {*/
+
+/*		width: 40%;*/
+
+/*	}*/
+
+/*}*/
 
 /*    -------------------------------------------------------------------------------------end music -*/
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
-@media screen and (max-width: 800px) {
-	.column {
-		-ms-flex: 50%;
-		flex: 50%;
-		max-width: 50%;
-	}
-	.ptImage {
-		width: 40%;
+/*@media screen and (max-width: 800px) {*/
 
-	}
-	.mnImage {
-		width: 40%;
+/*	.column {*/
 
-	}
-	.mdImage {
-		width: 40%;
+/*		-ms-flex: 50%;*/
 
-	}
-	.djImage {
-		width: 40%;
+/*		flex: 50%;*/
 
-	}
-	.genImage {
-		width: 40%;
-	}
+/*		max-width: 50%;*/
 
-}
+/*	}*/
 
-@media (max-width: 768px) {
-	.text-block {
-		width: 40%;
-		height: 40%;
-		margin-top: 150px;
-	}
-	body {
-		background-color: #EEEEEE;
-	}
-	.heading-text {
-		font-size: 0.9em;
-	}
+/*	.ptImage {*/
 
-	.ptImage {
-		width: 40%;
+/*		width: 40%;*/
 
-	}
-	.mnImage {
-		width: 40%;
+/*	}*/
 
-	}
-	.mdImage {
-		width: 40%;
+/*	.mnImage {*/
 
-	}
-	.djImage {
-		width: 40%;
+/*		width: 40%;*/
 
-	}
-	.genImage {
-		width: 40%;
-	}
+/*	}*/
 
-	.contact-text,
-	.card-title8,
-	.card-text8 {
-		font-size: 1.7em;
-	}
-	.tour-text,
-	.fan-text,
-	.news-text,
-	.music-text {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-		font-size: 0.8em;
-	}
-	.music-text1 {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-		font-size: 1em;
-	}
-	.post-text {
-		font-size: 1.5em;
-	}
-	.display-4 {
-		font-size: 2em;
-	}
-	.my-4 {
-		font-size: 1em;
-	}
-	.post-text2 {
-		font-size: 1em;
-	}
+/*	.mdImage {*/
 
-	.img-responsive {
-		width: 100%;
-	}
-	.xmas-song,
-	.wed-song {
-		font-size: 1em;
-	}
-	.wed-body {
-		font-size: 0.7em;
-	}
+/*		width: 40%;*/
 
-	.anniversary .card-title {
-		font-size: 1em;
-	}
-	.news-concert {
+/*	}*/
 
-		font-size: 1.2em;
-	}
-	.read-text {
-		background-color: #B0BEC5;
+/*	.djImage {*/
 
-	}
-	a {
-		color: #DD2C00;
-		font-weight: 700;
-	}
-	.wed-img {
-		margin-right: 25px;
-	}
-	.xmas-img {
-		font-size: 1.5em;
-		margin-left: -5px;
-	}
+/*		width: 40%;*/
 
-	.xmas-song {
-		font-size: 0.7em;
-	}
+/*	}*/
 
-}
+/*	.genImage {*/
+
+/*		width: 40%;*/
+
+/*	}*/
+
+/*}*/
+
+/*@media (max-width: 768px) {*/
+
+/*	.text-block {*/
+
+/*		width: 40%;*/
+
+/*		height: 40%;*/
+
+/*		margin-top: 150px;*/
+
+/*	}*/
+
+/*	body {*/
+
+/*		background-color: green;*/
+
+/*	}*/
+
+/*	.heading-text {*/
+
+/*		font-size: 0.9em;*/
+
+/*	}*/
+
+/*	.ptImage {*/
+
+/*		width: 30%;*/
+
+/*	}*/
+
+/*	.mnImage {*/
+
+/*		width: 30%;*/
+
+/*	}*/
+
+/*	.mdImage {*/
+
+/*		width: 30%;*/
+
+/*	}*/
+
+/*	.djImage {*/
+
+/*		width: 30%;*/
+
+/*	}*/
+
+/*	.genImage {*/
+
+/*		width: 30%;*/
+
+/*	}*/
+
+/*	.contact-text,*/
+
+/*	.card-title8,*/
+
+/*	.card-text8 {*/
+
+/*		font-size: 1.7em;*/
+
+/*	}*/
+
+/*	.tour-text,*/
+
+/*	.fan-text,*/
+
+/*	.news-text {*/
+
+/*		color: #000;*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		font-weight: 500;*/
+
+/*		font-size: 0.8em;*/
+
+/*	}*/
+
+/*	.news-text1 {*/
+
+/*		color: #000;*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		font-weight: 500;*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.music-text {*/
+
+/*		color: #000;*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		font-weight: 700;*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.music-text1 {*/
+
+/*		color: #000;*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		font-weight: 300;*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.post-text {*/
+
+/*		font-size: 1.5em;*/
+
+/*	}*/
+
+/*	.jumbotron,*/
+
+/*	.display-4 {*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		color: #000;*/
+
+/*		font-weight: 700;*/
+
+/*		font-size: 2em;*/
+
+/*	}*/
+
+/*	.jumbotron,*/
+
+/*	.lead {*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		color: #000;*/
+
+/*		font-weight: 700;*/
+
+/*		font-size: 1.4em;*/
+
+/*	}*/
+
+/*	.my-4 {*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.post-text2 {*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.img-responsive {*/
+
+/*		width: 100%;*/
+
+/*	}*/
+
+/*	.xmas-song,*/
+
+/*	.wed-song {*/
+
+/*		font-family: 'Lato', sans-serif;*/
+
+/*		font-weight: 700;*/
+
+/*		font-size: 1.3em;*/
+
+/*		color: #000;*/
+
+/*	}*/
+
+/*	.wed-body {*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.merry-body {*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.anniversary .card-title {*/
+
+/*		font-size: 1em;*/
+
+/*	}*/
+
+/*	.news-concert {*/
+
+/*		font-size: 1.2em;*/
+
+/*	}*/
+
+/*	.read-text {*/
+
+/*		background-color: #B0BEC5;*/
+
+/*	}*/
+
+/*	a {*/
+
+/*		color: #DD2C00;*/
+
+/*		font-weight: 700;*/
+
+/*	}*/
+
+/*	.wed-img {*/
+
+/*		margin-right: 25px;*/
+
+/*	}*/
+
+/*	.xmas-img {*/
+
+/*		font-size: 1.5em;*/
+
+/*		margin-left: -5px;*/
+
+/*	}*/
+
+/*	.card-body .card-title {*/
+
+/*		font-size: 1em;*/
+
+/*		color: #000;*/
+
+/*	}*/
+
+/*}*/
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.text-block {
@@ -998,7 +1188,7 @@ article {
 		margin-top: 157px;
 	}
 	body {
-		background-color: #E0F7FA;
+		background-color: #E1F5FE;
 
 	}
 	header {
@@ -1017,6 +1207,7 @@ article {
 	}
 	.music-text {
 		font-size: 1em;
+		color: pink;
 	}
 	.ptImage {
 		width: 40%;
@@ -1046,11 +1237,10 @@ article {
 		font-size: 2.5em;
 	}
 	.tour-text,
-	.fan-text,
-	.music-text {
+	.fan-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
-		font-weight: 300;
+		font-weight: 500;
 		font-size: 1.5em;
 	}
 	.news-text {
@@ -1060,22 +1250,20 @@ article {
 	.music-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
-		font-weight: 500;
-		font-size: 2em;
+		font-weight: 700;
+		font-size: 3em;
 	}
 	.card-text-music {
 		color: #000;
 		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-		font-size: 1.5em;
+		font-weight: 500;
+		font-size: 2.5em;
 
 	}
 	.post-text {
 		font-size: 2.5em;
 	}
-	.display-4 {
-		font-size: 2em;
-	}
+
 	.my-4 {
 		font-size: 2em;
 	}
@@ -1132,13 +1320,103 @@ article {
 		color: #B71C1C;
 	}
 	.card-body .news-text1 {
-		font-size: 1.6em;
+		font-size: 1em;
 		color: #B71C1C;
 	}
 	a {
 		color: #DD2C00;
 		font-weight: 700;
 	}
+
+	.wed-body {
+		font-size: 1.2em;
+	}
+	.merry-body {
+		font-size: 0.8em;
+	}
+
+	.card-body .news-text2 {
+		font-size: 1.5em;
+	}
+	.card-text-music {
+		font-size: 1.2em;
+	}
+	.music-text {
+		font-size: 1.2em;
+	}
+	.featured-text {
+		font-size: 2.5em;
+	}
+	.member-name {
+		font-size: 2em;
+	}
+
+
+	.wed-song {
+		font-size: 1.8em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		color: #000;
+	}
+	.xmas-song {
+		font-size: 1.8em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		color: #000;
+	}
+	.wed-body {
+		font-size: 1.6em;
+	}
+	.merry-body {
+		font-size: 1.6em;
+	}
+	.learn-text1 {
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 500;
+
+		font-size: 1.5em;
+
+	}
+	.learn-fan-text {
+		font-family: 'Lato', sans-serif;
+		color: #B71C1C;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	.learn-fan-text:hover {
+		font-family: 'Lato', sans-serif;
+		color: #8a2be2;
+		font-weight: 700;
+		font-size: 1.2em;
+		text-decoration: none;
+	}
+	.jumbotron .lead {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 500;
+		font-size: 2em;
+
+	}
+
+	.card-body .news-text1 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+
+	}
+	.card-body .news-text2 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+
+	}
+	.wed-img {
+		margin-left: 75px;
+	}
+
 
 
 }
@@ -1150,7 +1428,7 @@ article {
 		margin-top: 157px;
 	}
 	body {
-		background-color: #FFF8E1;
+		background-color: #E0F2F1;
 
 	}
 	header {
@@ -1168,7 +1446,17 @@ article {
 		text-align: center;
 	}
 	.music-text {
-		font-size: 1em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.5em;
+	}
+	.card-text-music {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+
 	}
 	.ptImage {
 		width: 40%;
@@ -1198,33 +1486,19 @@ article {
 		font-size: 2.5em;
 	}
 	.tour-text,
-	.fan-text,
-	.music-text {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-		font-size: 1.5em;
-	}
-
-	.music-text {
+	.fan-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
-		font-size: 2em;
-	}
-	.card-text-music {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
 		font-size: 1.5em;
-
 	}
+
+	
+	
 	.post-text {
 		font-size: 2.5em;
 	}
-	.display-4 {
-		font-size: 2em;
-	}
+
 	.my-4 {
 		font-size: 2em;
 	}
@@ -1274,9 +1548,6 @@ article {
 		font-size: 1.5em;
 	}
 
-	.news-text {
-		font-size: 0.9em;
-	}
 	.wed-img {
 		font-size: 1.5em;
 	}
@@ -1306,14 +1577,91 @@ article {
 		font-weight: 700;
 	}
 	.read-text {
+		font-size: 1.5em;
+	}
+	.learn-text1 {
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 500;
+
+		font-size: 1.5em;
+
+	}
+	.learn-fan-text {
+		font-family: 'Lato', sans-serif;
+		color: #B71C1C;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	.learn-fan-text:hover {
+		font-family: 'Lato', sans-serif;
+		color: #8a2be2;
+		font-weight: 700;
+		font-size: 1.2em;
+		text-decoration: none;
+	}
+
+	.jumbotron .lead {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 500;
 		font-size: 2em;
+
+	}
+.card-body	.news-text1 {
+        color: pink;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 2em;
+
+	}
+.card-body	.news-text2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 1.3em;
+
+	}
+	.wed-song {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+		color: #000;
+	}
+
+	.xmas-song {
+
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2em;
+		color: #000;
+	}
+
+	.wed-body {
+		font-size: 1.2em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		color: #000;
+	}
+	.wed-body1 {
+		font-size: 2.5em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		
+	}
+	.merry-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.8em;
+		color: #000;
 	}
 
 }
 
 @media screen and (max-width: 550px) {
 	body {
-		background-color: #E3F2FD;
+		background-color: #EFEBE9;
 	}
 	.text-block {
 		width: 40%;
@@ -1322,23 +1670,23 @@ article {
 	}
 
 	.ptImage {
-		width: 40%;
+		width: 30%;
 
 	}
 	.mnImage {
-		width: 40%;
+		width: 30%;
 
 	}
 	.mdImage {
-		width: 40%;
+		width: 30%;
 
 	}
 	.djImage {
-		width: 40%;
+		width: 30%;
 
 	}
 	.genImage {
-		width: 40%;
+		width: 30%;
 	}
 	.img-responsive {
 		max-width: 100%;
@@ -1346,5 +1694,256 @@ article {
 	.coverImg {
 		margin-top: 285px;
 	}
+	.wed-song {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+		color: #000;
+	}
+
+	.xmas-song {
+
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 0.7em;
+		color: #000;
+	}
+
+	.wed-body {
+		font-size: 0.9em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		color: #000;
+	}
+	.merry-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 0.7em;
+		color: #000;
+	}
+
+
+	.news-text2 {
+		font-size: 1em;
+	}
+	.card-text-music {
+		font-size: 1em;
+	}
+
+	.featured-text {
+		font-size: 1.5em;
+	}
+	.member-name {
+		font-size: 1.1em;
+	}
+
+	/*.card-body .card-title {*/
+	/*	font-size: 1em;*/
+	/*	color: pink;*/
+	/*}*/
+	.heading-text {
+
+		font-size: 0.9em;
+
+	}
+
+	.xmas-img {
+
+		font-size: 1.5em;
+
+		margin-left: -5px;
+
+	}
+	.jumbotron,
+	.display-4 {
+
+		font-family: 'Lato', sans-serif;
+
+		color: #000;
+
+		font-weight: 700;
+
+		font-size: 1.5em;
+
+	}
+	.contact-text,
+
+	.card-title8,
+
+	.card-text8 {
+
+		font-size: 1.7em;
+
+	}
+
+	.tour-text,
+
+	.fan-text,
+
+	.news-text {
+
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 500;
+
+		font-size: 0.9em;
+
+	}
+
+	.news-text1 {
+
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 500;
+
+		font-size: 0.6em;
+
+	}
+	.learn-text1 {
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 500;
+
+		font-size: 0.9em;
+
+	}
+
+	.music-text {
+
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 700;
+
+		font-size: 1em;
+
+	}
+
+	.music-text1 {
+
+		color: #000;
+
+		font-family: 'Lato', sans-serif;
+
+		font-weight: 300;
+
+		font-size: 1em;
+
+	}
+
+	.post-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 1.3em;
+
+	}
+
+
+
+	.jumbotron,
+
+	.lead {
+
+		font-family: 'Lato', sans-serif;
+
+		color: #000;
+
+		font-weight: 700;
+
+		font-size: 1.4em;
+
+	}
+
+	.post-text2 {
+		font-size: 0.9em;
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 500;
+
+	}
+
+
+	.anniversary .card-title {
+
+		font-size: 1em;
+
+	}
+
+	.news-concert {
+
+		font-size: 1.2em;
+
+	}
+
+	.read-text {
+
+		background-color: #B0BEC5;
+
+	}
+
+	a {
+
+		color: #DD2C00;
+
+		font-weight: 700;
+
+	}
+
+	.wed-img {
+
+		margin-right: 25px;
+
+	}
+
+	.xmas-img {
+
+		font-size: 1.5em;
+
+		margin-left: -5px;
+
+	}
+
+	.read-text {
+		font-family: 'Lato', sans-serif;
+		color: #B71C1C;
+		font-weight: 700;
+		font-size: 0.9em;
+	}
+	.display-fan {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 1.2em;
+
+	}
+	.jumbotron .lead {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 500;
+		font-size: 0.9em;
+
+	}
+	.learn-fan-text {
+		font-family: 'Lato', sans-serif;
+		color: #B71C1C;
+		font-weight: 700;
+		font-size: 0.8em;
+	}
+	.learn-fan-text:hover {
+		font-family: 'Lato', sans-serif;
+		color: #8a2be2;
+		font-weight: 700;
+		font-size: 0.8em;
+		text-decoration: none;
+	}
+
 
 }
