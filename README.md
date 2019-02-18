@@ -2,12 +2,7 @@
 _Full Stack Software Developer - Century College_
 This is a static (front-end only) website for the Monkees Band. 
 
-<<<<<<< HEAD
-
-The band is a 1960’s [1960s] rock band and has been around for 50 years with experience of performing live at numerous events around the world. 
-=======
 The band is a [1960s] rock band and has been around for 50 years with experience of performing live at numerous events around the world. 
->>>>>>> 2f46f1bd2d8b5f4ebc3c8fc7a9e7538df5f6133b
 I have been given the following requirements after interviews with the client’s representatives:
 - The Monkees primary target audiences are their fans 
 - Fans who wish to use the site to see and hear clips from their back catalog, or any new material as it becomes available can do so.
