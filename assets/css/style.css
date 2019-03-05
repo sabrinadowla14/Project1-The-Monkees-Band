@@ -60,6 +60,22 @@ h4 .text-uppercase {
 	width: 50%;
 }
 
+.form-modal {
+	color: #000;
+}
+
+input[type=password] {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	border: none;
+	color: #000;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
 .navbar-brand {
 	height: 100%;
 	display: inline-block;
@@ -72,8 +88,9 @@ h4 .text-uppercase {
 	min-height: 150px;
 }
 
-.logo {
+.navbar-brand .logo {
 	max-width: 100%;
+	margin-left: 15px;
 }
 
 .myNavbar {
@@ -89,36 +106,19 @@ img {
 	margin-top: 250px;
 }
 
-.featured-text {
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-}
-
 .newsImg {
 	margin-top: 250px;
 	background-color: #C5CAE9;
 }
 
 ul li button {
-	color: white;
-	background-color: black;
+	color: #ffffff;
+	background-color: #000;
 	margin-top: 25px;
 }
 
-.hit-music {
-	margin-top: 150px;
-}
-
-.music-image {
-	height: 500px;
-	width: 100%;
-	background-image: url("../images/concert2.jpg");
-	background-size: 100% 100%;
-	transition: all .5s ease-in-out;
-}
-
 .card-img-overlay p {
-	color: white;
+	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	font-size: 18px;
@@ -135,19 +135,8 @@ ul li button {
 	border-radius: 25%;
 }
 
-.card-title {
-	color: #000000;
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 2em;
-}
 
-.news-concert {
-	color: #000000;
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 2em;
-}
+/* -----------------------------Index.html -------------------------------------------*/
 
 ul li a {
 	color: #ffffff;
@@ -167,24 +156,49 @@ ul li a:hover {
 }
 
 .navbar-toggle .icon-bar {
-	background-color: white;
+	background-color: #ffffff;
 }
 
-.pt,
-.mn,
-.md,
-.dj {
-	text-decoration: none;
+a .pt,
+a .mn,
+a .md,
+a .dj {
 	color: #BF360C;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+
+a .pt:hover,
+a .mn:hover,
+a .md:hover,
+a .dj:hover {
+	color: #BF360C;
+	background-color: #FFEBEE;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	transition: all 0.50s ease-in-out;
+	-moz-transition: all 0.50s ease-in-out;
+	-webkit-transition: all 0.50s ease-in-out;
+	-o-transition: all 0.50s ease-in-out;
 }
 
 .member-modal {
-	text-decoration: none;
 	color: #BF360C;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+
+.member-modal:hover {
+	text-decoration: none;
+	color: #BF360C;
+	background-color: #EDE7F6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	transition: all 0.50s ease-in-out;
+	-moz-transition: all 0.50s ease-in-out;
+	-webkit-transition: all 0.50s ease-in-out;
+	-o-transition: all 0.50s ease-in-out;
 }
 
 .heading-text {
@@ -194,7 +208,6 @@ ul li a:hover {
 	font-size: 1.5em;
 }
 
-
 .pt:hover,
 .mn:hover,
 .md:hover,
@@ -203,6 +216,52 @@ ul li a:hover {
 	color: #BF360C;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+
+.max-size .merry-body {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.max-size .xmas-song {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.jumbotron .xmas-song-heading {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.7em;
+}
+
+.jumbotron .merry-body-heading {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.featured-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+
+.modal-title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+
+.m-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #000;
 }
 
 #horLine {
@@ -215,18 +274,92 @@ ul li a:hover {
 	border-width: 1px;
 }
 
-.hit-music {
-	margin-top: 50px;
-	margin-left: 130px;
-	background-color: red;
+.top-img {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
 }
 
-.music-hit {
-	margin-left: -72px;
+.top-img iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
+
+
+/* 4x3 Aspect Ratio */
+
+.top-img-4x3 {
+	padding-top: 75%;
+}
+
+.max-size {
+	overflow: hidden;
+	position: relative;
+}
+
+.max-size iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: relative;
+	top: 10;
+	width: 100%;
+}
+
+.max-size-4x3 {
+	padding-top: 0%;
+}
+
+.album .merry-body {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.album .news-text1 {
+	font-size: 1.1em;
+	color: #B71C1C;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+}
+
+.album .news-text1 a:hover {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #B71C1C;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+}
+
+.max-size .news-text1 {
+	color: #B71C1C;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1.6em;
+}
+
+.max-size .news-text1 a:hover {
+	color: #B71C1C;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+.card-img-top1 {
+	max-width: 100%;
+}
+
+
+/* ---------------------------------------------------------end Index ------------------------------*/
 
 .hits {
-	background-color: grey;
+	background-color: #E0E0E0;
 }
 
 .anniversary {
@@ -239,6 +372,7 @@ ul li a:hover {
 
 .xmascontainer {
 	background-color: #B0BEC5;
+	padding: 25px;
 }
 
 .card album {
@@ -275,8 +409,6 @@ ul li a:hover {
 	text-align: center;
 }
 
-
-
 .card-group {
 	max-height: 400px;
 }
@@ -289,50 +421,19 @@ ul li a:hover {
 	bottom: 20px;
 	right: 20px;
 	background-color: #EEEEEE;
-	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px;
 }
 
-.top-img {
-	overflow: hidden;
-	padding-top: 56.25%;
-	position: relative;
+.top-image .xmas-song {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #000;
 }
 
-.top-img iframe {
-	border: 0;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
-
-
-/* 4x3 Aspect Ratio */
-
-.top-img-4x3 {
-	padding-top: 75%;
-}
-
-.xmas-img {
-	overflow: hidden;
-	padding-top: 56.25%;
-	position: relative;
-}
-
-.xmas-img iframe {
-	border: 0;
-	height: 100%;
-	left: 0;
-	position: relative;
-	top: 10;
-	width: 100%;
-}
-
-.xmas-img-4x3 {
-	padding-top: 0%;
+.top-image .merry-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #000;
 }
 
 .wed-img {
@@ -354,10 +455,11 @@ ul li a:hover {
 	padding-top: 0%;
 }
 
-.xmas-song,
-.wed-song {
+.album .xmas-song {
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 700;
+	color: #000;
+	font-size: 1.5em;
 }
 
 .card {
@@ -385,47 +487,17 @@ blockquote .card-text {
 	font-weight: 300;
 }
 
-.news-text1 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-}
-
 blockquote .card-text6 {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 300;
 }
 
-footer .card-text2 {
-	font-family: 'Lato', sans-serif;
-	color: #ffffff;
-	font-weight: 300;
-	background-color: blue;
-}
-
-footer .show {
-	font-family: 'Lato', sans-serif;
-	color: #ffffff;
-	font-weight: 300;
-	background-color: blue;
-}
-
-footer .website,
-.ocean {
-	font-family: 'Lato', sans-serif;
-	color: #ffffff;
-	font-weight: 300;
-	background-color: blue;
-}
-
 .text-block p {
 	color: #000;
 }
 
-.tour-text,
-.fan-text,
-.news-text,
-.music-text {
+.news-text {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -464,40 +536,57 @@ h5 .card-title {
 	font-size: 1.43em;
 }
 
-.btn,
-.jumbotron,
-.display-4 {
+.btn {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 700;
 }
 
 .btn {
-	color: white;
+	color: #ffffff;
 	background-color: #424242;
 	border-radius: 25%;
 	padding: 5px;
 }
 
-.lead {
+.jumbotron .lead {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 500;
+	font-size: 2em;
+}
+
+.news-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.news-img-text li {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.news-img .news-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.img-body .news-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.5em;
 }
 
 .album {
 	display: inline;
 }
-
-.card,
-.album {
-	float: left;
-	width: 33.33%;
-	padding: 5px;
-}
-
-
-/* Clearfix (clear floats) */
 
 .card-group::after {
 	content: "";
@@ -506,14 +595,14 @@ h5 .card-title {
 }
 
 
-/** Footer --------------------------------------------------------------------------*/
+/*------------------------- Footer --------------------------------------------------------------------------*/
 
 footer {
 	color: #ffffff;
 	min-height: 150px;
 	display: block;
 	margin-top: 30px;
-	padding: 5px;
+	padding: 20px 5px;
 	background-color: #263238;
 }
 
@@ -537,7 +626,7 @@ footer {
 }
 
 .media-links {
-	padding-top: 50px;
+	padding-top: 40px;
 	margin-right: 25px;
 }
 
@@ -566,20 +655,6 @@ footer {
 	-o-transition: all 0.50s ease-in-out;
 }
 
-.signIndent {
-	margin-top: 30px;
-	font-size: 1.14em;
-}
-
-.leftIndent {
-	margin-right: 25px;
-	margin-top: -10px;
-}
-
-.menuIndent {
-	margin-right: 25px;
-}
-
 
 /* -----------------------------------------------------------tooltip---*/
 
@@ -605,6 +680,24 @@ footer {
 	visibility: visible;
 }
 
+
+/* ----------------------------------------------------------------------Footer-End --------------*/
+
+.signIndent {
+	margin-top: 30px;
+	font-size: 1.14em;
+}
+
+.signupLogin {
+	margin-right: 140px;
+	margin-top: -10px;
+}
+
+.menuIndent {
+	margin-right: 25px;
+}
+
+
 /*------------------------------------------------------------News---*/
 
 .news-title {
@@ -614,11 +707,182 @@ footer {
 	font-size: 1.43em;
 }
 
+.jumbotron,
+.display-4 {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+.img-news {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.news-img-text1 {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: .9em;
+}
+
+.news-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.img-body1 .news-img-text {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+}
+
+.img-body1 .news-concert1 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.news-img-text .show {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+}
+
+.img-text .news-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.img-body .news-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.news-concert {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+}
+
+.news-img-text2 li {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.news-img-text3 {
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.ocean {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
 
 /*-------------------------------------------------------------Music--*/
 
-.hits {
-	margin-left: 150px;
+.music-image .img-text {
+	color: #000;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.3em;
+	font-weight: 600;
+}
+
+.hit-music {
+	margin-top: 150px;
+}
+
+.music-image {
+	height: 500px;
+	width: 100%;
+	background-image: url("../images/concert2.jpg");
+	background-size: 100% 100%;
+	transition: all .5s ease-in-out;
+}
+
+.text-white .img-body {
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.8em;
+}
+
+.music-text .img-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 2.4em;
+	color: #000;
+}
+
+.music-text .img-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	color: #000;
+}
+
+.music-text1 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.music-text1:hover {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #0000cd;
+	background: #e0ffff;
+	transition: all 0.50s ease-in-out;
+	-moz-transition: all 0.50s ease-in-out;
+	-webkit-transition: all 0.50s ease-in-out;
+	-o-transition: all 0.50s ease-in-out;
+}
+
+.music-text {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.audio-text {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.music-text2 .img-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
+	color: #000;
 }
 
 .card-text-music {
@@ -626,22 +890,21 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	font-size: 1.5em;
-
-
 }
 
-.video-stack2 {
-	margin-right: 50px;
-}
-
-.music-title {
-	font-family: 'Lato', sans-serif;
+.text-white .img-text {
 	color: #ffffff;
-	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 3em;
 }
+
+
+/*------------------------------------------------------------------End-Music---------------*/
 
 
 /* --------------------------------------------------------------------Fan-----*/
+
 
 /* Style the content */
 
@@ -649,17 +912,55 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	background-color: #c0c0c0;
+	padding: 70px;
+}
+
+.post-text-frm {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+.fan-img1 {
+	margin: 20px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.tour-text {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 2.2em;
 }
 
 .post-text {
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	color: #000;
+	font-weight: 700;
+	font-size: 2.1em;
 }
 
 .post-text2 {
+	font-size: 1.87em;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size: 24px;
+	color: #000;
+	font-weight: 500;
+}
+
+.name-text {
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+
+.tour-text {
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
 }
 
 .header-text {
@@ -676,41 +977,64 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	background-color: #9FA8DA;
+	padding: 25px;
 }
 
-.fan-sec {
-	margin-top: 250px;
-	display: -webkit-flex;
-	display: flex;
-	background-color: green;
-}
-
-article {
-	-webkit-flex: 3;
-	-ms-flex: 3;
-	flex: 3;
-	background-color: red;
-	padding: 10px;
-}
-
-.order-text {
+.jumbotron .display-fan {
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	color: #000;
+	font-weight: 700;
+	font-size: 1.5em;
 }
 
-.ord-frm {
+.jumbotron .lead {
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	background-color: #9FA8DA;
+	color: #000;
+	font-weight: 500;
+	font-size: 0.9em;
 }
 
-.fan-sec {
-	margin-top: 250px;
-	display: -webkit-flex;
-	display: flex;
-	background-color: green;
+.post-text-frm {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 1.7em;
 }
 
+.tour-text1 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
+}
+
+.tour-text1:hover {
+	color: #000;
+	background-color: #F3E5F5;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
+	transition: all 0.50s ease-in-out;
+	-moz-transition: all 0.50s ease-in-out;
+	-webkit-transition: all 0.50s ease-in-out;
+	-o-transition: all 0.50s ease-in-out;
+}
+
+.tour-text {
+	font-size: 1.87em;
+	color: #000;
+	float: left;
+}
+
+div.post1 p {
+	word-wrap: break-word;
+	text-align: left;
+}
+
+.post1 .card-img-top {
+	max-width: 100%;
+}
 
 
 /* --------------------------------------------------------------------End Fan-----*/
@@ -798,406 +1122,63 @@ article {
 	font-size: 30px;
 }
 
+.center-form {
+	text-align: center;
+}
+
+.contact-text,
+.card-title8,
+.card-text8 {
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	color: #000;
+}
+
+.card-text8 a:hover {
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font-weight: 500;
+	color: #000;
+}
+
+.contact-header {
+	font-size: 1.7em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	color: #000;
+}
+
+.card-text7 {
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	color: #000;
+}
+
 .member-name {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+	color: #000;
 }
 
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-
-/*@media (max-width: 600px) {*/
-/*	.fan-sec {*/
-/*		-webkit-flex-direction: column;*/
-/*		flex-direction: column;*/
-/*		background-color: blue;*/
-/*	}*/
-/*}*/
-
-/*@media screen and (max-width: 800px) {*/
-/*	.video-col {*/
-/*		-ms-flex: 50%;*/
-/*		flex: 50%;*/
-/*		max-width: 50%;*/
-/*	}*/
-/*	.ptImage {*/
-/*		width: 40%;*/
-
-/*	}*/
-/*	.mnImage {*/
-/*		width: 40%;*/
-
-/*	}*/
-/*	.mdImage {*/
-/*		width: 40%;*/
-
-/*	}*/
-/*	.djImage {*/
-/*		width: 40%;*/
-
-/*	}*/
-/*	.genImage {*/
-/*		width: 40%;*/
-/*	}*/
-
-/*}*/
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-/*@media screen and (max-width: 600px) {*/
-
-/*	.video-col {*/
-
-/*		-ms-flex: 100%;*/
-
-/*		flex: 100%;*/
-
-/*		max-width: 100%;*/
-
-/*	}*/
-
-/*	.ptImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.mnImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.mdImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.djImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.genImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*}*/
-
-/*    -------------------------------------------------------------------------------------end music -*/
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-
-/*@media screen and (max-width: 800px) {*/
-
-/*	.column {*/
-
-/*		-ms-flex: 50%;*/
-
-/*		flex: 50%;*/
-
-/*		max-width: 50%;*/
-
-/*	}*/
-
-/*	.ptImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.mnImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.mdImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.djImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*	.genImage {*/
-
-/*		width: 40%;*/
-
-/*	}*/
-
-/*}*/
-
-/*@media (max-width: 768px) {*/
-
-/*	.text-block {*/
-
-/*		width: 40%;*/
-
-/*		height: 40%;*/
-
-/*		margin-top: 150px;*/
-
-/*	}*/
-
-/*	body {*/
-
-/*		background-color: green;*/
-
-/*	}*/
-
-/*	.heading-text {*/
-
-/*		font-size: 0.9em;*/
-
-/*	}*/
-
-/*	.ptImage {*/
-
-/*		width: 30%;*/
-
-/*	}*/
-
-/*	.mnImage {*/
-
-/*		width: 30%;*/
-
-/*	}*/
-
-/*	.mdImage {*/
-
-/*		width: 30%;*/
-
-/*	}*/
-
-/*	.djImage {*/
-
-/*		width: 30%;*/
-
-/*	}*/
-
-/*	.genImage {*/
-
-/*		width: 30%;*/
-
-/*	}*/
-
-/*	.contact-text,*/
-
-/*	.card-title8,*/
-
-/*	.card-text8 {*/
-
-/*		font-size: 1.7em;*/
-
-/*	}*/
-
-/*	.tour-text,*/
-
-/*	.fan-text,*/
-
-/*	.news-text {*/
-
-/*		color: #000;*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		font-weight: 500;*/
-
-/*		font-size: 0.8em;*/
-
-/*	}*/
-
-/*	.news-text1 {*/
-
-/*		color: #000;*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		font-weight: 500;*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.music-text {*/
-
-/*		color: #000;*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		font-weight: 700;*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.music-text1 {*/
-
-/*		color: #000;*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		font-weight: 300;*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.post-text {*/
-
-/*		font-size: 1.5em;*/
-
-/*	}*/
-
-/*	.jumbotron,*/
-
-/*	.display-4 {*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		color: #000;*/
-
-/*		font-weight: 700;*/
-
-/*		font-size: 2em;*/
-
-/*	}*/
-
-/*	.jumbotron,*/
-
-/*	.lead {*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		color: #000;*/
-
-/*		font-weight: 700;*/
-
-/*		font-size: 1.4em;*/
-
-/*	}*/
-
-/*	.my-4 {*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.post-text2 {*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.img-responsive {*/
-
-/*		width: 100%;*/
-
-/*	}*/
-
-/*	.xmas-song,*/
-
-/*	.wed-song {*/
-
-/*		font-family: 'Lato', sans-serif;*/
-
-/*		font-weight: 700;*/
-
-/*		font-size: 1.3em;*/
-
-/*		color: #000;*/
-
-/*	}*/
-
-/*	.wed-body {*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.merry-body {*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.anniversary .card-title {*/
-
-/*		font-size: 1em;*/
-
-/*	}*/
-
-/*	.news-concert {*/
-
-/*		font-size: 1.2em;*/
-
-/*	}*/
-
-/*	.read-text {*/
-
-/*		background-color: #B0BEC5;*/
-
-/*	}*/
-
-/*	a {*/
-
-/*		color: #DD2C00;*/
-
-/*		font-weight: 700;*/
-
-/*	}*/
-
-/*	.wed-img {*/
-
-/*		margin-right: 25px;*/
-
-/*	}*/
-
-/*	.xmas-img {*/
-
-/*		font-size: 1.5em;*/
-
-/*		margin-left: -5px;*/
-
-/*	}*/
-
-/*	.card-body .card-title {*/
-
-/*		font-size: 1em;*/
-
-/*		color: #000;*/
-
-/*	}*/
-
-/*}*/
+/*-------------------media queries ---------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.text-block {
-		width: 35%;
-		height: 45%;
-		margin-top: 157px;
+		display: none;
 	}
 	body {
-		background-color: #E1F5FE;
-
+		background-color: #E3F2FD;
 	}
 	header {
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
 	.video-stack2 {
 		margin-left: -10px;
 	}
-
 	.video-row2 {
 		margin-right: 10px;
 	}
@@ -1205,25 +1186,34 @@ article {
 		/*font-size: 5vw;*/
 		text-align: center;
 	}
-	.music-text {
-		font-size: 1em;
-		color: pink;
+	.music-text .img-text {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		color: #000;
+		text-align: center
 	}
-	.ptImage {
-		width: 40%;
-
+	.ord-frm input {
+		font-size: 1.2em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
 	}
-	.mnImage {
-		width: 40%;
-
+	.ord-frm textarea {
+		font-size: 1.2em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
 	}
-	.mdImage {
+	.music-text .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.2em;
+		color: #000;
 		width: 40%;
-
 	}
 	.djImage {
 		width: 40%;
-
 	}
 	.genImage {
 		width: 40%;
@@ -1235,19 +1225,39 @@ article {
 	.card-title8,
 	.card-text8 {
 		font-size: 2.5em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
 	}
 	.tour-text,
 	.fan-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
-		font-weight: 500;
-		font-size: 1.5em;
+		font-weight: 700;
+		font-size: 2.2em;
 	}
 	.news-text {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
-
+	.post-text-frm {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		;
+		font-weight: 700;
+		font-size: 2.5em;
+	}
+	.img-top {
+		max-width: 65%;
+	}
+	.img-good {
+		max-width: 70%;
+	}
 	.music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 3em;
+	}
+	.audio-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
@@ -1258,14 +1268,453 @@ article {
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
 		font-size: 2.5em;
-
 	}
-	.post-text {
+	.post1 .post-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+	}
+	.my-4 {
 		font-size: 2.5em;
 	}
-
-	.my-4 {
+	.center-form {
+		text-align: center;
+	}
+	.form-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.6em;
+	}
+	.ord-frm .post-text2 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.8em;
+	}
+	.card-title {
 		font-size: 2em;
+	}
+	.card-text {
+		font-size: 2em;
+	}
+	.card-img-bottom {
+		width: 100%;
+	}
+	.heading-text {
+		font-size: 2em;
+	}
+	.member-name,
+	.member-model {
+		font-size: 2em;
+	}
+	.modal-body {
+		font-size: 2em;
+	}
+	.card-text4 {
+		font-size: 1.5em;
+		margin-left: 5px;
+	}
+	small {
+		font-size: 1.5em;
+	}
+	img {
+		width: 100%;
+	}
+	#footerPage {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+		clear: both;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.member-modal {
+		font-size: 2em;
+	}
+	.album .news-text1 {
+		font-size: 2.1em;
+		color: #B71C1C;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+	}
+	.album .news-text1:hover {
+		font-size: 2.1em;
+		text-decoration: none;
+		color: #B71C1C;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+	}
+	a {
+		color: #DD2C00;
+		font-weight: 700;
+	}
+	.card-text-music {
+		font-size: 2em;
+	}
+	.music-text {
+		font-size: 2.5em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		color: #000;
+	}
+	.audio-text {
+		font-size: 2.5em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		color: #000;
+	}
+	.featured-text {
+		font-size: 3em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.member-name {
+		font-size: 2em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.learn-fan-text {
+		font-family: 'Lato', sans-serif;
+		color: #B71C1C;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+	.learn-fan-text:hover {
+		font-family: 'Lato', sans-serif;
+		color: #8a2be2;
+		font-weight: 700;
+		font-size: 2.2em;
+		text-decoration: none;
+	}
+	.jumbotron .xmas-song {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 3.5em;
+	}
+	#myModalLabel {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	#myModalLabel6 {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	.jumbotron .merry-body {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 2.5em;
+	}
+	.wed-img {
+		margin-left: 75px;
+	}
+	.album .xmas-song {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		color: #000;
+		font-size: 2em;
+	}
+	.album .merry-body {
+		font-size: 1.8em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		color: #000;
+	}
+	.max-size .news-text1 {
+		color: #B71C1C;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.6em;
+	}
+	.max-size .news-text1 a:hover {
+		color: #B71C1C;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.5em;
+	}
+	.xmas-img {
+		overflow: hidden;
+		padding-top: 56.25%;
+		position: relative;
+	}
+	.xmas-img iframe {
+		border: 0;
+		height: 100%;
+		left: 0;
+		position: relative;
+		top: 10;
+		width: 100%;
+	}
+	.xmas-img-4x3 {
+		padding-top: 0%;
+	}
+	.wed-img {
+		overflow: hidden;
+		padding-top: 10%;
+		position: relative;
+	}
+	.wed-img iframe {
+		border: 0;
+		height: 100%;
+		right: 0;
+		position: relative;
+		top: 10;
+		width: 100%;
+	}
+	.wed-img-4x3 {
+		padding-top: 0%;
+	}
+	.max-size {
+		text-align: center;
+		margin: 20px;
+	}
+	.navbar-header .logo {
+		max-width: 100%;
+		margin-left: -60px;
+		float: left;
+	}
+	.navbar-form {
+		margin-top: -120px;
+		margin-left: 350px;
+	}
+	.signupLogin {
+		margin-right: 20px;
+		padding-bottom: 20px;
+	}
+	.article-img {
+		width: 70%;
+	}
+	.footer-text a {
+		color: #ffffff;
+		font-size: 1.2em;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	#footerPage {
+		padding-bottom: 25px;
+	}
+	#footerPage .footer-text {
+		clear: both;
+		text-align: center;
+		color: #ffffff;
+	}
+	.footer-text a:hover {
+		color: red;
+		text-decoration: none;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.media-links {
+		padding-top: 50px;
+		margin-right: 25px;
+	}
+	.media-links li a i {
+		width: 55px;
+		height: 55px;
+		padding: 20px 0;
+		border-radius: 60%;
+		font-size: 18px;
+		line-height: 18px;
+		text-align: center;
+		color: #0000cd;
+		background: #e0ffff;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.media-links li a i:hover {
+		background: #4DB6AC;
+		text-decoration: none;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.img-responsive {
+		margin: 0 auto;
+		size: 100%;
+	}
+	.music-image .img-text {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+	}
+	.music-image .img-body {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 2.5em;
+		font-weight: 700;
+	}
+	.music-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2em;
+	}
+	.music-text1:hover {
+		color: #000;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2em;
+	}
+	.music-image .img-text {
+		color: #fff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 3em;
+		font-weight: 700;
+	}
+	.music-image .img-body {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+	}
+	.news-img-text2 li {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.4em;
+	}
+	.news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	.news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2.5em;
+	}
+	.news-img-text li {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+	.news-img .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+	.img-body .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2.3em;
+	}
+	.img-body ul .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2.3em;
+	}
+	.news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.5em;
+	}
+	.img-body .news-concert {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.7em;
+	}
+	.img-body1 .news-concert1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+		text-align: center;
+	}
+	.img-body1 .news-img-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+	}
+	.img-news {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	.news-img-text1 {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 0.9em;
+	}
+	.img-text .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2em;
+	}
+	.post-text-frm {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+	.tour-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	input[type=submit] {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		width: 250px;
+		padding: 20px;
+		margin: 8px 0;
+		border-radius: 4px;
+		font-size: 1.5em;
+	}
+	input[type=email],
+	input[type=password] {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		border: none;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	.music-text2 .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2em;
+		color: #000;
 	}
 	.form-text {
 		font-size: 1.5em;
@@ -1305,174 +1754,202 @@ article {
 	small {
 		font-size: 1.3em;
 	}
-
 	img {
 		width: 100%;
 	}
-	#footerPage {
-		font-size: 1.5em;
+	.post1 .tour-text {
+		margin: 10px;
+		font-size: 2em;
+		padding-left: 10pt;
 	}
-	.member-modal {
-		font-size: 1.5em;
+	.card-img-top {
+		max-width: 50%;
 	}
-	.album .news-text1 {
-		font-size: 1.6em;
-		color: #B71C1C;
+	.post1 .card-img-top3 {
+		max-width: 60%;
 	}
-	.card-body .news-text1 {
+	.jumbotron .xmas-song-heading {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.7em;
+	}
+	.jumbotron .merry-body-heading {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 400;
 		font-size: 1em;
-		color: #B71C1C;
 	}
-	a {
-		color: #DD2C00;
+	.max-size .merry-body {
+		color: #000;
+		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-	}
-
-	.wed-body {
-		font-size: 1.2em;
-	}
-	.merry-body {
-		font-size: 0.8em;
-	}
-
-	.card-body .news-text2 {
-		font-size: 1.5em;
-	}
-	.card-text-music {
-		font-size: 1.2em;
-	}
-	.music-text {
-		font-size: 1.2em;
-	}
-	.featured-text {
-		font-size: 2.5em;
-	}
-	.member-name {
 		font-size: 2em;
 	}
-
-
-	.wed-song {
+	.max-size .xmas-song {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.1em;
+	}
+	.img-body1 .news-img-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 0.9em;
+		text-align: center;
+	}
+	.music-text2 .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
 		font-size: 1.8em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
 		color: #000;
 	}
-	.xmas-song {
-		font-size: 1.8em;
+	.music-text2 .music-text {
 		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		color: #000;
-	}
-	.wed-body {
-		font-size: 1.6em;
-	}
-	.merry-body {
-		font-size: 1.6em;
-	}
-	.learn-text1 {
-		color: #000;
-
-		font-family: 'Lato', sans-serif;
-
-		font-weight: 500;
-
-		font-size: 1.5em;
-
-	}
-	.learn-fan-text {
-		font-family: 'Lato', sans-serif;
-		color: #B71C1C;
-		font-weight: 700;
-		font-size: 1.2em;
-	}
-	.learn-fan-text:hover {
-		font-family: 'Lato', sans-serif;
-		color: #8a2be2;
-		font-weight: 700;
-		font-size: 1.2em;
-		text-decoration: none;
-	}
-	.jumbotron .lead {
-		font-family: 'Lato', sans-serif;
-		color: #000;
-		font-weight: 500;
+		font-weight: 600;
 		font-size: 2em;
-
+		color: #000;
 	}
-
-	.card-body .news-text1 {
+	.clearInput {
+		width: 100%;
+		height: 50px;
+		font-size: 20px;
+		color: #000;
+	}
+	.center-form {
+		text-align: center;
+	}
+	.contact-form {
+		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
-		font-size: 2em;
-
+		font-size: 3em;
+		width: 100%;
+		text-align: center;
 	}
-	.card-body .news-text2 {
+	.contact-header {
+		font-size: 3em;
+		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
-		font-size: 2em;
-
 	}
-	.wed-img {
-		margin-left: 75px;
-	}
-
-
-
 }
+
+
+/* ---------------------------------------media queries------------------------------------------*/
 
 @media (min-width: 992px) and (max-width: 1024px) {
 	.text-block {
-		width: 35%;
-		height: 45%;
-		margin-top: 157px;
+		display: none;
 	}
 	body {
 		background-color: #E0F2F1;
-
 	}
 	header {
 		font-size: 1.5em;
 	}
-	.video-stack2 {
-		margin-left: -10px;
+	.contact-form {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 3em;
+		width: 100%;
 	}
-
-	.video-row2 {
-		margin-right: 10px;
+	.navbar-header .logo {
+		max-width: 70%;
+		margin-left: -100px;
 	}
-	.audio-text2 {
-		/*font-size: 5vw;*/
-		text-align: center;
+	.ord-frm input {
+		font-size: 1.2em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+	}
+	.ord-frm textarea {
+		font-size: 1.2em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+	}
+	input[type=submit] {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		width: 250px;
+		padding: 20px;
+		margin: 8px 0;
+		border-radius: 4px;
+		font-size: 1.5em;
+	}
+	input[type=email],
+	input[type=password] {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		border: none;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		font-size: 1.5em;
 	}
 	.music-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
+		font-size: 2em;
+	}
+	.audio-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
 		font-size: 2.5em;
+	}
+	.center-form {
+		text-align: center;
+	}
+	.form-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+	}
+	.video-stack2 {
+		margin-left: -10px;
+	}
+	.video-row2 {
+		margin-right: 10px;
+	}
+	.audio-text2 {
+		text-align: center;
 	}
 	.card-text-music {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
 		font-size: 2em;
-
+	}
+	.btn {
+		color: white;
+		background-color: #424242;
+		border-radius: 25%;
+		padding: 10px;
+	}
+	.contact-btn {
+		text-align: center;
 	}
 	.ptImage {
 		width: 40%;
-
 	}
 	.mnImage {
 		width: 40%;
-
 	}
 	.mdImage {
 		width: 40%;
-
 	}
 	.djImage {
 		width: 40%;
-
 	}
 	.genImage {
 		width: 70%;
@@ -1483,22 +1960,21 @@ article {
 	.contact-text,
 	.card-title8,
 	.card-text8 {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
-	.tour-text,
-	.fan-text {
+	.tour-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
-		font-weight: 500;
-		font-size: 1.5em;
+		font-weight: 600;
+		font-size: 1.4em;
+		padding-left: 10px;
 	}
-
-	
-	
 	.post-text {
-		font-size: 2.5em;
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 2.2em;
 	}
-
 	.my-4 {
 		font-size: 2em;
 	}
@@ -1506,7 +1982,10 @@ article {
 		font-size: 1.5em;
 	}
 	.post-text2 {
-		font-size: 1.5em;
+		font-size: 2.3em;
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 500;
 	}
 	.name-text {
 		font-size: 0.9em;
@@ -1523,14 +2002,10 @@ article {
 	.heading-text {
 		font-size: 1.5em;
 	}
-
 	.member-model {
 		font-size: 1.5em;
 	}
 	.modal-body {
-		font-size: 1.5em;
-	}
-	.card-body .card-text3 {
 		font-size: 1.5em;
 	}
 	.card-text4 {
@@ -1540,14 +2015,18 @@ article {
 	small {
 		font-size: 1.3em;
 	}
-
 	img {
 		width: 100%;
 	}
 	#footerPage {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
 		font-size: 1.5em;
+		clear: both;
+		text-align: center;
+		margin-top: 200px;
 	}
-
 	.wed-img {
 		font-size: 1.5em;
 	}
@@ -1569,31 +2048,26 @@ article {
 	.album .card-title {
 		font-size: 1.4em;
 	}
-	.card-body .news-text1 {
-		font-size: 1.6em;
-	}
 	a {
 		color: #DD2C00;
 		font-weight: 700;
 	}
 	.read-text {
-		font-size: 1.5em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
 	}
 	.learn-text1 {
 		color: #000;
-
 		font-family: 'Lato', sans-serif;
-
 		font-weight: 500;
-
 		font-size: 1.5em;
-
 	}
 	.learn-fan-text {
 		font-family: 'Lato', sans-serif;
 		color: #B71C1C;
 		font-weight: 700;
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 	.learn-fan-text:hover {
 		font-family: 'Lato', sans-serif;
@@ -1602,97 +2076,404 @@ article {
 		font-size: 1.2em;
 		text-decoration: none;
 	}
-
 	.jumbotron .lead {
 		font-family: 'Lato', sans-serif;
 		color: #000;
-		font-weight: 500;
-		font-size: 2em;
-
-	}
-.card-body	.news-text1 {
-        color: pink;
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        font-size: 2em;
-
-	}
-.card-body	.news-text2 {
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        font-size: 1.3em;
-
-	}
-	.wed-song {
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		font-size: 1.3em;
-		color: #000;
-	}
-
-	.xmas-song {
-
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		font-size: 2em;
-		color: #000;
-	}
-
-	.wed-body {
+		font-weight: 600;
 		font-size: 1.2em;
+	}
+	.album .xmas-song {
 		font-family: 'Lato', sans-serif;
-		font-weight: 500;
+		font-weight: 700;
+		color: #000;
+		font-size: 1.8em;
+	}
+	.xmas-img {
+		overflow: hidden;
+		padding-top: 56.25%;
+		position: relative;
+	}
+	.xmas-img iframe {
+		border: 0;
+		height: 50%;
+		left: 0;
+		position: relative;
+		top: 10;
+		width: 50%;
+	}
+	.xmas-img-4x3 {
+		padding-top: 0%;
+	}
+	.navbar-header .logo {
+		max-width: 80%;
+		margin-left: -70px;
+	}
+	.navbar-form .search {
+		margin-top: -50px;
+		margin-left: 350px;
+	}
+	.signupLogin {
+		margin-right: 30px;
+		padding-bottom: 30px;
+	}
+	.article-img {
+		width: 70%;
+	}
+	.jumbotron .xmas-song {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 3em;
+	}
+	.post1 .card-img-top3 {
+		max-width: 80%;
+	}
+	.album .merry-body {
+		font-size: 1.8em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
 		color: #000;
 	}
-	.wed-body1 {
-		font-size: 2.5em;
+	.max-size .news-text1 {
+		color: #B71C1C;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
-		
+		font-size: 1.6em;
 	}
-	.merry-body {
+	.max-size .news-text1 a:hover {
+		color: #B71C1C;
+		text-decoration: none;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
+		font-size: 1.5em;
+	}
+	.footer-text a {
+		color: #ffffff;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	#footerPage .footer-text {
+		clear: both;
+		text-align: center;
+		font-size: 1.3em;
+	}
+	.footer-text a:hover {
+		color: #000;
+		text-decoration: none;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.media-links {
+		padding-top: 50px;
+		margin-right: 25px;
+	}
+	.media-links li a i {
+		width: 55px;
+		height: 55px;
+		padding: 20px 0;
+		border-radius: 60%;
+		font-size: 18px;
+		line-height: 18px;
+		text-align: center;
+		color: #0000cd;
+		background: #e0ffff;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.media-links li a i:hover {
+		background: #4DB6AC;
+		text-decoration: none;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.img-responsive {
+		margin: 0 auto;
+		size: 100%;
+	}
+	.music-image .img-text {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+	}
+	.music-image .img-body {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+	.music-text .img-text {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2.4em;
+		color: #000;
+	}
+	.music-text .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.4em;
+		color: #000;
+	}
+	.max-size .news-text1 {
+		color: #B71C1C;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.6em;
+	}
+	.max-size .news-text1 a:hover {
+		color: #B71C1C;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.5em;
+	}
+	.music-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2.3em;
+	}
+	.text-white .img-text {
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 3em;
+	}
+	.text-white .img-body {
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2.5em;
+	}
+	.news-img-text2 li {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.4em;
+	}
+	.news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	.news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2.5em;
+	}
+	.news-img-text li {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+	.news-img .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+	.img-body .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2.3em;
+	}
+	.img-body ul .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2.3em;
+	}
+	.news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.5em;
+	}
+	.img-body .news-concert {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2.7em;
+	}
+	.img-body1 .news-concert1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+		margin-left: 10px;
+	}
+	.img-body1 .news-img-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 0.9em;
+	}
+	.img-news {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+	}
+	.news-img-text1 {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 0.9em;
+	}
+	.img-text .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2em;
+	}
+	.post-text-frm {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	.tour-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	.post1 .tour-text {
+		margin: 10px;
+		font-size: 1.7em;
+		padding-left: 10pt;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+	}
+	.card-img-top {
+		max-width: 55%;
+	}
+	.card-img-top1 {
+		max-width: 100%;
+	}
+	.max-size .merry-body {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+	.max-size .xmas-song {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+	.music-text2 .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
 		font-size: 1.8em;
 		color: #000;
 	}
-
+	.music-text2 .music-text {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2em;
+		color: #000;
+	}
+	.album .news-text1 {
+		color: #B71C1C;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.7em;
+	}
+	.entire-form {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.8em;
+		max-width: 100%;
+	}
+	.card-text8 {
+		font-size: 1.5em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.card-text8 a {
+		font-size: 1.5em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.card-title8 {
+		font-size: 2.5em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.center-form {
+		text-align: center;
+	}
+	.card-text7 {
+		font-size: 2.5em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		text-align: center;
+	}
+	.contact-header {
+		font-size: 3em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.clearInput {
+		width: 100%;
+		height: 50px;
+		font-size: 20px;
+		color: #000;
+	}
 }
 
 @media screen and (max-width: 550px) {
 	body {
-		background-color: #EFEBE9;
+		background-color: #F3E5F5;
 	}
 	.text-block {
-		width: 40%;
-		height: 75%;
-		margin-top: 155px;
+		display: none;
 	}
-
 	.ptImage {
-		width: 30%;
-
+		width: 40%;
 	}
 	.mnImage {
-		width: 30%;
-
+		width: 40%;
 	}
 	.mdImage {
-		width: 30%;
-
+		width: 40%;
 	}
 	.djImage {
-		width: 30%;
-
+		width: 40%;
 	}
 	.genImage {
-		width: 30%;
+		width: 40%;
 	}
 	.img-responsive {
-		max-width: 100%;
+		margin: 0 auto;
+		size: 100%;
 	}
 	.coverImg {
-		margin-top: 285px;
+		margin-top: 200px;
 	}
 	.wed-song {
 		font-family: 'Lato', sans-serif;
@@ -1700,242 +2481,176 @@ article {
 		font-size: 1em;
 		color: #000;
 	}
-
-	.xmas-song {
-
+	.album .xmas-song {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 0.7em;
 		color: #000;
+		font-size: 1.3em;
 	}
-
 	.wed-body {
 		font-size: 0.9em;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
 		color: #000;
 	}
-	.merry-body {
+	.album .merry-body {
+		font-size: 1.2em;
 		font-family: 'Lato', sans-serif;
-		font-weight: 500;
-		font-size: 0.7em;
+		font-weight: 600;
 		color: #000;
 	}
-
-
+	.jumbotron,
+	.display-4 {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 1.37em;
+		margin-top: 20px;
+	}
 	.news-text2 {
 		font-size: 1em;
 	}
 	.card-text-music {
 		font-size: 1em;
 	}
-
 	.featured-text {
 		font-size: 1.5em;
 	}
 	.member-name {
 		font-size: 1.1em;
 	}
-
-	/*.card-body .card-title {*/
-	/*	font-size: 1em;*/
-	/*	color: pink;*/
-	/*}*/
 	.heading-text {
-
 		font-size: 0.9em;
-
 	}
-
 	.xmas-img {
-
 		font-size: 1.5em;
-
 		margin-left: -5px;
-
 	}
-	.jumbotron,
-	.display-4 {
-
-		font-family: 'Lato', sans-serif;
-
-		color: #000;
-
-		font-weight: 700;
-
-		font-size: 1.5em;
-
-	}
-	.contact-text,
-
-	.card-title8,
-
-	.card-text8 {
-
-		font-size: 1.7em;
-
-	}
-
 	.tour-text,
-
 	.fan-text,
-
 	.news-text {
-
 		color: #000;
-
 		font-family: 'Lato', sans-serif;
-
 		font-weight: 500;
-
-		font-size: 0.9em;
-
+		font-size: 1.5em;
 	}
-
-	.news-text1 {
-
-		color: #000;
-
+	.album .news-text1 {
+		color: #B71C1C;
 		font-family: 'Lato', sans-serif;
-
 		font-weight: 500;
-
-		font-size: 0.6em;
-
+		font-size: 1.2em;
+	}
+	.max-size .news-text1 {
+		color: #B71C1C;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.2em;
+	}
+	.max-size .news-text1 a:hover {
+		color: #B71C1C;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.2em;
 	}
 	.learn-text1 {
 		color: #000;
-
 		font-family: 'Lato', sans-serif;
-
 		font-weight: 500;
-
 		font-size: 0.9em;
-
 	}
-
 	.music-text {
-
 		color: #000;
-
 		font-family: 'Lato', sans-serif;
-
 		font-weight: 700;
-
 		font-size: 1em;
-
 	}
-
-	.music-text1 {
-
+	.audio-text {
 		color: #000;
-
 		font-family: 'Lato', sans-serif;
-
-		font-weight: 300;
-
-		font-size: 1em;
-
+		font-weight: 700;
+		font-size: 1.3em;
 	}
-
+	.music-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 1.3em;
+	}
+	.post-text-frm {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
 	.post-text {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 700;
-		font-size: 1.3em;
-
+		font-size: 1.8em;
 	}
-
-
-
-	.jumbotron,
-
-	.lead {
-
+	.navbar-collapse {
+		margin-right: 120px;
+	}
+	.navbar-header .logo {
+		max-width: 100%;
+		margin-left: -125px;
+	}
+	.navbar-form {
+		margin-top: 50px;
+	}
+	.signupLogin {
+		margin-left: 225px;
+		margin-top: -150px;
+	}
+	.jumbotron .xmas-song {
 		font-family: 'Lato', sans-serif;
-
 		color: #000;
-
 		font-weight: 700;
-
-		font-size: 1.4em;
-
+		font-size: 1.5em;
 	}
-
+	.jumbotron .merry-body {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 700;
+		font-size: 1em;
+	}
 	.post-text2 {
-		font-size: 0.9em;
+		font-size: 1.1em;
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 500;
-
 	}
-
-
 	.anniversary .card-title {
-
 		font-size: 1em;
-
 	}
-
-	.news-concert {
-
-		font-size: 1.2em;
-
-	}
-
-	.read-text {
-
-		background-color: #B0BEC5;
-
-	}
-
 	a {
-
 		color: #DD2C00;
-
 		font-weight: 700;
-
 	}
-
 	.wed-img {
-
-		margin-right: 25px;
-
+		max-width: 40%;
 	}
-
 	.xmas-img {
-
-		font-size: 1.5em;
-
-		margin-left: -5px;
-
+		max-width: 40%;
 	}
-
 	.read-text {
 		font-family: 'Lato', sans-serif;
 		color: #B71C1C;
 		font-weight: 700;
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
-	.display-fan {
+	.jumbotron .display-fan {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 700;
 		font-size: 1.2em;
-
-	}
-	.jumbotron .lead {
-		font-family: 'Lato', sans-serif;
-		color: #000;
-		font-weight: 500;
-		font-size: 0.9em;
-
 	}
 	.learn-fan-text {
 		font-family: 'Lato', sans-serif;
 		color: #B71C1C;
 		font-weight: 700;
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 	.learn-fan-text:hover {
 		font-family: 'Lato', sans-serif;
@@ -1944,6 +2659,359 @@ article {
 		font-size: 0.8em;
 		text-decoration: none;
 	}
-
-
+	.top-img {
+		overflow: hidden;
+		padding-top: 56.25%;
+		position: relative;
+	}
+	.top-img iframe {
+		border: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	/* 4x3 Aspect Ratio */
+	.top-img-4x3 {
+		padding-top: 75%;
+	}
+	.xmas-img {
+		overflow: hidden;
+		padding-top: 56.25%;
+		position: relative;
+	}
+	.xmas-img iframe {
+		border: 0;
+		height: 50%;
+		left: 0;
+		position: relative;
+		top: 10;
+		width: 50%;
+	}
+	.xmas-img-4x3 {
+		padding-top: 0%;
+	}
+	.wed-img {
+		overflow: hidden;
+		padding-top: 10%;
+		position: relative;
+	}
+	.wed-img iframe {
+		border: 0;
+		height: 50%;
+		right: 0;
+		position: relative;
+		top: 10;
+		width: 50%;
+	}
+	.wed-img-4x3 {
+		padding-top: 0%;
+	}
+	.top-image {
+		margin-left: -10px;
+	}
+	.card-img-top {
+		max-width: 100%;
+	}
+	.album .xmas-song {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		color: #000;
+		font-size: 1.3em;
+	}
+	.jumbotron .merry-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+		color: #000;
+	}
+	.media-links {
+		padding-top: 25px;
+		margin-right: 25px;
+	}
+	.media-links li a i {
+		width: 40px;
+		height: 40px;
+		padding: 15px 0;
+		border-radius: 50%;
+		font-size: 14px;
+		line-height: 15px;
+		text-align: center;
+		color: #0000cd;
+		background: #e0ffff;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.media-links li a i:hover {
+		background: #4DB6AC;
+		text-decoration: none;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.music-image .img-text {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+	}
+	.music-image .img-body {
+		color: #ffffff;
+		margin-top: 20px;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+	.footer-text {
+		color: #ffffff;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1.3em;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+		padding-top: 30px;
+	}
+	.footer-text a {
+		color: #ffffff;
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	#footerPage {
+		clear: both;
+		text-align: center;
+		max-height: 270px;
+	}
+	.footer-text a:hover {
+		color: #000;
+		text-decoration: none;
+		transition: all 0.50s ease-in-out;
+		-moz-transition: all 0.50s ease-in-out;
+		-webkit-transition: all 0.50s ease-in-out;
+		-o-transition: all 0.50s ease-in-out;
+	}
+	.news-img-text2 li {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+	}
+	.news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	.news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+	.news-img-text li {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 0.7em;
+	}
+	.news-img .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 0.8em;
+	}
+	.img-body .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+	.img-body ul .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+	.news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+	}
+	.img-body .news-concert {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.4em;
+	}
+	.img-body1 .news-concert1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 0.8em;
+	}
+	.img-body1 .news-img-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+	}
+	.img-news {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	.news-img-text1 {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 0.8em;
+	}
+	.img-text .news-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1em;
+	}
+	.post {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		background-color: #c0c0c0;
+		padding: 10px;
+		font-size: 2em;
+		color: #000;
+	}
+	.tour-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 0.6em;
+	}
+	.tour-text1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	.fan-img1 {
+		margin: 20px 0;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+	}
+	#form {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+	}
+	.jumbotron .lead {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1em;
+	}
+	input[type=submit] {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		width: 250px;
+		padding: 20px;
+		margin: 8px 0;
+		border-radius: 4px;
+		font-size: 1.5em;
+	}
+	input[type=email],
+	input[type=password] {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		border: none;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	.jumbotron .xmas-song-heading {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.7em;
+	}
+	.jumbotron .merry-body-heading {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 400;
+		font-size: 1em;
+	}
+	.audio-center {
+		margin-left: -35px;
+	}
+	.post1 .tour-text {
+		margin: 10px;
+		font-size: 1.3em;
+		padding-left: 10px;
+	}
+	.card-img-top {
+		max-width: 45%;
+	}
+	.card-img-top1 {
+		max-width: 100%;
+	}
+	.max-size .merry-body {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+	.max-size .xmas-song {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.5em;
+	}
+	.music-text2 .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+		color: #000;
+	}
+	.music-text2 .music-text {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.6em;
+		color: #000;
+	}
+	.btn {
+		color: white;
+		background-color: #424242;
+		border-radius: 25%;
+		padding: 10px;
+	}
+	.clearInput {
+		width: 100%;
+		height: 50px;
+		font-size: 20px;
+		color: #000;
+	}
+	.contact-header {
+		font-size: 2.4em;
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
+	.center-form {
+		text-align: center;
+	}
 }

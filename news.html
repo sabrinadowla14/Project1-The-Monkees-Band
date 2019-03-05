@@ -26,9 +26,8 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
-                    <a class="navbar-brand logo" href="index.html">
-                    <img class="img-responsive" src="assets/images/logo.jpg" alt="logo image">
-                </a>
+                    <p class="logo-img"><a class="navbar-brand logo" href="index.html">
+                    <img class="img-responsive" src="assets/images/logo.jpg" alt="logo image"></a></p>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav text-uppercase menuIndent">
@@ -37,7 +36,7 @@
                         <li><a href="news.html">News</a></li>
                         <li><a href="fan.html">Fan</a></li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right text-uppercase leftIndent">
+                    <ul class="nav navbar-nav navbar-right text-uppercase signupLogin">
                         <li><button class="glyphicon glyphicon-user" data-toggle='modal' data-target='#signUpModal'>SIGNUP</button>&nbsp;&nbsp;</li>
                         <li><button class="glyphicon glyphicon-log-in" data-toggle='modal' data-target='#loginModal'>LOGIN</button></li>
                     </ul>
@@ -45,7 +44,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search.." name="search">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default search-btn">Submit</button>
                     </form>
                 </div>
             </div>
@@ -55,98 +54,75 @@
     <section class="container-fluid newsImg">
         <div class="container monkees-news">
             <div class="row top-image">
-                <div class="card-columns">
-                    <div class="row">
-                        <div class="jumbotron">
-                            <h1 class="display-4">The Monkees News</h1>
-                        </div>
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <h1 class="display-4">The Monkees News</h1>
                     </div>
-                    <div class="card card-text">
-                        <img class="img-responsive" src="assets/images/recent-concert1.jpg" class="card-img-top" alt="2019 concert">
-                        <div class="card-body">
-                            <p class="card-title news-concert">Upcoming Tour for Concert:</p>
-                            <p class="card-text">Next concert near you: about 1 month (Prior Lake).</p>
-                            <p class="card-text">Tickets on sale near you Twin Cities, MN, US.</p>
-                            <p class="card-text">Saturday 02 March 2019</p>
-                            <p class="card-text"> The Monkees</p>
-                            <p class="card-text">Ovation Hall at Ocean Resort Casino, Atlantic City, NJ, US</p>
-                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="news-img-text">
+                        <img class="img-responsive card-img-top" src="assets/images/recent-concert1.jpg" alt="2019 concert">
+                        <p class="img-news">Upcoming Tour for Concert:</p>
+                        <p class="news-img-text1">Next concert near you: about 1 month (Prior Lake).</p>
+                        <p class="news-img-text1">Tickets on sale near you Twin Cities, MN, US.</p>
+                        <p class="news-img-text1">Saturday 02 March 2019</p>
                     </div>
-
-                    <div class="card p-3 card-text">
-                        <blockquote class="blockquote mb-0 card-body">
-                            <img class="img-responsive" src="assets/images/mikeandmickyshow.jpg" class="card-img-top" alt="mike and micky show">
-                            <p class="card-text">"The Mike & Micky Show" will also visit Australia and New Zealand in June 2019.</p>
-                            <footer class="blockquote-footer card-text">
-                                <small class="text-muted card-text">
-                                     The Monkees <cite class="show" title="https://www.monkeeslivealmanac.com/blog/the-mike-micky-show-2019-tour-dates-venues-and-ticket-links">"The Mike & Micky Show" 2019 Tour</cite>
-                                </small>
-                            </footer>
-                        </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive img-top" src="assets/images/mikeandmickyshow.jpg" alt="mike and micky show">
+                    <p class="news-img-text">"The Mike & Micky Show" will also visit Australia and New Zealand in June 2019.</p>
+                    <small class="news-img-text">
+                            The Monkees <cite class="show" title="https://www.monkeeslivealmanac.com/blog/the-mike-micky-show-2019-tour-dates-venues-and-ticket-links">"The Mike & Micky Show" 2019 Tour</cite>
+                    </small>
+                </div>
+                <div class="col-md-4 news-img-text">
+                    <a class="tour-text" href="https://www.youtube.com/embed/n_PnwN3fAHU?autoplay=" target="_blank"><img class="img-responsive card-img-top" src="assets/images/wedding.jpg" alt="wedding event"></a>
+                    <div class="img-body1">
+                        <p class="news-concert1">If you want to schedule an event for a wedding please contact us.</p>
+                        <p class="news-img-text">We have collections of good wedding songs.</p>
                     </div>
-                    <div class="card card-text">
-                        <a class="tour-text" href="https://www.youtube.com/embed/n_PnwN3fAHU?autoplay=" target="_blank"><img class="img-responsive" src="assets/images/wedding.jpg" class="card-img-top" alt="wedding event"></a>
-                        <div class="card-body">
-                            <p class="card-title news-concert">If you want to schedule an event for a wedding please contact us.</p>
-                            <p class="card-text">We have collections of good wedding songs.</p>
-                        </div>
-                    </div>
-                    <div class="card card-text">
-                        <p class="card-title news-concert">Recent Videos</p>
-                        <a class="tour-text" href="https://www.youtube.com/watch?v=Xpr9H6_3x_I" target="_blank"><img class="img-responsive" src="assets/images/mickydolenz.jpg" class="card-img-top" alt="mickyanddolenz"></a>
-                        <div class="card-body">
-                            <p class="card-title news-concert">Monkees (Mike Nesmith, Micky Dolenz) ~ "Pleasant Valley Sunday"</p>
-                            <p class="card-text">Peter Tork played piano and Mike Nesmith played the famous opening guitar riff.</p>
-                        </div>
-                    </div>
-
-                    <div class="card bg-primary text-white text-center p-3 card-text">
-                        <blockquote class="blockquote mb-0 card-text">
-                            <p class="card-text3">Happy to announce new dates for Michael Nesmith and the First National Band Redux, on sale now! More dates to be announced soon.</p>
-                            <footer class="blockquote-footer text-white card-text">
-                                <small>
-                                    The Monkees Band: <cite class="website" title="https://www.monkees.com/news">The Monkees Website</cite>
-                                </small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                    <div class="card text-center card-text">
-                        <div class="card-body card-text">
-                            <p class="card-title news-concert">Monkeys Album</p>
-                            <p class="card-text">Good Times!</p>
-                            <small>Best Of The Monkees</small>
-                            <img class="img-responsive" src="assets/images/goodtime.jpg" class="card-img-top" alt="monkees-album">
-                            <p class="card-text4"><small class="text-muted card-text">Good Times album is base on "THE 50th ANNIVERSARY TOUR".</small></p>
-                        </div>
-                    </div>
-                    <div class="card card-text">
-                        <p class="card-text">Now Playing three new Christmas Videos</p>
-                        <a class="tour-text" href="https://www.youtube.com/watch?v=Xpr9H6_3x_I" target="_blank"><img class="img-responsive" src="assets/images/xmas3.jpg" class="card-img-top" alt="chrismassong"></a>
-                    </div>
-                    <div class="card p-3 text-right card-text">
-                        <blockquote class="blockquote mb-0 card-text">
-                            <p class="card-text3">The Monkees announces performance at Ocean Resort Casino in 2019</p>
-                            <footer class="blockquote-footer card-text3">
-                                <small class="text-muted card-text2">
-                                     Ocean Resort: <cite class="ocean" title="https://www.axs.com/the-monkees-announces-performance-at-ocean-resort-casino-in-2019-135632">The Monkees Performance in Casino.</cite>
-                                     The Monkees have revealed that they will be bringing their musical vibes to Atlantic City, New Jersey's Ocean Resort Casino this upcoming spring. 
-                                </small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-title news-concert">Songs for Upcoming Christmas Party.</p>
-                            <small>Track Listing</small>
-                            <ul class="card-text3">
-                                <li>"Unwrap You At Christmas"</li>
-                                <li>"What Would Santa Do"</li>
-                                <li>"Christmas Party"</li>
-                            </ul>
-                            <small><cite title="https://www.monkees.com/news">Monkees Website</cite></small>
-                            <small class="text-muted">The Monkees - Unwrap You At Christmas</small>
-                        </div>
-                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="news-concert">Recent Videos</p>
+                    <a class="tour-text" href="https://www.youtube.com/watch?v=Xpr9H6_3x_I" target="_blank"><img class="img-responsive card-img-top" src="assets/images/mickydolenz.jpg" alt="mickyanddolenz"></a>
+                    <p class="news-concert">Monkees (Mike Nesmith, Micky Dolenz) ~ "Pleasant Valley Sunday"</p>
+                    <p class="news-img-text">Peter Tork played piano and Mike Nesmith played the famous opening guitar riff.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="news-img-text">Happy to announce new dates for Michael Nesmith and the First National Band Redux, on sale now! More dates to be announced soon.</p>
+                </div>
+                <div class="col-md-4 img-body">
+                    <p class="news-concert">Monkeys Album</p>
+                    <p class="news-img-text">Good Times!</p>
+                    <p class="news-img-text">Best Of The Monkees</p>
+                    <img class="img-responsive img-good" src="assets/images/goodtime.jpg" alt="monkees-album">
+                    <p class="news-img-text">Good Times album is base on "THE 50th ANNIVERSARY TOUR".</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 img-text">
+                    <p class="news-img-text">Now Playing three new Christmas Videos</p>
+                    <a class="news-img-text" href="https://www.youtube.com/watch?v=Xpr9H6_3x_I" target="_blank"><img class="img-responsive card-img-top" src="assets/images/xmas3.jpg" alt="chrismassong"></a>
+                </div>
+                <div class="col-md-4 text-right img-text">
+                    <blockquote class="blockquote">
+                        <p class="news-img-text">The Monkees announces performance at Ocean Resort Casino in 2019</p>
+                        <small class="news-img-text3">
+                            Ocean Resort: <cite class="ocean" title="https://www.axs.com/the-monkees-announces-performance-at-ocean-resort-casino-in-2019-135632">The Monkees Performance in Casino.</cite>
+                        </small>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <p class="news-concert">Songs for Upcoming Christmas Party.</p>
+                    <ul class="news-img-text2">
+                        <li>"Unwrap You At Christmas"</li>
+                        <li>"What Would Santa Do"</li>
+                        <li>"Christmas Party"</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -229,6 +205,11 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
     <script type="text/javascript" src="assets/js/jQuery-3.3.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
