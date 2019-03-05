@@ -67,11 +67,15 @@ In contact.html I have the contact information of the Monkees Band.
 ### Features Left to Implement
 > - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
 > - Search button will help the user to find for a particular thing. In index.html, music.html, news.html and fan.html files. This will be functional later.
+<<<<<<< HEAD
 
 ### Features Left to Implement
 - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
 - Search button will help the user to find for a particular thing. In index.html, music.html, news.html and fan.html files. This will be functional later.
 
+=======
+ 
+>>>>>>> 3f84211a66905146f1a01ce3e875089ce89e2f14
 ## Technologies Used
 - [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
     - The project uses **Bootstrap - CSS framework** to make it responsive.
