@@ -121,7 +121,7 @@ Go to Contact form in contact.html and Fans Order form in fan.html:
 - [Wikipedia article Micky_Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz)
 - [Wikipedia article Davy_Jones_(musician)](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
 - [Privacy](https://www.bbb.org/greater-san-francisco/for-businesses/toolkits1/sample-privacy-policy/)
-- [Terms and Condition](http://templatelab.com/terms-and-conditions-    templates/#Terms_and_Conditions_Templates) 
+- [Terms and Condition](http://templatelab.com/terms-and-conditions-templates/#Terms_and_Conditions_Templates) 
 - [news.html](https://www.monkees.com/)
 
 ### Media
