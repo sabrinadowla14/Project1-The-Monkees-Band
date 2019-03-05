@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Monkees Band 
 _Full Stack Software Developer - Century College_
 
@@ -169,3 +170,7 @@ __Run in Cloud9__
  
 
   
+=======
+# Project1-The-Monkees-Band
+Website for the Monkees Band - Project1
+>>>>>>> 5ccb2bbebf07e8215b1b501f17785dbf8d8a0e84
