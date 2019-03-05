@@ -110,7 +110,7 @@ Go to Contact form in contact.html and Fans Order form in fan.html:
 ## Deployment 
 
 * here is the Link:
-  [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/fan.html) it was deployed in the Github pages.
+  [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/index.html) it was deployed in the Github pages.
   Run in Cloud9 - You can use any editor to run this project. Open your index.html and click run. You will see a link at the bottom. click to open it in the browser.
 ## Credits
 
