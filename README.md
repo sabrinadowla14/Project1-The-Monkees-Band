@@ -64,27 +64,10 @@ In contact.html I have the contact information of the Monkees Band.
 - Feature 5 - User goes Facebook, tutor or YouTube if they want to have more information.
 - Feature 6 - User can go to any pages they want to.
 
-
-### Contact form and Order Form:
-> __Go to the "Contact" page and "Fan" page__
-> - Tried to submit the empty form and verify that an error message about the required fields appears
-> - Tried to submit the form with an invalid email address and verify that a relevant error message appears
-> - Tried to submit the form with all inputs valid and verify that a success message appears.
- 
 ### Features Left to Implement
 > - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
 > - Search button will help the user to find for a particular thing. In index.html, music.html, news.html and fan.html files. This will be functional later.
 
-
-### Contact form:
-> __Go to the "Contact" page__
-> I have Tried to submit the empty form and verify that an error message about the required fields appears 
-> Tried to submit the form with an invalid email address and verify that a relevant error message appears
-> __Go to the "Fan" page__
-> Tried to submit the empty form and verify that an error message about the required fields appears
-> Tried to submit the form with an invalid email address and verify that a relevant error message appears
-> Tried to submit the form with all inputs valid and verify that a success message appears.
- 
 ### Features Left to Implement
 - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
 - Search button will help the user to find for a particular thing. In index.html, music.html, news.html and fan.html files. This will be functional later.
@@ -101,14 +84,15 @@ In contact.html I have the contact information of the Monkees Band.
 
 ## Testing
 
-*[CSS Beautifier](https://www.freeformatter.com/css-beautifier.html#ad-output)
-*[HTML Validator / Linter](https://www.freeformatter.com/html-validator.html)
+- [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html#ad-output)
+- [HTML Validator / Linter](https://www.freeformatter.com/html-validator.html)
 
-__Go to the Contact and Fan page:__ 
-- Open contact form and order form:
-1. Try to submit the empty form and verify that an error message about the required fields appears
-1. Try to submit the form with an invalid email address and verify that a relevant error message appears
-1. Try to submit the form with all inputs valid and verify that a success message appears.
+
+__Contact form and Order Form:__
+> __Go to the "Contact" page and "Fan" page__
+> - Tried to submit the empty form and verify that an error message about the required fields appears
+> - Tried to submit the form with an invalid email address and verify that a relevant error message appears
+> - Tried to submit the form with all inputs valid and verify that a success message appears.
     
 __Tested on the following browsers:__
 
@@ -117,7 +101,7 @@ __Tested on the following browsers:__
 1. Internet Explorer
 1. Edge
   
-> __Used following devices to test the project:__
+__Used following devices to test the project:__
 -  __Galaxy__ S5 - 360 X 640
 -  __Pixel 2__ - 411 X 731
 -  __Pixel 2XL__ - 411 X 823
@@ -133,24 +117,6 @@ __Tested on the following browsers:__
     2. Try to submit the form with an invalid email address and verify that a relevant error message appears
     3. Try to submit the form with all inputs valid and verify that a success message appears.
     
-#### Tested on the following browsers:
-   
-  - Chrome
-  - Firefox
-  - Internet Explorer
-  - Edge
-> __Used following devices to test the project:__
--  __Galaxy__ S5 - 360 X 640
--  __Pixel 2__ - 411 X 731
--  __Pixel 2XL__ - 411 X 823
-- __iPhone 5/SE__ - 320 X 568
--  __iPhone 6/7/8__ - 375 X 667
--  __iPhone 6/7/8 Plus__ - 414 X 736
--  __iPhone X__ - 375 X 812 
--  __iPad__ -   768 X 1024
--  __iPad Pro__ - 1024 X 1366
-
-   
 ## Deployment 
 
 __Deployed by Github Link:__
@@ -158,16 +124,15 @@ __Deployed by Github Link:__
 - [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/index.html) it was deployed in the Github pages.
 > __Run in Cloud9__ 
 ```sh
-- You can use any editor to run this project. Open your index.html and click run. 
-- You will see a link at the bottom. click to open it in the browser.
+    You can use any editor to run this project. Open your index.html and click run. 
+    You will see a link at the bottom. click to open it in the browser.
+```
+- [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/index.html) it was deployed in the Github pages.
 
-  [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/index.html) it was deployed in the Github pages.
 __Run in Cloud9__ 
 
-````sh
-You can use any editor to run this project. Open your index.html and click run. You will see a link at the bottom. click to open it in the browser.
+> You can use any editor to run this project. Open your index.html and click run. You will see a link at the bottom. click to open it in the browser.
 
-````
 
 ## Credits
 
@@ -186,20 +151,12 @@ You can use any editor to run this project. Open your index.html and click run. 
 - [YouTube](www.youtube.com)
 - [Github-assets](https://github.com/Code-Institute-Org/project-assets)
 
-
 ### Acknowledgements
-
 
 > I received inspiration for this project from the e2go lecture notes for Full Stack Web Developer Course.
 > While working on this project I have taken some help for coding, images, and text from the following links.
 
  - [FullStackWebDeveloper- e2Go](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
-
- > I received inspiration for this project from the e2go lecture notes for Full Stack Web Developer Course.
- > While working on this project I have taken some help for coding, images, and text from the following links.
-
- - [FullStackWebDeveloper](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
-
  - [Ricardo Gallegos Readme.md](https://github.com/VeysonD/WalkSafe/blob/master/README.md)
  - [w3schools.com](www.w3schools.com)
  - [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
