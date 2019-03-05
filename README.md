@@ -74,16 +74,6 @@ In contact.html I have the contact information of the Monkees Band.
 ### Features Left to Implement
 > - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
 > - Search button will help the user to find for a particular thing. In index.html, music.html, news.html and fan.html files. This will be functional later.
-
-
-### Contact form:
-> __Go to the "Contact" page__
-> I have Tried to submit the empty form and verify that an error message about the required fields appears 
-> Tried to submit the form with an invalid email address and verify that a relevant error message appears
-> __Go to the "Fan" page__
-> Tried to submit the empty form and verify that an error message about the required fields appears
-> Tried to submit the form with an invalid email address and verify that a relevant error message appears
-> Tried to submit the form with all inputs valid and verify that a success message appears.
  
 ### Features Left to Implement
 - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
