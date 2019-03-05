@@ -16,10 +16,16 @@ From my website, the user will be inspired to buy more videos and, at the same t
 * The band would like to use the site to showcase their music and publicize their availability to perform at events such as weddings and Christmas parties.
 The website consist of YouTube videos, articles, and posters for the Monkees band. User can order videos from the Fan Page. On news page, 
 user can find all the current news for the Monkees. There are videos for Christmas and weddings, and the latest news for their next events for wedding or Christmas.
-The user will be inspired to buy more videos, they can listen to music and, at the same time, they will get all the latest news.
-* Links for wireframe:
-- [wireframe](https://balsamiq.cloud/skwqn76/pgqbr93) 
-* Note: Please open it in Google Chrome or Edge, some browser does not support this.
+The user will be inspired to buy more videos, they can listen to music and, at the same time, they will get all the latest videos.
+
+```sh
+Open Balsamic wireframe in Google Chrome or Edge, some browser does not support this website.
+In my project folder I have monkees-wireframe folder where I have another version of wireframe using paper and pencil.
+Open wireframe.html and run it to see the wireframe.
+```
+- [wireframe](https://balsamiq.cloud/skwqn76/pgqbr93/r2278) 
+
+
 * In my project folder I have monkees-wireframe folder for Monkees Band, which was done using paper and pencil.
 
 
@@ -55,18 +61,18 @@ In contact.html I have the contact information of the Monkees Band.
 - Feature 5 - User goes Facebook, tutor or YouTube if they want to have more information.
 - Feature 6 - User can go to any pages they want to.
 ### Contact form:
-    * Go to the "Contact" page
-    * I have Tried to submit the empty form and verify that an error message about the required fields appears
-    * Tried to submit the form with an invalid email address and verify that a relevant error message appears
-    * Tried to submit the form with all inputs valid and verify that a success message appears.
-4. Fans Order form for videos:
-    * Go to the "Fan" page
-    * I have Tried to submit the empty form and verify that an error message about the required fields appears
-    * Tried to submit the form with an invalid email address and verify that a relevant error message appears
-    * Tried to submit the form with all inputs valid and verify that a success message appears.
+    >__Go to the "Contact" page__
+    > I have Tried to submit the empty form and verify that an error message about the required fields appears
+    > Tried to submit the form with an invalid email address and verify that a relevant error message appears
+    > Tried to submit the form with all inputs valid and verify that a success message appears.
+    >Fans Order form for videos:
+    >__Go to the "Fan" page__
+    >Tried to submit the empty form and verify that an error message about the required fields appears
+    >Tried to submit the form with an invalid email address and verify that a relevant error message appears
+    >Tried to submit the form with all inputs valid and verify that a success message appears.
  
 ### Features Left to Implement
-- In the future, I would like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
+- In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
 - Search button will help the user to find for a particular thing. In index.html, music.html, news.html and fan.html files. This will be functional later.
 ## Technologies Used
 - [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
@@ -78,65 +84,67 @@ In contact.html I have the contact information of the Monkees Band.
 - [jQuery](https://jquery.com)
     - The project uses **jQuery** to simplify DOM manipulation.
 ## Testing
-I have done many testings to believe that the site works well. Opened my project in the browser, right clicked and went to inspect. 
-In devtools, I saw a device symbol and clicked that one. I have tested through all the devices, trying to see if it is a responsive website.
-All my pages are going to its appropriate pages. The user can easily fill out the form. If the user wants to listen to any of the YouTube
-videos they just need to click on that one. The user can sign up and also sign in. If the user clicks on the logo it will redirect you to
-the home page which is the index.html file. If the user wants to go to Facebook, twitter or YouTube link it will take him to the appropriate
-website.
-The user can download privacy and terms of condition pages.
-[CSS Beautifier](https://www.freeformatter.com/css-beautifier.html#ad-output)
-[HTML Validator / Linter](https://www.freeformatter.com/html-validator.html)
+
+*[CSS Beautifier](https://www.freeformatter.com/css-beautifier.html#ad-output)
+*[HTML Validator / Linter](https://www.freeformatter.com/html-validator.html)
 Go to Contact form in contact.html and Fans Order form in fan.html:
     1. Try to submit the empty form and verify that an error message about the required fields appears
     2. Try to submit the form with an invalid email address and verify that a relevant error message appears
     3. Try to submit the form with all inputs valid and verify that a success message appears.
-  *  I have used the following browsers and devices to test my project.
-  - Chrome - Everything looks good on the desktop screen, but sometimes the font will become too small, in smaller devices.
+   Tested on the following browsers:
+   
+  - Chrome
   - Firefox
-  - Internet Explorer . 
-  - Edge - Looks good.
-  I have used following devices to test the project:
-  - Galaxy S5 - 360 X 640
-  - Pixel 2 - 411 X 731
-  - Pixel 2XL - 411 X 823
-  - iPhone 5/SE - 320 X 568
-  - iPhone 6/7/8 - 375 X 667
-  - iPhone 6/7/8 Plus - 414 X 736
-  - iPhone X - 375 X 812 
-  - iPad -   768 X 1024
-  - iPad Pro - 1024 X 1366
-  
+  - Internet Explorer
+  - Edge
+ >__Used following devices to test the project:__
+  __Galaxy__ S5 - 360 X 640
+  __Pixel 2__ - 411 X 731
+  __Pixel 2XL__ - 411 X 823
+  __iPhone 5/SE__ - 320 X 568
+  __iPhone 6/7/8__ - 375 X 667
+  __iPhone 6/7/8 Plus__ - 414 X 736
+  __iPhone X__ - 375 X 812 
+  __iPad__ -   768 X 1024
+  __iPad Pro__ - 1024 X 1366
+   
 ## Deployment 
 
-* here is the Link:
+__Deployed by Github Link:__
   [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/index.html) it was deployed in the Github pages.
-  Run in Cloud9 - You can use any editor to run this project. Open your index.html and click run. You will see a link at the bottom. click to open it in the browser.
+__Run in Cloud9__ 
+```sh
+You can use any editor to run this project. Open your index.html and click run. You will see a link at the bottom. click to open it in the browser.
+
+```
 ## Credits
 
 ### Content
-- [news.html](https://www.songkick.com/artists/485568-monkees)
+- [Monkees Website](https://www.songkick.com/artists/485568-monkees)
 - [Wikipedia article Peter-Tork](https://en.wikipedia.org/wiki/Peter_Tork)
 - [Wikipedia article Michael_Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith)
 - [Wikipedia article Micky_Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz)
 - [Wikipedia article Davy_Jones_(musician)](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
 - [Privacy](https://www.bbb.org/greater-san-francisco/for-businesses/toolkits1/sample-privacy-policy/)
 - [Terms and Condition](http://templatelab.com/terms-and-conditions-templates/#Terms_and_Conditions_Templates) 
-- [news.html](https://www.monkees.com/)
+- [Monkees Website](https://www.monkees.com/)
 
 ### Media
-- [photos](https://www.google.com/search?q=the+monkees+free+images&tbm=isch&source=hp&sa=X&ved=2ahUKEwjdqrbS46XgAhUG04MKHRvzCYUQsAR6BAgDEAE&biw=1536&bih=70)
+- [Google](https://www.google.com/search?q=the+monkees+free+images&tbm=isch&source=hp&sa=X&ved=2ahUKEwjdqrbS46XgAhUG04MKHRvzCYUQsAR6BAgDEAE&biw=1536&bih=70)
 - [YouTube](www.youtube.com)
 - [Github-assets](https://github.com/Code-Institute-Org/project-assets)
 
 
 ### Acknowledgements
- - I received inspiration for this project from the e2go lecture notes for Full Stack Web Developer Course.
- - While working on this project I have taken some help for coding, images, and text from the following links.
- - [Github](https://github.com/) 
+
+ > I received inspiration for this project from the e2go lecture notes for Full Stack Web Developer Course.
+ > While working on this project I have taken some help for coding, images, and text from the following links.
+
  - [FullStackWebDeveloper](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
+ - [Ricardo Gallegos Readme.md](https://github.com/VeysonD/WalkSafe/blob/master/README.md)
  - [w3schools.com](www.w3schools.com)
  - [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
+ - [Github](https://github.com/) 
  
  
 
