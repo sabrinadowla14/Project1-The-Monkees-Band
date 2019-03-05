@@ -25,11 +25,6 @@ Open wireframe.html and run it to see the wireframe.
 ```
 - [wireframe](https://balsamiq.cloud/skwqn76/pgqbr93/r2278) 
 
-
-* In my project folder I have monkees-wireframe folder for Monkees Band, which was done using paper and pencil.
-
-
-
 ## List of User Stories
 - As an Acquisition Gateway User, I need to select an Auction product in the Acquisition ordering platform so that I can bid on it.
 - As a Marketing Lead, I want to have a content management system so that I can manage and provide quality content and experience to my readers.
@@ -61,15 +56,13 @@ In contact.html I have the contact information of the Monkees Band.
 - Feature 5 - User goes Facebook, tutor or YouTube if they want to have more information.
 - Feature 6 - User can go to any pages they want to.
 ### Contact form:
-    >__Go to the "Contact" page__
-    > I have Tried to submit the empty form and verify that an error message about the required fields appears
-    > Tried to submit the form with an invalid email address and verify that a relevant error message appears
-    > Tried to submit the form with all inputs valid and verify that a success message appears.
-    >Fans Order form for videos:
-    >__Go to the "Fan" page__
-    >Tried to submit the empty form and verify that an error message about the required fields appears
-    >Tried to submit the form with an invalid email address and verify that a relevant error message appears
-    >Tried to submit the form with all inputs valid and verify that a success message appears.
+> __Go to the "Contact" page__
+> I have Tried to submit the empty form and verify that an error message about the required fields appears 
+> Tried to submit the form with an invalid email address and verify that a relevant error message appears
+> __Go to the "Fan" page__
+> Tried to submit the empty form and verify that an error message about the required fields appears
+> Tried to submit the form with an invalid email address and verify that a relevant error message appears
+> Tried to submit the form with all inputs valid and verify that a success message appears.
  
 ### Features Left to Implement
 - In the future, like to add a cart and a form for the user to purchase the Monkees videos, poster or articles.
