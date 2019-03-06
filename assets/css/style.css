@@ -556,12 +556,6 @@ h5 .card-title {
 	font-size: 2em;
 }
 
-.news-img-text {
-	font-family: 'Lato', sans-serif;
-	color: #000;
-	font-weight: 600;
-	font-size: 1.3em;
-}
 
 .news-img-text li {
 	font-family: 'Lato', sans-serif;
@@ -570,18 +564,18 @@ h5 .card-title {
 	font-size: 1.3em;
 }
 
+.img-body .news-good-text {
+	font-family: 'Lato', sans-serif;
+	color: #FF4081;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
 .news-img .news-img-text {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 600;
 	font-size: 1.3em;
-}
-
-.img-body .news-img-text {
-	font-family: 'Lato', sans-serif;
-	color: #000;
-	font-weight: 600;
-	font-size: 1.5em;
 }
 
 .album {
@@ -707,6 +701,10 @@ footer {
 	font-size: 1.43em;
 }
 
+.img-top {
+	max-width: 70%;
+}
+
 .jumbotron,
 .display-4 {
 	font-family: 'Lato', sans-serif;
@@ -715,53 +713,127 @@ footer {
 	font-size: 2.5em;
 }
 
+.news-img-top {
+	width: 100%;
+}
+
+.card-img-top {
+	max-width: 100%;
+}
+
+.img-body1 .img-news {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.micky-img-top {
+	width: 100%;
+}
+
 .img-news {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 1.1em;
+	font-size: 1.6em;
 }
 
 .news-img-text1 {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 600;
-	font-size: .9em;
+	font-size: 1.1em;
+}
+
+.title-img-text .img-news {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.6em;
+}
+
+.date-news {
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+
 }
 
 .news-img-text {
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-weight: 600;
-	font-size: 2em;
+	font-size: 1.2em;
+}
+
+.micky-img .news-img-text-p {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.cite-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #0D47A1;
+	font-weight: 700;
+	font-size: 1.3em;
 }
 
 .img-body1 .news-img-text {
-	color: #000;
+	color: #7B1FA2;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .img-body1 .news-concert1 {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 
-.news-img-text .show {
-	color: #000;
+.cite-img-text .show {
+	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .img-text .news-img-text {
 	font-family: 'Lato', sans-serif;
-	color: #000;
+	color: red;
 	font-weight: 600;
 	font-size: 1.3em;
+}
+
+.img-text .xmas-img-text {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.micky-img {
+	background-color: #EEEEEE;
+}
+
+.news-img-text2 li {
+	color: #ffffff;
+	background-color: #81D4FA;
+}
+
+.nes-date {
+	padding: 60px;
+}
+
+.img-text {
+	padding: 30px;
+	background-color: #EFEBE9;
+	margin-bottom: 10px;
 }
 
 .img-body .news-img-text {
@@ -775,7 +847,15 @@ footer {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.micky-img .news-concert1 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
 	text-align: center;
 }
 
@@ -830,26 +910,60 @@ footer {
 	font-size: 1.8em;
 }
 
+.music-text-white .img-body {
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.8em;
+}
+
 .music-text .img-text {
 	font-family: 'Lato', sans-serif;
 	font-weight: 600;
-	font-size: 2.4em;
+	font-size: 2.2em;
 	color: #000;
 }
 
 .music-text .img-body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: #000;
+	text-align: center;
+}
+
+.img-text1 {
+	padding: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.text2 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.text2 .music-text {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.3em;
+	margin-top: 30px;
+	text-align: center;
 }
 
 .music-text1 {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 600;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
+
+
 
 .music-text1:hover {
 	text-decoration: none;
@@ -857,11 +971,19 @@ footer {
 	font-weight: 600;
 	font-size: 1.5em;
 	color: #0000cd;
-	background: #e0ffff;
 	transition: all 0.50s ease-in-out;
 	-moz-transition: all 0.50s ease-in-out;
 	-webkit-transition: all 0.50s ease-in-out;
 	-o-transition: all 0.50s ease-in-out;
+}
+
+.text2 .img-body {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	margin-top: 30px;
+	text-align: center
 }
 
 .music-text {
@@ -902,9 +1024,7 @@ footer {
 
 /*------------------------------------------------------------------End-Music---------------*/
 
-
 /* --------------------------------------------------------------------Fan-----*/
-
 
 /* Style the content */
 
@@ -926,6 +1046,15 @@ footer {
 	margin: 20px 0;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+.fan-img2 {
+	margin: 20px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.unwrap-img {
+	width: 50%
 }
 
 .tour-text {
@@ -1199,11 +1328,35 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 	}
+	.micky-img .news-concert1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.4em;
+		text-align: center;
+	}
 	.ord-frm textarea {
 		font-size: 1.2em;
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
+	}
+	.micky-img-top {
+		width: 100%;
+	}
+
+	.cite-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+
+	.date-news {
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+
 	}
 	.music-text .img-body {
 		font-family: 'Lato', sans-serif;
@@ -1237,6 +1390,9 @@ div.post1 p {
 	}
 	.news-text {
 		font-size: 1.5em;
+	}
+	.news-img-top {
+		width: 100%;
 	}
 	.post-text-frm {
 		font-family: 'Lato', sans-serif;
@@ -1598,12 +1754,7 @@ div.post1 p {
 		font-weight: 700;
 		font-size: 2.4em;
 	}
-	.news-concert {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		font-size: 2em;
-	}
+
 	.news-img-text {
 		font-family: 'Lato', sans-serif;
 		color: #000;
@@ -1669,7 +1820,7 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 0.9em;
+		font-size: 1.3em;
 	}
 	.img-text .news-img-text {
 		font-family: 'Lato', sans-serif;
@@ -1834,6 +1985,49 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
 	}
+
+	.text2 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.text2 .music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.img-text .xmas-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.micky-img {
+		background-color: #EEEEEE;
+	}
+	.news-img-text2 li {
+		color: #ffffff;
+		background-color: #81D4FA;
+	}
+
+	.nes-date {
+		padding: 60px;
+	}
+
+	.img-text {
+		padding: 30px;
+		background-color: #EFEBE9;
+		margin-bottom: 10px;
+	}
 }
 
 
@@ -1856,6 +2050,13 @@ div.post1 p {
 		font-size: 3em;
 		width: 100%;
 	}
+	.micky-img .news-concert1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.4em;
+		text-align: center;
+	}
 	.navbar-header .logo {
 		max-width: 70%;
 		margin-left: -100px;
@@ -1871,6 +2072,15 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
+	}
+	.cite-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+	.micky-img-top {
+		width: 100%;
 	}
 	input[type=submit] {
 		color: #000;
@@ -1899,6 +2109,15 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 2em;
+	}
+	.date-news {
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+
+	}
+	.news-img-top {
+		width: 100%;
 	}
 	.audio-text {
 		color: #000;
@@ -1974,6 +2193,31 @@ div.post1 p {
 		color: #000;
 		font-weight: 700;
 		font-size: 2.2em;
+	}
+	.img-text .xmas-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.micky-img {
+		background-color: #EEEEEE;
+	}
+	.news-img-text2 li {
+		color: #ffffff;
+		background-color: #81D4FA;
+	}
+
+	.nes-date {
+		padding: 60px;
+	}
+
+	.img-text {
+		padding: 30px;
+		background-color: #EFEBE9;
+		margin-bottom: 10px;
 	}
 	.my-4 {
 		font-size: 2em;
@@ -2335,7 +2579,7 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 0.9em;
+		font-size: 1.3em;
 	}
 	.img-text .news-img-text {
 		font-family: 'Lato', sans-serif;
@@ -2444,6 +2688,24 @@ div.post1 p {
 		font-size: 20px;
 		color: #000;
 	}
+
+	.text2 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.text2 .music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		margin-top: 30px;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 550px) {
@@ -2493,11 +2755,26 @@ div.post1 p {
 		font-weight: 500;
 		color: #000;
 	}
+	.date-news {
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+
+	}
+	.cite-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
 	.album .merry-body {
 		font-size: 1.2em;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
 		color: #000;
+	}
+	.news-img-top {
+		width: 100%;
 	}
 	.jumbotron,
 	.display-4 {
@@ -2711,9 +2988,7 @@ div.post1 p {
 	.top-image {
 		margin-left: -10px;
 	}
-	.card-img-top {
-		max-width: 100%;
-	}
+
 	.album .xmas-song {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
@@ -2818,7 +3093,8 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 1.3em;
+		font-size: 1em;
+		text-align: center;
 	}
 	.news-img-text li {
 		font-family: 'Lato', sans-serif;
@@ -2868,6 +3144,13 @@ div.post1 p {
 		font-weight: 700;
 		font-size: 1em;
 	}
+	.img-body1 .img-news {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+
 	.img-news {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -2878,7 +3161,7 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 	.img-text .news-img-text {
 		font-family: 'Lato', sans-serif;
@@ -2964,7 +3247,7 @@ div.post1 p {
 		padding-left: 10px;
 	}
 	.card-img-top {
-		max-width: 45%;
+		max-width: 80%;
 	}
 	.card-img-top1 {
 		max-width: 100%;
@@ -3013,5 +3296,65 @@ div.post1 p {
 	}
 	.center-form {
 		text-align: center;
+	}
+
+	.text2 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.text2 .music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.micky-img-top {
+		width: 100%;
+	}
+
+	.micky-img .news-concert1 {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.4em;
+		text-align: center;
+	}
+	.img-text .xmas-img-text {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.micky-img {
+		background-color: #EEEEEE;
+	}
+	.news-img-text2 li {
+		color: #ffffff;
+		background-color: #81D4FA;
+	}
+
+	.nes-date {
+		padding: 60px;
+	}
+
+	.img-text {
+		padding: 30px;
+		background-color: #EFEBE9;
+		margin-bottom: 10px;
+	}
+	.news-img-text3 {
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1em;
 	}
 }
