@@ -156,8 +156,6 @@ __Deployed by Github Link:__
  - [w3schools.com](www.w3schools.com)
  - [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) 
  - [Github](https://github.com/) 
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> a05780e8fc444d900a88d1c91c5a6bf6835297f3
+ 
+
