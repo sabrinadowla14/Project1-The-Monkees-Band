@@ -221,8 +221,8 @@ a .dj:hover {
 .max-size .merry-body {
 	color: #000;
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 1.5em;
+	font-weight: 600;
+	font-size: 1.3em;
 }
 
 .max-size .xmas-song {
@@ -340,7 +340,7 @@ a .dj:hover {
 	color: #B71C1C;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
-	font-size: 1.6em;
+	font-size: 1.3em;
 }
 
 .max-size .news-text1 a:hover {
@@ -348,11 +348,7 @@ a .dj:hover {
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
-	font-size: 1.5em;
-}
-
-.card-img-top1 {
-	max-width: 100%;
+	font-size: 1.3em;
 }
 
 
@@ -503,7 +499,6 @@ blockquote .card-text6 {
 	font-weight: 700;
 }
 
-.tour-text:hover,
 .fan-text:hover,
 .news-text:hover,
 .music-text:hover {
@@ -555,7 +550,6 @@ h5 .card-title {
 	font-weight: 500;
 	font-size: 2em;
 }
-
 
 .news-img-text li {
 	font-family: 'Lato', sans-serif;
@@ -726,6 +720,8 @@ footer {
 	color: #000;
 	font-weight: 700;
 	font-size: 1.5em;
+	padding: 10px;
+	text-align: center;
 }
 
 .micky-img-top {
@@ -757,7 +753,6 @@ footer {
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-weight: 600;
-
 }
 
 .news-img-text {
@@ -934,8 +929,8 @@ footer {
 
 .img-text1 {
 	padding: 30px;
-    margin-bottom: 10px;
-    color: #ffffff;
+	margin-bottom: 10px;
+	color: #ffffff;
 }
 
 .text2 {
@@ -962,8 +957,6 @@ footer {
 	font-weight: 600;
 	font-size: 1.3em;
 }
-
-
 
 .music-text1:hover {
 	text-decoration: none;
@@ -1024,7 +1017,9 @@ footer {
 
 /*------------------------------------------------------------------End-Music---------------*/
 
+
 /* --------------------------------------------------------------------Fan-----*/
+
 
 /* Style the content */
 
@@ -1032,7 +1027,22 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	background-color: #c0c0c0;
-	padding: 70px;
+	padding: 80px;
+}
+
+.post1 {
+	text-align: center;
+	background-color: #AB47BC;
+	padding: 40px 58px 20px 20px;
+}
+
+.comic {
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+
+.post1 .tour-div {
+	margin-bottom: 40px;
 }
 
 .post-text-frm {
@@ -1047,6 +1057,7 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 }
+
 .fan-img2 {
 	margin: 20px 0;
 	font-family: 'Lato', sans-serif;
@@ -1057,11 +1068,18 @@ footer {
 	width: 50%
 }
 
-.tour-text {
+.post1 .tour-text {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 2.2em;
+	font-size: 1.5em;
+}
+
+.tour-text:hover {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 }
 
 .post-text {
@@ -1083,13 +1101,6 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: #000;
-}
-
-.tour-text {
-	color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-	font-size: 1.5em;
 }
 
 .header-text {
@@ -1322,6 +1333,12 @@ div.post1 p {
 		color: #000;
 		text-align: center
 	}
+	.music-text .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1em;
+		color: #000;
+	}
 	.ord-frm input {
 		font-size: 1.2em;
 		color: #000;
@@ -1332,8 +1349,9 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.4em;
+		font-size: 1.6em;
 		text-align: center;
+		padding: 15px;
 	}
 	.ord-frm textarea {
 		font-size: 1.2em;
@@ -1344,26 +1362,16 @@ div.post1 p {
 	.micky-img-top {
 		width: 100%;
 	}
-
 	.cite-img-text {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 1.3em;
+		font-size: 1.6em;
 	}
-
 	.date-news {
 		color: #ffffff;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
-
-	}
-	.music-text .img-body {
-		font-family: 'Lato', sans-serif;
-		font-weight: 500;
-		font-size: 1.2em;
-		color: #000;
-		width: 40%;
 	}
 	.djImage {
 		width: 40%;
@@ -1402,7 +1410,7 @@ div.post1 p {
 		font-size: 2.5em;
 	}
 	.img-top {
-		max-width: 65%;
+		max-width: 55%;
 	}
 	.img-good {
 		max-width: 70%;
@@ -1412,6 +1420,14 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 3em;
+	}
+	.text2 .img-body {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.3em;
+		margin-top: 30px;
+		text-align: center
 	}
 	.audio-text {
 		color: #000;
@@ -1426,7 +1442,7 @@ div.post1 p {
 		font-size: 2.5em;
 	}
 	.post1 .post-text {
-		color: #000;
+		color: white;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
 		font-size: 2em;
@@ -1749,17 +1765,16 @@ div.post1 p {
 		font-weight: 600;
 	}
 	.news-img-text2 li {
-		color: #000;
+		color: red;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 2.4em;
 	}
-
 	.news-img-text {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 2.5em;
+		font-size: 1.5em;
 	}
 	.news-img-text li {
 		font-family: 'Lato', sans-serif;
@@ -1777,7 +1792,7 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 2.3em;
+		font-size: 1.8em;
 	}
 	.img-body ul .news-img-text {
 		font-family: 'Lato', sans-serif;
@@ -1789,13 +1804,13 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 2.5em;
+		font-size: 2.1em;
 	}
 	.img-body .news-concert {
 		color: white;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 2.7em;
+		font-size: 2.1em;
 	}
 	.img-body1 .news-concert1 {
 		color: #000;
@@ -1805,7 +1820,7 @@ div.post1 p {
 		text-align: center;
 	}
 	.img-body1 .news-img-text {
-		color: #000;
+		color: red;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 1em;
@@ -1814,7 +1829,7 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.2em;
+		font-size: 1.6em;
 	}
 	.news-img-text1 {
 		font-family: 'Lato', sans-serif;
@@ -1914,10 +1929,11 @@ div.post1 p {
 		padding-left: 10pt;
 	}
 	.card-img-top {
-		max-width: 50%;
+		max-width: 100%;
 	}
 	.post1 .card-img-top3 {
-		max-width: 60%;
+		max-width: 70%;
+		margin-top: 30px;
 	}
 	.jumbotron .xmas-song-heading {
 		font-family: 'Lato', sans-serif;
@@ -1985,7 +2001,6 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
 	}
-
 	.text2 {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -1994,7 +2009,6 @@ div.post1 p {
 		margin-top: 30px;
 		text-align: center;
 	}
-
 	.text2 .music-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -2010,23 +2024,52 @@ div.post1 p {
 		font-size: 1.5em;
 		text-align: center;
 	}
-
 	.micky-img {
 		background-color: #EEEEEE;
+		padding: 60px;
+		margin-top: 30px;
 	}
 	.news-img-text2 li {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
 		color: #ffffff;
 		background-color: #81D4FA;
+		font-size: 1.8em;
 	}
-
 	.nes-date {
 		padding: 60px;
 	}
-
 	.img-text {
 		padding: 30px;
 		background-color: #EFEBE9;
 		margin-bottom: 10px;
+	}
+	.title-img-text .img-news {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 2em;
+	}
+	.img-body1 .img-news {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+		padding: 10px;
+		text-align: center;
+	}
+	.img-body1 .news-img-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+	.micky-img .news-img-text-p {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.8em;
+		padding: 25px;
 	}
 }
 
@@ -2073,11 +2116,27 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 	}
+	.ord-frm {
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		background-color: #9FA8DA;
+		padding-bottom: 150px;
+	}
 	.cite-img-text {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 1.3em;
+		font-size: 1.6em;
+	}
+	.micky-img .news-img-text-p {
+		font-family: 'Lato', sans-serif;
+		color: #000;
+		font-weight: 600;
+		font-size: 1.8em;
+		padding: 25px;
+	}
+	.img-top {
+		max-width: 100%;
 	}
 	.micky-img-top {
 		width: 100%;
@@ -2105,16 +2164,26 @@ div.post1 p {
 		font-size: 1.5em;
 	}
 	.music-text {
-		color: #000;
+		color: red;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 2em;
+	}
+	.post1 .post-text {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		font-size: 2em;
+	}
+	.post1 {
+		text-align: center;
+		background-color: #AB47BC;
+		padding: 40px 25px 20px 20px;
 	}
 	.date-news {
 		color: #ffffff;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
-
 	}
 	.news-img-top {
 		width: 100%;
@@ -2201,19 +2270,12 @@ div.post1 p {
 		font-size: 1.5em;
 		text-align: center;
 	}
-
 	.micky-img {
 		background-color: #EEEEEE;
 	}
-	.news-img-text2 li {
-		color: #ffffff;
-		background-color: #81D4FA;
-	}
-
 	.nes-date {
 		padding: 60px;
 	}
-
 	.img-text {
 		padding: 30px;
 		background-color: #EFEBE9;
@@ -2242,6 +2304,14 @@ div.post1 p {
 	}
 	.card-img-bottom {
 		width: 100%;
+	}
+	.text2 .img-body {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 1.3em;
+		margin-top: 30px;
+		text-align: center
 	}
 	.heading-text {
 		font-size: 1.5em;
@@ -2465,11 +2535,11 @@ div.post1 p {
 		font-size: 2.4em;
 		color: #000;
 	}
-	.music-text .img-body {
+	.title-img-text .img-news {
 		font-family: 'Lato', sans-serif;
-		font-weight: 600;
-		font-size: 1.4em;
 		color: #000;
+		font-weight: 600;
+		font-size: 2em;
 	}
 	.max-size .news-text1 {
 		color: #B71C1C;
@@ -2503,22 +2573,16 @@ div.post1 p {
 		font-size: 2.5em;
 	}
 	.news-img-text2 li {
-		color: #000;
+		color: #ffffff;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 2.4em;
-	}
-	.news-concert {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		font-size: 2em;
+		font-size: 2.1em;
 	}
 	.news-img-text {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 2.5em;
+		font-size: 1.3em;
 	}
 	.news-img-text li {
 		font-family: 'Lato', sans-serif;
@@ -2536,7 +2600,7 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		color: #000;
 		font-weight: 600;
-		font-size: 2.3em;
+		font-size: 1.8em;
 	}
 	.img-body ul .news-img-text {
 		font-family: 'Lato', sans-serif;
@@ -2548,13 +2612,13 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 2.5em;
+		font-size: 2.2em;
 	}
 	.img-body .news-concert {
 		color: white;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 2.7em;
+		font-size: 2.3em;
 	}
 	.img-body1 .news-concert1 {
 		color: #000;
@@ -2567,13 +2631,13 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
-		font-size: 0.9em;
+		font-size: 1.5em;
 	}
 	.img-news {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1em;
+		font-size: 1.6em;
 	}
 	.news-img-text1 {
 		font-family: 'Lato', sans-serif;
@@ -2607,7 +2671,7 @@ div.post1 p {
 		font-weight: 700;
 	}
 	.card-img-top {
-		max-width: 55%;
+		max-width: 100%;
 	}
 	.card-img-top1 {
 		max-width: 100%;
@@ -2616,13 +2680,13 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.5em;
+		font-size: 1.6em;
 	}
 	.max-size .xmas-song {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 	.music-text2 .img-body {
 		font-family: 'Lato', sans-serif;
@@ -2688,7 +2752,6 @@ div.post1 p {
 		font-size: 20px;
 		color: #000;
 	}
-
 	.text2 {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -2697,13 +2760,26 @@ div.post1 p {
 		margin-top: 30px;
 		text-align: center;
 	}
-
 	.text2 .music-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
 		font-size: 1.5em;
 		margin-top: 30px;
+		text-align: center;
+	}
+	.music-text .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+		color: #000;
+	}
+	.img-body1 .img-news {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.2em;
+		padding: 10px;
 		text-align: center;
 	}
 }
@@ -2759,7 +2835,6 @@ div.post1 p {
 		color: #ffffff;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
-
 	}
 	.cite-img-text {
 		font-family: 'Lato', sans-serif;
@@ -2821,14 +2896,14 @@ div.post1 p {
 		color: #B71C1C;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.max-size .news-text1 a:hover {
 		color: #B71C1C;
 		text-decoration: none;
 		font-family: 'Lato', sans-serif;
 		font-weight: 500;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.learn-text1 {
 		color: #000;
@@ -2867,7 +2942,7 @@ div.post1 p {
 		font-size: 1.8em;
 	}
 	.navbar-collapse {
-		margin-right: 120px;
+		margin-right: 125px;
 	}
 	.navbar-header .logo {
 		max-width: 100%;
@@ -2877,7 +2952,7 @@ div.post1 p {
 		margin-top: 50px;
 	}
 	.signupLogin {
-		margin-left: 225px;
+		margin-left: 210px;
 		margin-top: -150px;
 	}
 	.jumbotron .xmas-song {
@@ -2988,7 +3063,6 @@ div.post1 p {
 	.top-image {
 		margin-left: -10px;
 	}
-
 	.album .xmas-song {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
@@ -3148,9 +3222,8 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.2em;
+		font-size: 1.6em;
 	}
-
 	.img-news {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -3247,7 +3320,7 @@ div.post1 p {
 		padding-left: 10px;
 	}
 	.card-img-top {
-		max-width: 80%;
+		width: 80%;
 	}
 	.card-img-top1 {
 		max-width: 100%;
@@ -3256,15 +3329,21 @@ div.post1 p {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.max-size .xmas-song {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 	.music-text2 .img-body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		font-size: 1.3em;
+		color: #000;
+	}
+	.music-text .img-body {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 1.3em;
@@ -3297,7 +3376,6 @@ div.post1 p {
 	.center-form {
 		text-align: center;
 	}
-
 	.text2 {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -3306,7 +3384,6 @@ div.post1 p {
 		margin-top: 30px;
 		text-align: center;
 	}
-
 	.text2 .music-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -3318,7 +3395,6 @@ div.post1 p {
 	.micky-img-top {
 		width: 100%;
 	}
-
 	.micky-img .news-concert1 {
 		color: #000;
 		font-family: 'Lato', sans-serif;
@@ -3333,7 +3409,6 @@ div.post1 p {
 		font-size: 1.5em;
 		text-align: center;
 	}
-
 	.micky-img {
 		background-color: #EEEEEE;
 	}
@@ -3341,11 +3416,9 @@ div.post1 p {
 		color: #ffffff;
 		background-color: #81D4FA;
 	}
-
 	.nes-date {
 		padding: 60px;
 	}
-
 	.img-text {
 		padding: 30px;
 		background-color: #EFEBE9;
@@ -3356,5 +3429,21 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
 		font-size: 1em;
+	}
+	.text2 .img-body {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 0.9em;
+		margin-top: 30px;
+		text-align: center
+	}
+	.text2 .music-text {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 0.9em;
+		margin-top: 30px;
+		text-align: center;
 	}
 }
