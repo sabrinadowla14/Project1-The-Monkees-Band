@@ -771,13 +771,13 @@ footer {
 
 .cite-img-text {
 	font-family: 'Lato', sans-serif;
-	color: #0D47A1;
+	color: #ffffff;
 	font-weight: 700;
 	font-size: 1.3em;
 }
 
 .img-body1 .news-img-text {
-	color: #7B1FA2;
+	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 1.1em;
@@ -791,7 +791,7 @@ footer {
 }
 
 .cite-img-text .show {
-	color: #ffffff;
+	color: #1A237E;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 1em;
@@ -917,6 +917,7 @@ footer {
 	font-weight: 600;
 	font-size: 2.2em;
 	color: #000;
+	text-align: center;
 }
 
 .music-text .img-body {
@@ -956,6 +957,14 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 600;
 	font-size: 1.3em;
+}
+
+.music-text1-hits {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 1.3em;
+	margin-left: 35px;
 }
 
 .music-text1:hover {
@@ -1017,9 +1026,7 @@ footer {
 
 /*------------------------------------------------------------------End-Music---------------*/
 
-
 /* --------------------------------------------------------------------Fan-----*/
-
 
 /* Style the content */
 
@@ -1743,6 +1750,13 @@ div.post1 p {
 		font-weight: 600;
 		font-size: 2em;
 	}
+	.music-text1-hits {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2em;
+		margin-left: 68px;
+	}
 	.music-text1:hover {
 		color: #000;
 		text-decoration: none;
@@ -2134,6 +2148,16 @@ div.post1 p {
 		font-weight: 600;
 		font-size: 1.8em;
 		padding: 25px;
+	}
+	.music-text1-hits {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2em;
+		margin-left: 30px;
+	}
+	.img1 {
+		width: 100%;
 	}
 	.img-top {
 		max-width: 100%;
@@ -3445,5 +3469,12 @@ div.post1 p {
 		font-size: 0.9em;
 		margin-top: 30px;
 		text-align: center;
+	}
+	.music-text1-hits {
+		color: #000;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1.3em;
+		margin-left: 30px;
 	}
 }

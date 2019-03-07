@@ -127,7 +127,6 @@ __Deployed by Github Link:__
     You can use any editor to run this project. Open your index.html and click run. 
     You will see a link at the bottom. click to open it in the browser.
 ```
-- [Deployed-Link](https://sabrinadowla14.github.io/Project1-The-Monkees-Band/index.html) it was deployed in the Github pages.
 
 ## Credits
 
