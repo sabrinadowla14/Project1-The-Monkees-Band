@@ -1026,7 +1026,9 @@ footer {
 
 /*------------------------------------------------------------------End-Music---------------*/
 
+
 /* --------------------------------------------------------------------Fan-----*/
+
 
 /* Style the content */
 
@@ -1040,12 +1042,7 @@ footer {
 .post1 {
 	text-align: center;
 	background-color: #AB47BC;
-	padding: 40px 58px 20px 20px;
-}
-
-.comic {
-	margin-top: 50px;
-	margin-bottom: 120px;
+	padding: 30px 30px 40px 35px;
 }
 
 .post1 .tour-div {
@@ -1181,6 +1178,20 @@ div.post1 p {
 
 .post1 .card-img-top {
 	max-width: 100%;
+}
+
+.post1 .post-text {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 2em;
+	text-align: left;
+}
+
+.post1 .card-img-top3 {
+	max-width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 
@@ -1942,12 +1953,19 @@ div.post1 p {
 		font-size: 2em;
 		padding-left: 10pt;
 	}
+	.tour-text:hover {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+	}
 	.card-img-top {
 		max-width: 100%;
 	}
 	.post1 .card-img-top3 {
 		max-width: 70%;
 		margin-top: 30px;
+		padding-bottom: 60px;
 	}
 	.jumbotron .xmas-song-heading {
 		font-family: 'Lato', sans-serif;
@@ -2119,7 +2137,7 @@ div.post1 p {
 		margin-left: -100px;
 	}
 	.ord-frm input {
-		font-size: 1.2em;
+		font-size: 1.1em;
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 700;
@@ -2134,7 +2152,7 @@ div.post1 p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
 		background-color: #9FA8DA;
-		padding-bottom: 150px;
+		padding-bottom: 119px;
 	}
 	.cite-img-text {
 		font-family: 'Lato', sans-serif;
@@ -2165,16 +2183,6 @@ div.post1 p {
 	.micky-img-top {
 		width: 100%;
 	}
-	input[type=submit] {
-		color: #000;
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		width: 250px;
-		padding: 20px;
-		margin: 8px 0;
-		border-radius: 4px;
-		font-size: 1.5em;
-	}
 	input[type=email],
 	input[type=password] {
 		color: #000;
@@ -2185,7 +2193,7 @@ div.post1 p {
 		text-decoration: none;
 		margin: 4px 2px;
 		cursor: pointer;
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.music-text {
 		color: red;
@@ -2274,12 +2282,18 @@ div.post1 p {
 	.card-text8 {
 		font-size: 2em;
 	}
-	.tour-text {
+	.post1 .tour-text {
 		color: #000;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
 		font-size: 1.4em;
 		padding-left: 10px;
+	}
+	.tour-text:hover {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
 	}
 	.post-text {
 		font-family: 'Lato', sans-serif;
